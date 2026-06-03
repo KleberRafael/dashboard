@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lokar — Gestão do Negócio</title>
+<style>
+  :root {
+    --bg1: #0f2137;
+    --bg2: #1e3a5f;
+    --green: #10b981;
+    --red: #ef4444;
+    --blue: #3b82f6;
+    --text: #ffffff;
+    --muted: rgba(255,255,255,0.6);
+    --faint: rgba(255,255,255,0.4);
+    --line: rgba(255,255,255,0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
+    min-height: 100vh;
+    color: var(--text);
+    padding: 28px;
+  }
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 12px; margin-bottom: 28px;
+  }
+  .title { font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+  .updated { font-size: 12px; color: var(--faint); }
+  .badge {
+    font-size: 12px; padding: 4px 12px; border-radius: 20px;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+    color: var(--muted);
+  }
+  .section-title {
+    font-size: 15px; font-weight: 600; color: rgba(255,255,255,0.7);
+    letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 16px;
+  }
+  .grid {
+    display: grid; gap: 16px; margin-bottom: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .grid-proj {
+    display: grid; gap: 14px; margin-bottom: 28px;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  }
+  .card {
+    padding: 18px; border-radius: 14px; position: relative; overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 14px 36px rgba(0,0,0,0.25); }
+  .card .icon { position: absolute; top: 12px; right: 12px; font-size: 24px; opacity: 0.22; }
+  .card .label { font-size: 11px; color: rgba(255,255,255,0.85); font-weight: 500; margin-bottom: 8px; }
+  .card .value { font-size: 22px; font-weight: 700; color: #fff; }
+  .divider { height: 1px; background: rgba(255,255,255,0.1); margin-bottom: 32px; }
+  .proj-header {
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 12px; margin-bottom: 20px;
+  }
+  .toggle {
+    display: flex; border-radius: 10px; overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.15);
+  }
+  .toggle button {
+    padding: 7px 20px; border: none; cursor: pointer; font-size: 13px; font-weight: 600;
+    background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.6); transition: all 0.2s;
+  }
+  .toggle button.active { background: var(--blue); color: #fff; }
+  .panel {
+    background: rgba(255,255,255,0.04); border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.07); margin-bottom: 28px;
+  }
+  .panel-title {
+    font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.5);
+    letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 20px 12px;
+  }
+  .chart-wrap { padding: 0 16px 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th {
+    padding: 10px 14px; color: rgba(255,255,255,0.6); font-weight: 600;
+    white-space: nowrap; border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  td { padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .total-row { background: rgba(59,130,246,0.12); border-top: 2px solid rgba(59,130,246,0.3); }
+  .total-row td { font-weight: 700; border: none; padding: 11px 14px; }
+  .footnote {
+    padding: 12px 20px; font-size: 11px; color: rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .loading { color: var(--faint); font-size: 14px; padding: 40px; text-align: center; }
+  .error-box {
+    background: rgba(239,68,68,0.12); border: 1px solid rgba(239,68,68,0.3);
+    border-radius: 12px; padding: 16px 20px; margin-bottom: 24px; font-size: 13px;
+  }
+  .right { text-align: right; }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="title">🏢 Gestão do Negócio</div>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <span class="updated" id="updated">—</span>
+      <span class="badge">Lokar Sistema</span>
+    </div>
+  </div>
+
+  <div id="content"><div class="loading">Carregando dados...</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const fmt = v => new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(Number(v || 0));
+const fmtPct = v => (v == null) ? "—" : `${v > 0 ? "+" : ""}${Number(v).toFixed(1)}%`;
+const num = v => Number(v || 0);
+
+let snapshot = null;
+let periodoProj = 3;
+let chart = null;
+
+const MESES = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+
+// ─── Cards de gestão (mesma lógica do GestaoNegocio.js) ──────
+function buildCards() {
+  const finance = snapshot.dados.finance;
+  const kpis = snapshot.dados.kpis;
+  if (!finance || !kpis) return [];
+
+  const f3 = kpis.fase3 || {};
+  const frota = f3.frota || {};
+
+  const receita      = num(finance.receita_total);
+  const lucro        = num(finance.lucro_liquido);
+  const despGerais   = num(finance.despesas_gerais);
+  const despVeiculos = num(finance.despesas_veiculos);
+  const depreciacao  = num(f3.depreciacao_mensal);
+  const ebitda       = lucro + depreciacao;
+  const margem       = receita > 0 ? Number((lucro / receita * 100).toFixed(2)) : 0;
+  const receitaAnual = receita * 12;
+  const momPct       = f3.crescimento_mom;
+  const anualPct     = f3.crescimento_anual;
+  const ano          = snapshot.periodo.ano;
+
+  return [
+    { label: "EBITDA (mês)", value: fmt(ebitda), icon: "📈",
+      grad: ebitda >= 0 ? ["#10b981","#059669"] : ["#ef4444","#dc2626"] },
+    { label: "Valuation Mín (1× receita anual)", value: fmt(receitaAnual), icon: "🏢",
+      grad: ["#3b82f6","#2563eb"] },
+    { label: "Valuation Máx (3× receita anual)", value: fmt(receitaAnual * 3), icon: "💼",
+      grad: ["#6366f1","#4f46e5"] },
+    { label: "Equity Estimado", value: fmt(frota.equity_estimado), icon: "🏦",
+      grad: ["#8b5cf6","#7c3aed"] },
+    { label: "Crescimento MoM", value: fmtPct(momPct), icon: "📊",
+      grad: momPct == null ? ["#6b7280","#4b5563"] : momPct >= 0 ? ["#14b8a6","#0d9488"] : ["#f97316","#ea580c"] },
+    { label: `Crescimento Anual (${ano})`, value: fmtPct(anualPct), icon: "📅",
+      grad: anualPct == null ? ["#6b7280","#4b5563"] : anualPct >= 0 ? ["#059669","#047857"] : ["#b91c1c","#991b1b"] },
+    { label: "Margem Líquida", value: fmtPct(margem), icon: "💹",
+      grad: margem >= 0 ? ["#0ea5e9","#0284c7"] : ["#dc2626","#b91c1c"] }
+  ];
+}
+
+// ─── KPIs da projeção (4 cards) ──────────────────────────────
+function buildProjKpis(proj) {
+  if (!proj) return [];
+  const t = proj.totais || {};
+  const margem = t.receita > 0 ? (t.saldo / t.receita * 100) : 0;
+  return [
+    { label: `Receita Projetada (${periodoProj}m)`, value: fmt(t.receita), icon: "💰", grad: ["#10b981","#059669"] },
+    { label: "Total de Saídas", value: fmt(t.saidas), icon: "📤", grad: ["#ef4444","#dc2626"] },
+    { label: "Saldo Projetado", value: fmt(t.saldo), icon: "📊",
+      grad: t.saldo >= 0 ? ["#3b82f6","#2563eb"] : ["#f97316","#ea580c"] },
+    { label: "Margem Projetada", value: fmtPct(margem), icon: "📈",
+      grad: margem >= 0 ? ["#8b5cf6","#7c3aed"] : ["#b91c1c","#991b1b"] }
+  ];
+}
+
+function cardHTML(c) {
+  return `<div class="card" style="background:linear-gradient(135deg,${c.grad[0]},${c.grad[1]})">
+    <div class="icon">${c.icon}</div>
+    <div class="label">${c.label}</div>
+    <div class="value">${c.value}</div>
+  </div>`;
+}
+
+// ─── Render principal ────────────────────────────────────────
+function render() {
+  const proj = periodoProj === 3 ? snapshot.dados.projecao3 : snapshot.dados.projecao6;
+  const cards = buildCards();
+  const projKpis = buildProjKpis(proj);
+
+  const ano = snapshot.periodo.ano;
+  const mesLabel = MESES[snapshot.periodo.mes - 1];
+
+  let errBanner = "";
+  if (snapshot.erros) {
+    const lista = snapshot.erros.map(e => e.chave).join(", ");
+    errBanner = `<div class="error-box">⚠️ Alguns dados não puderam ser atualizados no último snapshot (${lista}). Exibindo o que está disponível.</div>`;
+  }
+
+  const meses = (proj && proj.meses) || [];
+  const totais = (proj && proj.totais) || {};
+
+  const linhas = meses.map((m, i) => `
+    <tr style="background:${i % 2 === 0 ? "transparent" : "rgba(255,255,255,0.02)"}">
+      <td style="color:#fff;font-weight:500">${m.mes_label}</td>
+      <td class="right" style="color:rgba(255,255,255,0.7)">${m.segundas_no_mes}</td>
+      <td class="right" style="color:#10b981;font-weight:600">${fmt(m.projecao_receita)}</td>
+      <td class="right" style="color:#f87171">${fmt(m.imposto_das)}</td>
+      <td class="right" style="color:#fb923c">${fmt(m.manutencao)}</td>
+      <td class="right" style="color:#fbbf24">${fmt(m.custos_planejados)}</td>
+      <td class="right" style="color:#ef4444;font-weight:600">${fmt(m.total_saidas)}</td>
+      <td class="right" style="color:${num(m.saldo) >= 0 ? "#60a5fa" : "#f87171"};font-weight:700">${fmt(m.saldo)}</td>
+    </tr>`).join("");
+
+  const totalRow = proj && proj.totais ? `
+    <tr class="total-row">
+      <td style="color:#fff">TOTAL</td>
+      <td class="right" style="color:rgba(255,255,255,0.5)">—</td>
+      <td class="right" style="color:#10b981">${fmt(totais.receita)}</td>
+      <td class="right" style="color:#f87171">${fmt(totais.imposto)}</td>
+      <td class="right" style="color:#fb923c">${fmt(totais.manutencao)}</td>
+      <td class="right" style="color:#fbbf24">${fmt(totais.custos)}</td>
+      <td class="right" style="color:#ef4444">${fmt(totais.saidas)}</td>
+      <td class="right" style="color:${num(totais.saldo) >= 0 ? "#60a5fa" : "#f87171"}">${fmt(totais.saldo)}</td>
+    </tr>` : "";
+
+  const footnote = proj ? `
+    <div class="footnote">
+      Base de cálculo: Receita semanal (contratos ≤7 dias ativos) = ${fmt(proj.receita_semanal_base)} &nbsp;|&nbsp;
+      Receita mensal fixa (contratos &gt;7 dias ativos) = ${fmt(proj.receita_mensal_fixa_base)} &nbsp;|&nbsp;
+      Projeção = Seg. do mês × receita semanal + mensal fixa
+    </div>` : "";
+
+  document.getElementById("content").innerHTML = `
+    ${errBanner}
+    <div class="section-title">KPIs de Gestão do Negócio — ${mesLabel} / ${ano}</div>
+    <div class="grid">${cards.map(cardHTML).join("")}</div>
+
+    <div class="divider"></div>
+
+    <div class="proj-header">
+      <div class="section-title" style="margin-bottom:0">Projeção Financeira</div>
+      <div class="toggle">
+        <button class="${periodoProj === 3 ? "active" : ""}" onclick="setPeriodo(3)">3 meses</button>
+        <button class="${periodoProj === 6 ? "active" : ""}" onclick="setPeriodo(6)">6 meses</button>
+      </div>
+    </div>
+
+    <div class="grid-proj">${projKpis.map(cardHTML).join("")}</div>
+
+    <div class="panel">
+      <div class="panel-title">Receita vs Saídas vs Saldo</div>
+      <div class="chart-wrap"><canvas id="chart" height="100"></canvas></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">Detalhamento por Mês</div>
+      <div style="overflow:auto">
+        <table>
+          <thead>
+            <tr>
+              <th style="text-align:left">Mês</th>
+              <th class="right">Seg.</th>
+              <th class="right">Receita</th>
+              <th class="right">Imposto (6%)</th>
+              <th class="right">Manutenção</th>
+              <th class="right">Custos</th>
+              <th class="right">Saídas</th>
+              <th class="right">Saldo</th>
+            </tr>
+          </thead>
+          <tbody>${linhas}${totalRow}</tbody>
+        </table>
+      </div>
+      ${footnote}
+    </div>`;
+
+  renderChart(meses);
+}
+
+function renderChart(meses) {
+  const ctx = document.getElementById("chart");
+  if (!ctx) return;
+  if (chart) chart.destroy();
+
+  const labels = meses.map(m => m.mes_label.replace(/\/\d{4}$/, ""));
+  chart = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [
+        { label: "Receita", data: meses.map(m => num(m.projecao_receita)), backgroundColor: "#10b981", borderRadius: 4 },
+        { label: "Saídas",  data: meses.map(m => num(m.total_saidas)),     backgroundColor: "#ef4444", borderRadius: 4 },
+        { label: "Saldo",   data: meses.map(m => num(m.saldo)),            backgroundColor: "#3b82f6", borderRadius: 4 }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color: "rgba(255,255,255,0.6)", font: { size: 12 } } },
+        tooltip: {
+          backgroundColor: "#1e293b",
+          callbacks: { label: c => `${c.dataset.label}: ${fmt(c.raw)}` }
+        }
+      },
+      scales: {
+        x: { ticks: { color: "rgba(255,255,255,0.55)" }, grid: { display: false } },
+        y: {
+          ticks: { color: "rgba(255,255,255,0.45)", callback: v => "R$" + (v/1000).toFixed(0) + "k" },
+          grid: { color: "rgba(255,255,255,0.07)" }
+        }
+      }
+    }
+  });
+}
+
+function setPeriodo(p) { periodoProj = p; render(); }
+
+// ─── Carregamento ────────────────────────────────────────────
+fetch("kpis.json?t=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error("kpis.json não encontrado"); return r.json(); })
+  .then(data => {
+    snapshot = data;
+    document.getElementById("updated").textContent = "Atualizado em " + (data.gerado_em_label || "—");
+    render();
+  })
+  .catch(err => {
+    document.getElementById("content").innerHTML =
+      `<div class="error-box">Não foi possível carregar os dados (${err.message}). Verifique se o arquivo kpis.json foi publicado.</div>`;
+  });
+</script>
+</body>
+</html>
