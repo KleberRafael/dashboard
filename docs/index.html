@@ -201,27 +201,16 @@ function render() {
 
   // ── Contabilidade do mês atual ──
   const fin = snapshot.dados.finance || {};
-  const frota = (snapshot.dados.kpis && snapshot.dados.kpis.fase3 && snapshot.dados.kpis.fase3.frota) || {};
   const recMes = num(fin.receita_total);
   const lucroMes = num(fin.lucro_liquido);
   const despMes = recMes - lucroMes;
-  const saldoCaixa = num(frota.saldo_caixa);
+  const acc = snapshot.dados.accounting || {};
   const contabCards = [
     { label: "Receita do Mês", value: fmt(recMes), icon: "💵", grad: ["#10b981","#059669"] },
     { label: "Despesas do Mês", value: fmt(despMes), icon: "📉", grad: ["#ef4444","#dc2626"] },
-    { label: "Saldo de Caixa", value: fmt(saldoCaixa), icon: "🏦",
-      grad: saldoCaixa >= 0 ? ["#3b82f6","#2563eb"] : ["#f97316","#ea580c"] }
-  ];
-
-  // ── Contabilidade acumulada (todos os lançamentos) ──
-  const acc = snapshot.dados.accounting;
-  const accCards = acc ? [
-    { label: "Receita Total (acum.)", value: fmt(acc.receita_total), icon: "💰", grad: ["#10b981","#059669"] },
-    { label: "Despesa Total (acum.)", value: fmt(acc.despesa_total), icon: "📤", grad: ["#ef4444","#dc2626"] },
     { label: "Saldo Acumulado", value: fmt(acc.saldo), icon: "📊",
-      grad: num(acc.saldo) >= 0 ? ["#6366f1","#4f46e5"] : ["#f97316","#ea580c"] },
-    { label: "Lançamentos", value: String(acc.lancamentos), icon: "📋", grad: ["#8b5cf6","#7c3aed"] }
-  ] : [];
+      grad: num(acc.saldo) >= 0 ? ["#3b82f6","#2563eb"] : ["#f97316","#ea580c"] }
+  ];
 
   const meses = (proj && proj.meses) || [];
   const totais = (proj && proj.totais) || {};
@@ -261,10 +250,6 @@ function render() {
     ${errBanner}
     <div class="section-title">Contabilidade — ${mesLabel} / ${ano}</div>
     <div class="grid">${contabCards.map(cardHTML).join("")}</div>
-
-    ${accCards.length ? `
-    <div class="section-title">Contabilidade Acumulada</div>
-    <div class="grid">${accCards.map(cardHTML).join("")}</div>` : ""}
 
     <div class="divider"></div>
 
