@@ -52,6 +52,7 @@ async function gerar() {
     kpis:        `${API_BASE}/dashboard/kpis-avancados?year=${YEAR}&month=${MONTH}`,
     projecao3:   `${API_BASE}/dashboard/projecao-financeira?meses=3`,
     projecao6:   `${API_BASE}/dashboard/projecao-financeira?meses=6`,
+    accounting:  `${API_BASE}/accounting`,
   };
 
   const resultado = {};
@@ -79,6 +80,28 @@ async function gerar() {
         "?\n   O kpis.json anterior foi preservado.\n"
     );
     process.exit(1);
+  }
+
+  // Resumir os lançamentos da Contabilidade em totais (não guardar os 513 registros)
+  if (resultado.accounting && Array.isArray(resultado.accounting.allEntries)) {
+    const entries = resultado.accounting.allEntries;
+    let receita = 0;
+    let despesa = 0;
+    for (const e of entries) {
+      const tipo = String(e.type || "").trim().toLowerCase();
+      const valor = Number(e.amount || 0);
+      if (tipo.startsWith("rec")) {
+        receita += valor;
+      } else if (tipo.startsWith("desp")) {
+        despesa += valor;
+      }
+    }
+    resultado.accounting = {
+      receita_total: receita,
+      despesa_total: despesa,
+      saldo: receita - despesa,
+      lancamentos: entries.length,
+    };
   }
 
   // Monta o snapshot final com metadados
