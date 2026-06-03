@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-03T18:29:18.363Z",
-  "gerado_em_label": "03/06/2026, 15:29",
+  "gerado_em": "2026-06-03T20:29:28.230Z",
+  "gerado_em_label": "03/06/2026, 17:29",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 6610,
-      "despesas_gerais": 96.78,
-      "despesas_veiculos": 400,
-      "investimento_total": 0,
-      "lucro_liquido": 6113.22,
+      "despesas_gerais": 252.96,
+      "despesas_veiculos": 500,
+      "investimento_total": 425,
+      "lucro_liquido": 5857.04,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -25,7 +25,17 @@
           "classificacao": "Despesa"
         },
         {
+          "vehicle_id": 28,
+          "total": 425,
+          "classificacao": "Investimento"
+        },
+        {
           "vehicle_id": 29,
+          "total": 100,
+          "classificacao": "Despesa"
+        },
+        {
+          "vehicle_id": 30,
           "total": 100,
           "classificacao": "Despesa"
         },
@@ -46,7 +56,15 @@
           "total": 100
         },
         {
+          "vehicle_id": 28,
+          "total": 425
+        },
+        {
           "vehicle_id": 29,
+          "total": 100
+        },
+        {
+          "vehicle_id": 30,
           "total": 100
         },
         {
@@ -56,6 +74,13 @@
       ],
       "detalhes_gerais": [
         {
+          "id": 2660,
+          "description": "Pagamento multa agendada Voyage (Gabriel já havia pago qdo saiu)",
+          "amount": 156.18,
+          "date": "2026-06-03T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
           "id": 2649,
           "description": "Almoço Socios",
           "amount": 96.78,
@@ -63,12 +88,6 @@
           "vehicle_id": null
         }
       ]
-    },
-    "accounting": {
-      "receita_total": 144089.16,
-      "despesa_total": 133821.64999999994,
-      "saldo": 10267.510000000068,
-      "lancamentos": 513
     },
     "kpis": {
       "periodo": {
@@ -485,7 +504,7 @@
           {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -501,7 +520,7 @@
           {
             "vehicle_id": 30,
             "vehicle_name": "VW POLO TRACK - PRATA 23",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -896,8 +915,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 515803.19999999995,
-          "saldo_caixa": 8820.28
+          "equity_estimado": 515122.0199999999,
+          "saldo_caixa": 8139.1
         },
         "crescimento_mom": -69.39,
         "crescimento_anual": 334.37,
@@ -907,6 +926,12 @@
         "receita_ano_atual": 98603,
         "receita_ano_anterior": 22700
       }
+    },
+    "accounting": {
+      "receita_total": 144089.16,
+      "despesa_total": 134502.82999999993,
+      "saldo": 9586.330000000075,
+      "lancamentos": 516
     },
     "projecao3": {
       "meses": [
