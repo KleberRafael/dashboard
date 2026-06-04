@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-03T20:30:56.795Z",
-  "gerado_em_label": "03/06/2026, 17:30",
+  "gerado_em": "2026-06-04T18:21:57.490Z",
+  "gerado_em_label": "04/06/2026, 15:21",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -90,9 +90,9 @@
       ]
     },
     "accounting": {
-      "receita_total": 144089.16,
+      "receita_total": 144839.15000000002,
       "despesa_total": 134502.82999999993,
-      "saldo": 9586.330000000075,
+      "saldo": 10336.320000000094,
       "lancamentos": 516
     },
     "kpis": {
@@ -105,19 +105,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 12578.48,
+            "receita": 11277.06,
             "despesa": 10215.769999999999,
-            "saldo": 2362.710000000001
+            "saldo": 1061.2900000000009
           },
           "proj_60d": {
-            "receita": 12578.48,
+            "receita": 11277.06,
             "despesa": 15408.05,
-            "saldo": -2829.5699999999997
+            "saldo": -4130.99
           },
           "proj_90d": {
-            "receita": 12578.48,
+            "receita": 11277.06,
             "despesa": 20446.74,
-            "saldo": -7868.260000000002
+            "saldo": -9169.680000000002
           }
         },
         "roi_por_veiculo": [
@@ -204,10 +204,10 @@
             "plate": "SJE3H43",
             "valor_compra": 39990,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 7939.01,
+            "total_receita_acumulada": 8689,
             "investimento_total": 39990,
-            "lucro_acumulado": -32050.99,
-            "roi_pct": -80.15
+            "lucro_acumulado": -31301,
+            "roi_pct": -78.27
           },
           {
             "vehicle_id": 31,
@@ -921,8 +921,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 515122.0199999999,
-          "saldo_caixa": 8139.1
+          "equity_estimado": 515872.00999999995,
+          "saldo_caixa": 8889.09
         },
         "crescimento_mom": -69.39,
         "crescimento_anual": 334.37,
