@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-04T19:34:22.721Z",
-  "gerado_em_label": "04/06/2026, 16:34",
+  "gerado_em": "2026-06-06T16:48:31.301Z",
+  "gerado_em_label": "06/06/2026, 13:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 6610,
-      "despesas_gerais": 252.96,
+      "despesas_gerais": 2686.18,
       "despesas_veiculos": 500,
       "investimento_total": 425,
-      "lucro_liquido": 5857.04,
+      "lucro_liquido": 3423.82,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -74,6 +74,27 @@
       ],
       "detalhes_gerais": [
         {
+          "id": 2662,
+          "description": "Cartório (Assinatura documentos transferencia)",
+          "amount": 228.9,
+          "date": "2026-06-06T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2663,
+          "description": "Mercado Mila (Café socios)",
+          "amount": 54.32,
+          "date": "2026-06-05T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2661,
+          "description": "Transferencia Kleber x Lokar (Argo, Hb20 Limited, Polo Prata, KA, Pulse 24)",
+          "amount": 2150,
+          "date": "2026-06-05T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
           "id": 2660,
           "description": "Pagamento multa agendada Voyage (Gabriel já havia pago qdo saiu)",
           "amount": 156.18,
@@ -91,9 +112,9 @@
     },
     "accounting": {
       "receita_total": 144839.15000000002,
-      "despesa_total": 134502.82999999993,
-      "saldo": 10336.320000000094,
-      "lancamentos": 516
+      "despesa_total": 136936.04999999996,
+      "saldo": 7903.100000000064,
+      "lancamentos": 519
     },
     "kpis": {
       "periodo": {
@@ -105,19 +126,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 11277.06,
+            "receita": 8674.22,
             "despesa": 10215.769999999999,
-            "saldo": 1061.2900000000009
+            "saldo": -1541.5499999999993
           },
           "proj_60d": {
-            "receita": 11277.06,
+            "receita": 8674.22,
             "despesa": 15408.05,
-            "saldo": -4130.99
+            "saldo": -6733.83
           },
           "proj_90d": {
-            "receita": 11277.06,
+            "receita": 8674.22,
             "despesa": 20446.74,
-            "saldo": -9169.680000000002
+            "saldo": -11772.520000000002
           }
         },
         "roi_por_veiculo": [
@@ -921,8 +942,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 515872.00999999995,
-          "saldo_caixa": 8889.09
+          "equity_estimado": 513438.7899999999,
+          "saldo_caixa": 6455.87
         },
         "crescimento_mom": -69.39,
         "crescimento_anual": 334.37,
