@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-09T14:48:51.714Z",
-  "gerado_em_label": "09/06/2026, 11:48",
+  "gerado_em": "2026-06-09T15:13:55.879Z",
+  "gerado_em_label": "09/06/2026, 12:13",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -132,10 +132,66 @@
       ]
     },
     "accounting": {
-      "receita_total": 151449.15,
+      "receita_total": 150699.16,
       "despesa_total": 139166.94999999995,
-      "saldo": 12282.20000000004,
+      "saldo": 11532.21000000005,
       "lancamentos": 531
+    },
+    "projecao3": {
+      "meses": [
+        {
+          "mes_label": "Julho/2026",
+          "mes_num": 7,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 6610,
+          "receita_mensal_fixa": 2500,
+          "projecao_receita": 28940,
+          "imposto_das": 1736.4,
+          "manutencao": 6610,
+          "custos_planejados": 5038.69,
+          "total_saidas": 13385.09,
+          "saldo": 15554.91
+        },
+        {
+          "mes_label": "Agosto/2026",
+          "mes_num": 8,
+          "ano": 2026,
+          "segundas_no_mes": 5,
+          "receita_semanal_base": 6610,
+          "receita_mensal_fixa": 2500,
+          "projecao_receita": 35550,
+          "imposto_das": 2133,
+          "manutencao": 8262.5,
+          "custos_planejados": 5192.28,
+          "total_saidas": 15587.78,
+          "saldo": 19962.22
+        },
+        {
+          "mes_label": "Setembro/2026",
+          "mes_num": 9,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 6610,
+          "receita_mensal_fixa": 2500,
+          "projecao_receita": 28940,
+          "imposto_das": 1736.4,
+          "manutencao": 6610,
+          "custos_planejados": 5038.69,
+          "total_saidas": 13385.09,
+          "saldo": 15554.91
+        }
+      ],
+      "totais": {
+        "receita": 93430,
+        "imposto": 5605.8,
+        "manutencao": 21482.5,
+        "custos": 15269.66,
+        "saidas": 42357.96,
+        "saldo": 51072.04
+      },
+      "receita_semanal_base": 6610,
+      "receita_mensal_fixa_base": 2500
     },
     "kpis": {
       "periodo": {
@@ -246,10 +302,10 @@
             "plate": "SJE3H43",
             "valor_compra": 39990,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 9439,
+            "total_receita_acumulada": 8689.01,
             "investimento_total": 39990,
-            "lucro_acumulado": -30551,
-            "roi_pct": -76.4
+            "lucro_acumulado": -31300.99,
+            "roi_pct": -78.27
           },
           {
             "vehicle_id": 31,
@@ -963,8 +1019,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 517817.8899999999,
-          "saldo_caixa": 10834.97
+          "equity_estimado": 517067.8999999999,
+          "saldo_caixa": 10084.98
         },
         "crescimento_mom": -38.77,
         "crescimento_anual": 363.49,
@@ -974,62 +1030,6 @@
         "receita_ano_atual": 105213,
         "receita_ano_anterior": 22700
       }
-    },
-    "projecao3": {
-      "meses": [
-        {
-          "mes_label": "Julho/2026",
-          "mes_num": 7,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 6610,
-          "receita_mensal_fixa": 2500,
-          "projecao_receita": 28940,
-          "imposto_das": 1736.4,
-          "manutencao": 6610,
-          "custos_planejados": 5038.69,
-          "total_saidas": 13385.09,
-          "saldo": 15554.91
-        },
-        {
-          "mes_label": "Agosto/2026",
-          "mes_num": 8,
-          "ano": 2026,
-          "segundas_no_mes": 5,
-          "receita_semanal_base": 6610,
-          "receita_mensal_fixa": 2500,
-          "projecao_receita": 35550,
-          "imposto_das": 2133,
-          "manutencao": 8262.5,
-          "custos_planejados": 5192.28,
-          "total_saidas": 15587.78,
-          "saldo": 19962.22
-        },
-        {
-          "mes_label": "Setembro/2026",
-          "mes_num": 9,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 6610,
-          "receita_mensal_fixa": 2500,
-          "projecao_receita": 28940,
-          "imposto_das": 1736.4,
-          "manutencao": 6610,
-          "custos_planejados": 5038.69,
-          "total_saidas": 13385.09,
-          "saldo": 15554.91
-        }
-      ],
-      "totais": {
-        "receita": 93430,
-        "imposto": 5605.8,
-        "manutencao": 21482.5,
-        "custos": 15269.66,
-        "saidas": 42357.96,
-        "saldo": 51072.04
-      },
-      "receita_semanal_base": 6610,
-      "receita_mensal_fixa_base": 2500
     },
     "projecao6": {
       "meses": [
