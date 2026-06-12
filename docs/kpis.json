@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-09T18:48:51.769Z",
-  "gerado_em_label": "09/06/2026, 15:48",
+  "gerado_em": "2026-06-12T17:48:51.890Z",
+  "gerado_em_label": "12/06/2026, 14:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 13220,
-      "despesas_gerais": 4917.08,
-      "despesas_veiculos": 580,
-      "investimento_total": 425,
-      "lucro_liquido": 7722.92,
+      "despesas_gerais": 5195.26,
+      "despesas_veiculos": 850.6,
+      "investimento_total": 6285,
+      "lucro_liquido": 7174.139999999999,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -21,12 +21,22 @@
         },
         {
           "vehicle_id": 25,
-          "total": 180,
+          "total": 394.6,
+          "classificacao": "Despesa"
+        },
+        {
+          "vehicle_id": 26,
+          "total": 5020,
+          "classificacao": "Investimento"
+        },
+        {
+          "vehicle_id": 27,
+          "total": 56,
           "classificacao": "Despesa"
         },
         {
           "vehicle_id": 28,
-          "total": 425,
+          "total": 1265,
           "classificacao": "Investimento"
         },
         {
@@ -53,11 +63,19 @@
         },
         {
           "vehicle_id": 25,
-          "total": 180
+          "total": 394.6
+        },
+        {
+          "vehicle_id": 26,
+          "total": 5020
+        },
+        {
+          "vehicle_id": 27,
+          "total": 56
         },
         {
           "vehicle_id": 28,
-          "total": 425
+          "total": 1265
         },
         {
           "vehicle_id": 29,
@@ -73,6 +91,27 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 2679,
+          "description": "Gasolina Polo 25",
+          "amount": 100,
+          "date": "2026-06-11T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2680,
+          "description": "Almoço socios",
+          "amount": 117.43,
+          "date": "2026-06-11T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2685,
+          "description": "Anuncio Instagram Lokar",
+          "amount": 60.75,
+          "date": "2026-06-10T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 2664,
           "description": "Compra Starlink Mini - OuroBranco",
@@ -132,10 +171,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 150699.16,
-      "despesa_total": 139246.94999999995,
-      "saldo": 11452.21000000005,
-      "lancamentos": 532
+      "receita_total": 150799.16,
+      "despesa_total": 145655.72999999998,
+      "saldo": 5143.430000000022,
+      "lancamentos": 541
     },
     "kpis": {
       "periodo": {
@@ -147,19 +186,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 11379.92,
+            "receita": 7475.66,
             "despesa": 10215.769999999999,
-            "saldo": 1164.1500000000015
+            "saldo": -2740.1099999999988
           },
           "proj_60d": {
-            "receita": 11379.92,
+            "receita": 7475.66,
             "despesa": 15408.05,
-            "saldo": -4028.129999999999
+            "saldo": -7932.389999999999
           },
           "proj_90d": {
-            "receita": 11379.92,
+            "receita": 7475.66,
             "despesa": 20446.74,
-            "saldo": -9066.820000000002
+            "saldo": -12971.080000000002
           }
         },
         "roi_por_veiculo": [
@@ -528,7 +567,7 @@
           {
             "vehicle_id": 25,
             "vehicle_name": "FIAT ARGO",
-            "num_manutencoes": 2,
+            "num_manutencoes": 3,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -536,7 +575,7 @@
           {
             "vehicle_id": 26,
             "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -544,7 +583,7 @@
           {
             "vehicle_id": 27,
             "vehicle_name": "FIAT CRONOS DRIVE",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -552,7 +591,7 @@
           {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "num_manutencoes": 1,
+            "num_manutencoes": 3,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -963,8 +1002,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 516987.8999999999,
-          "saldo_caixa": 10004.98
+          "equity_estimado": 510679.11999999994,
+          "saldo_caixa": 3696.2
         },
         "crescimento_mom": -38.77,
         "crescimento_anual": 363.49,
