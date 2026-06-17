@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-17T18:12:08.536Z",
-  "gerado_em_label": "17/06/2026, 15:12",
+  "gerado_em": "2026-06-17T18:48:51.662Z",
+  "gerado_em_label": "17/06/2026, 15:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 19830,
-      "despesas_gerais": 10689.53,
+      "despesas_gerais": 11039.53,
       "despesas_veiculos": 1600.6,
       "investimento_total": 6863.82,
-      "lucro_liquido": 7539.869999999999,
+      "lucro_liquido": 7189.869999999999,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -262,6 +262,13 @@
           "vehicle_id": null
         },
         {
+          "id": 2727,
+          "description": "CONTABILIDADE - CONTADOR",
+          "amount": 350,
+          "date": "2026-06-17T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
           "id": 2696,
           "description": "Conta celular Lokar",
           "amount": 39.99,
@@ -363,9 +370,9 @@
     },
     "accounting": {
       "receita_total": 181965.84000000003,
-      "despesa_total": 152568.81999999995,
-      "saldo": 29397.020000000077,
-      "lancamentos": 582
+      "despesa_total": 152918.81999999995,
+      "saldo": 29047.020000000077,
+      "lancamentos": 583
     },
     "kpis": {
       "periodo": {
@@ -378,18 +385,18 @@
         "fluxo_caixa": {
           "proj_30d": {
             "receita": 7007.07,
-            "despesa": 5388.69,
-            "saldo": 1618.38
+            "despesa": 5038.69,
+            "saldo": 1968.38
           },
           "proj_60d": {
             "receita": 7007.07,
-            "despesa": 10580.97,
-            "saldo": -3573.8999999999996
+            "despesa": 10230.97,
+            "saldo": -3223.8999999999996
           },
           "proj_90d": {
             "receita": 7007.07,
-            "despesa": 15619.66,
-            "saldo": -8612.59
+            "despesa": 15269.66,
+            "saldo": -8262.59
           }
         },
         "roi_por_veiculo": [
@@ -1193,8 +1200,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 534932.71,
-          "saldo_caixa": 27949.79
+          "equity_estimado": 534582.71,
+          "saldo_caixa": 27599.79
         },
         "crescimento_mom": -8.16,
         "crescimento_anual": 392.61,
