@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-17T17:48:51.727Z",
-  "gerado_em_label": "17/06/2026, 14:48",
+  "gerado_em": "2026-06-17T18:12:08.536Z",
+  "gerado_em_label": "17/06/2026, 15:12",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 19830,
-      "despesas_gerais": 10470.61,
+      "despesas_gerais": 10689.53,
       "despesas_veiculos": 1600.6,
-      "investimento_total": 6763.82,
-      "lucro_liquido": 7758.789999999999,
+      "investimento_total": 6863.82,
+      "lucro_liquido": 7539.869999999999,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -31,7 +31,7 @@
         },
         {
           "vehicle_id": 26,
-          "total": 5410,
+          "total": 5510,
           "classificacao": "Investimento"
         },
         {
@@ -76,7 +76,7 @@
         },
         {
           "vehicle_id": 26,
-          "total": 5410
+          "total": 5510
         },
         {
           "vehicle_id": 27,
@@ -116,7 +116,7 @@
         },
         {
           "id": 2704,
-          "description": "CARTAO CREDITO - TABLE SAMSUMG LOKAR - MERCADO LIVRE",
+          "description": "CARTAO CREDITO - TABLET SAMSUMG LOKAR - MERCADO LIVRE",
           "amount": 169.9,
           "date": "2026-06-17T00:00:00.000Z",
           "vehicle_id": null
@@ -248,6 +248,20 @@
           "vehicle_id": null
         },
         {
+          "id": 2724,
+          "description": "CARTAO CREDITO - GOOGLE - APP CHECKLIST",
+          "amount": 130.93,
+          "date": "2026-06-17T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2725,
+          "description": "MERCADOLIVRE - COMPRA BOTAO VIDRO TRASEIRO PULSE 24",
+          "amount": 87.99,
+          "date": "2026-06-17T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
           "id": 2696,
           "description": "Conta celular Lokar",
           "amount": 39.99,
@@ -348,10 +362,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 181630.25,
-      "despesa_total": 152249.89999999997,
-      "saldo": 29380.350000000035,
-      "lancamentos": 578
+      "receita_total": 181965.84000000003,
+      "despesa_total": 152568.81999999995,
+      "saldo": 29397.020000000077,
+      "lancamentos": 582
     },
     "kpis": {
       "periodo": {
@@ -752,7 +766,7 @@
           {
             "vehicle_id": 26,
             "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "num_manutencoes": 2,
+            "num_manutencoes": 3,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1179,8 +1193,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 534916.0399999999,
-          "saldo_caixa": 27933.12
+          "equity_estimado": 534932.71,
+          "saldo_caixa": 27949.79
         },
         "crescimento_mom": -8.16,
         "crescimento_anual": 392.61,
