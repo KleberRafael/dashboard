@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-17T20:12:08.522Z",
-  "gerado_em_label": "17/06/2026, 17:12",
+  "gerado_em": "2026-06-19T16:48:51.713Z",
+  "gerado_em_label": "19/06/2026, 13:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 19830,
-      "despesas_gerais": 11039.53,
+      "despesas_gerais": 12539.41,
       "despesas_veiculos": 1600.6,
-      "investimento_total": 6863.82,
-      "lucro_liquido": 7189.869999999999,
+      "investimento_total": 11098.82,
+      "lucro_liquido": 5689.99,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -31,7 +31,7 @@
         },
         {
           "vehicle_id": 26,
-          "total": 5510,
+          "total": 9745,
           "classificacao": "Investimento"
         },
         {
@@ -76,7 +76,7 @@
         },
         {
           "vehicle_id": 26,
-          "total": 5510
+          "total": 9745
         },
         {
           "vehicle_id": 27,
@@ -100,6 +100,20 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 2729,
+          "description": "Pagamento alternador Tico",
+          "amount": 1430,
+          "date": "2026-06-18T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2731,
+          "description": "(SOPA Padaria) -  Jantar Socios",
+          "amount": 69.88,
+          "date": "2026-06-17T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 2702,
           "description": "CARTAO CREDITO - CAPO+MINI-FRENTE+ALMA+FAROIS ARGO 22 - MERCADO LIVRE",
@@ -369,10 +383,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 181965.84000000003,
-      "despesa_total": 152918.81999999995,
-      "saldo": 29047.020000000077,
-      "lancamentos": 583
+      "receita_total": 184145.83000000002,
+      "despesa_total": 158653.69999999992,
+      "saldo": 25492.130000000092,
+      "lancamentos": 587
     },
     "kpis": {
       "periodo": {
@@ -384,19 +398,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 7007.07,
+            "receita": 4632.81,
             "despesa": 5038.69,
-            "saldo": 1968.38
+            "saldo": -405.8799999999992
           },
           "proj_60d": {
-            "receita": 7007.07,
+            "receita": 4632.81,
             "despesa": 10230.97,
-            "saldo": -3223.8999999999996
+            "saldo": -5598.159999999999
           },
           "proj_90d": {
-            "receita": 7007.07,
+            "receita": 4632.81,
             "despesa": 15269.66,
-            "saldo": -8262.59
+            "saldo": -10636.849999999999
           }
         },
         "roi_por_veiculo": [
@@ -483,10 +497,10 @@
             "plate": "SJE3H43",
             "valor_compra": 39990,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 8689.02,
+            "total_receita_acumulada": 9439.01,
             "investimento_total": 39990,
-            "lucro_acumulado": -31300.98,
-            "roi_pct": -78.27
+            "lucro_acumulado": -30550.99,
+            "roi_pct": -76.4
           },
           {
             "vehicle_id": 31,
@@ -773,7 +787,7 @@
           {
             "vehicle_id": 26,
             "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "num_manutencoes": 3,
+            "num_manutencoes": 4,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1200,8 +1214,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 534582.71,
-          "saldo_caixa": 27599.79
+          "equity_estimado": 531027.82,
+          "saldo_caixa": 24044.9
         },
         "crescimento_mom": -8.16,
         "crescimento_anual": 392.61,
