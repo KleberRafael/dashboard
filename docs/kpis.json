@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-20T17:48:51.713Z",
-  "gerado_em_label": "20/06/2026, 14:48",
+  "gerado_em": "2026-06-20T18:45:35.819Z",
+  "gerado_em_label": "20/06/2026, 15:45",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 19830,
-      "despesas_gerais": 12539.41,
+      "despesas_gerais": 12662.3,
       "despesas_veiculos": 1600.6,
       "investimento_total": 11098.82,
-      "lucro_liquido": 5689.99,
+      "lucro_liquido": 5567.1,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -100,6 +100,20 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 2732,
+          "description": "Gasolina Voyage",
+          "amount": 100,
+          "date": "2026-06-20T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2733,
+          "description": "Assinatura cartório - venda Argo.",
+          "amount": 22.89,
+          "date": "2026-06-20T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 2729,
           "description": "Pagamento alternador Tico",
@@ -384,9 +398,9 @@
     },
     "accounting": {
       "receita_total": 184145.83000000002,
-      "despesa_total": 158653.69999999992,
-      "saldo": 25492.130000000092,
-      "lancamentos": 587
+      "despesa_total": 158776.5899999999,
+      "saldo": 25369.240000000107,
+      "lancamentos": 589
     },
     "kpis": {
       "periodo": {
@@ -1214,8 +1228,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 531027.82,
-          "saldo_caixa": 24044.9
+          "equity_estimado": 530904.9299999999,
+          "saldo_caixa": 23922.01
         },
         "crescimento_mom": -8.16,
         "crescimento_anual": 392.61,
