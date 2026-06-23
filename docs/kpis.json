@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-20T20:48:51.659Z",
-  "gerado_em_label": "20/06/2026, 17:48",
+  "gerado_em": "2026-06-23T15:48:51.896Z",
+  "gerado_em_label": "23/06/2026, 12:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 19830,
-      "despesas_gerais": 12662.3,
-      "despesas_veiculos": 1600.6,
+      "despesas_gerais": 12869.06,
+      "despesas_veiculos": 2181.76,
       "investimento_total": 11098.82,
-      "lucro_liquido": 5567.1,
+      "lucro_liquido": 4779.18,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -21,7 +21,7 @@
         },
         {
           "vehicle_id": 23,
-          "total": 750,
+          "total": 880.16,
           "classificacao": "Despesa"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
           "vehicle_id": 27,
-          "total": 56,
+          "total": 307,
           "classificacao": "Despesa"
         },
         {
@@ -46,7 +46,7 @@
         },
         {
           "vehicle_id": 29,
-          "total": 100,
+          "total": 300,
           "classificacao": "Despesa"
         },
         {
@@ -60,7 +60,12 @@
           "classificacao": "Despesa"
         }
       ],
-      "multas_por_veiculo": [],
+      "multas_por_veiculo": [
+        {
+          "vehicle_id": 23,
+          "total": 130.16
+        }
+      ],
       "manutencoes_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -80,7 +85,7 @@
         },
         {
           "vehicle_id": 27,
-          "total": 56
+          "total": 307
         },
         {
           "vehicle_id": 28,
@@ -88,7 +93,7 @@
         },
         {
           "vehicle_id": 29,
-          "total": 100
+          "total": 300
         },
         {
           "vehicle_id": 30,
@@ -111,6 +116,13 @@
           "id": 2733,
           "description": "Assinatura cartório - venda Argo.",
           "amount": 22.89,
+          "date": "2026-06-20T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2737,
+          "description": "café sócios",
+          "amount": 206.76,
           "date": "2026-06-20T00:00:00.000Z",
           "vehicle_id": null
         },
@@ -398,9 +410,9 @@
     },
     "accounting": {
       "receita_total": 184145.83000000002,
-      "despesa_total": 158776.5899999999,
-      "saldo": 25369.240000000107,
-      "lancamentos": 589
+      "despesa_total": 159564.5099999999,
+      "saldo": 24581.320000000123,
+      "lancamentos": 593
     },
     "kpis": {
       "periodo": {
@@ -412,19 +424,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 3445.68,
+            "receita": 714.28,
             "despesa": 5038.69,
-            "saldo": -1593.0099999999998
+            "saldo": -4324.41
           },
           "proj_60d": {
-            "receita": 3445.68,
+            "receita": 714.28,
             "despesa": 10230.97,
-            "saldo": -6785.289999999999
+            "saldo": -9516.689999999999
           },
           "proj_90d": {
-            "receita": 3445.68,
+            "receita": 714.28,
             "despesa": 15269.66,
-            "saldo": -11823.98
+            "saldo": -14555.38
           }
         },
         "roi_por_veiculo": [
@@ -809,7 +821,7 @@
           {
             "vehicle_id": 27,
             "vehicle_name": "FIAT CRONOS DRIVE",
-            "num_manutencoes": 1,
+            "num_manutencoes": 2,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -825,7 +837,7 @@
           {
             "vehicle_id": 29,
             "vehicle_name": "HYUNDAI HB20 LIMITED",
-            "num_manutencoes": 1,
+            "num_manutencoes": 2,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1228,8 +1240,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 530904.9299999999,
-          "saldo_caixa": 23922.01
+          "equity_estimado": 530117.0099999999,
+          "saldo_caixa": 23134.09
         },
         "crescimento_mom": -8.16,
         "crescimento_anual": 392.61,
