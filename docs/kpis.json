@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-23T16:18:35.760Z",
-  "gerado_em_label": "23/06/2026, 13:18",
+  "gerado_em": "2026-06-23T16:48:51.645Z",
+  "gerado_em_label": "23/06/2026, 13:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 23230,
+      "receita_total": 23930,
       "despesas_gerais": 12869.06,
       "despesas_veiculos": 2181.76,
       "investimento_total": 11098.82,
-      "lucro_liquido": 8179.18,
+      "lucro_liquido": 8879.18,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -412,7 +412,7 @@
       "receita_total": 187545.83000000002,
       "despesa_total": 159564.5099999999,
       "saldo": 27981.320000000123,
-      "lancamentos": 598
+      "lancamentos": 599
     },
     "kpis": {
       "periodo": {
@@ -424,19 +424,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 3628.54,
+            "receita": 4228.54,
             "despesa": 5038.69,
-            "saldo": -1410.1499999999996
+            "saldo": -810.1499999999996
           },
           "proj_60d": {
-            "receita": 3628.54,
+            "receita": 4228.54,
             "despesa": 10230.97,
-            "saldo": -6602.429999999999
+            "saldo": -6002.429999999999
           },
           "proj_90d": {
-            "receita": 3628.54,
+            "receita": 4228.54,
             "despesa": 15269.66,
-            "saldo": -11641.119999999999
+            "saldo": -11041.119999999999
           }
         },
         "roi_por_veiculo": [
@@ -485,17 +485,6 @@
             "roi_pct": -59.38
           },
           {
-            "vehicle_id": 27,
-            "vehicle_name": "FIAT CRONOS DRIVE",
-            "plate": "SIT7E16",
-            "valor_compra": 49177.5,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 14900,
-            "investimento_total": 49177.5,
-            "lucro_acumulado": -34277.5,
-            "roi_pct": -69.7
-          },
-          {
             "vehicle_id": 24,
             "vehicle_name": "HYUNDAI HB20 VISION",
             "plate": "FMV8I93",
@@ -512,10 +501,21 @@
             "plate": "SUD7A35",
             "valor_compra": 70278,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 20152.92,
+            "total_receita_acumulada": 20852.92,
             "investimento_total": 70278,
-            "lucro_acumulado": -50125.08,
-            "roi_pct": -71.32
+            "lucro_acumulado": -49425.08,
+            "roi_pct": -70.33
+          },
+          {
+            "vehicle_id": 27,
+            "vehicle_name": "FIAT CRONOS DRIVE",
+            "plate": "SIT7E16",
+            "valor_compra": 49177.5,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 14200,
+            "investimento_total": 49177.5,
+            "lucro_acumulado": -34977.5,
+            "roi_pct": -71.13
           },
           {
             "vehicle_id": 8,
@@ -610,6 +610,17 @@
             "receita_perdida_ociosidade": -278.58
           },
           {
+            "vehicle_id": 23,
+            "vehicle_name": "VW POLO TRACK CINZA 24",
+            "plate": "SUD7A35",
+            "dias_alugados": 33,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 110,
+            "daily_rate": 100,
+            "receita_realizada": 3300,
+            "receita_perdida_ociosidade": -300
+          },
+          {
             "vehicle_id": 24,
             "vehicle_name": "HYUNDAI HB20 VISION",
             "plate": "FMV8I93",
@@ -663,17 +674,6 @@
             "daily_rate": 114.28,
             "receita_realizada": 2857,
             "receita_perdida_ociosidade": 571.4
-          },
-          {
-            "vehicle_id": 23,
-            "vehicle_name": "VW POLO TRACK CINZA 24",
-            "plate": "SUD7A35",
-            "dias_alugados": 25,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 83.3,
-            "daily_rate": 100,
-            "receita_realizada": 2500,
-            "receita_perdida_ociosidade": 500
           },
           {
             "vehicle_id": 8,
@@ -900,9 +900,9 @@
             {
               "vehicle_id": 23,
               "vehicle_name": "VW POLO TRACK CINZA 24",
-              "num_locacoes": 3,
+              "num_locacoes": 4,
               "ticket_medio_veiculo": 700,
-              "receita_total_veiculo": 2100
+              "receita_total_veiculo": 2800
             },
             {
               "vehicle_id": 25,
@@ -979,6 +979,15 @@
         },
         "ltv_clientes": [
           {
+            "customer_id": 8,
+            "customer_name": "BRUNO OLIVEIRA ROCHA",
+            "num_locacoes": 38,
+            "ltv": 27000,
+            "ticket_medio": 710.526315,
+            "primeira_locacao": "2025-09-22T00:00:00.000Z",
+            "ultima_locacao": "2026-06-22T00:00:00.000Z"
+          },
+          {
             "customer_id": 5,
             "customer_name": "GILVAN VIEIRA DOS SANTOS",
             "num_locacoes": 38,
@@ -986,15 +995,6 @@
             "ticket_medio": 707.894736,
             "primeira_locacao": "2025-09-24T00:00:00.000Z",
             "ultima_locacao": "2026-06-22T00:00:00.000Z"
-          },
-          {
-            "customer_id": 8,
-            "customer_name": "BRUNO OLIVEIRA ROCHA",
-            "num_locacoes": 37,
-            "ltv": 26300,
-            "ticket_medio": 710.81081,
-            "primeira_locacao": "2025-09-22T00:00:00.000Z",
-            "ultima_locacao": "2026-06-15T00:00:00.000Z"
           },
           {
             "customer_id": 16,
@@ -1243,12 +1243,12 @@
           "equity_estimado": 533517.0099999999,
           "saldo_caixa": 26534.09
         },
-        "crescimento_mom": 7.59,
-        "crescimento_anual": 407.59,
+        "crescimento_mom": 10.83,
+        "crescimento_anual": 410.67,
         "depreciacao_mensal": 9549.36,
-        "receita_total": 23230,
+        "receita_total": 23930,
         "receita_anterior_mes": 21592,
-        "receita_ano_atual": 115223,
+        "receita_ano_atual": 115923,
         "receita_ano_anterior": 22700
       }
     },
