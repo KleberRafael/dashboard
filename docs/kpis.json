@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-23T17:48:51.657Z",
-  "gerado_em_label": "23/06/2026, 14:48",
+  "gerado_em": "2026-06-23T18:18:36.291Z",
+  "gerado_em_label": "23/06/2026, 15:18",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -410,8 +410,8 @@
     },
     "accounting": {
       "receita_total": 188505.83000000002,
-      "despesa_total": 159564.5099999999,
-      "saldo": 28941.320000000123,
+      "despesa_total": 159537.4699999999,
+      "saldo": 28968.360000000102,
       "lancamentos": 600
     },
     "kpis": {
@@ -1240,8 +1240,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 534477.0099999999,
-          "saldo_caixa": 27494.09
+          "equity_estimado": 534504.0499999999,
+          "saldo_caixa": 27521.13
         },
         "crescimento_mom": 12.03,
         "crescimento_anual": 411.82,
