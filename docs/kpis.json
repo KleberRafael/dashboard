@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-23T16:48:51.645Z",
-  "gerado_em_label": "23/06/2026, 13:48",
+  "gerado_em": "2026-06-23T17:18:35.777Z",
+  "gerado_em_label": "23/06/2026, 14:18",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 23930,
+      "receita_total": 24190,
       "despesas_gerais": 12869.06,
       "despesas_veiculos": 2181.76,
       "investimento_total": 11098.82,
-      "lucro_liquido": 8879.18,
+      "lucro_liquido": 9139.18,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -409,10 +409,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 187545.83000000002,
+      "receita_total": 188505.83000000002,
       "despesa_total": 159564.5099999999,
-      "saldo": 27981.320000000123,
-      "lancamentos": 599
+      "saldo": 28941.320000000123,
+      "lancamentos": 600
     },
     "kpis": {
       "periodo": {
@@ -545,10 +545,10 @@
             "plate": "AXG5F56",
             "valor_compra": 43392.5,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 4800,
+            "total_receita_acumulada": 5760,
             "investimento_total": 43392.5,
-            "lucro_acumulado": -38592.5,
-            "roi_pct": -88.94
+            "lucro_acumulado": -37632.5,
+            "roi_pct": -86.73
           },
           {
             "vehicle_id": 29,
@@ -879,9 +879,9 @@
             {
               "vehicle_id": 30,
               "vehicle_name": "VW POLO TRACK - PRATA 23",
-              "num_locacoes": 3,
+              "num_locacoes": 4,
               "ticket_medio_veiculo": 960,
-              "receita_total_veiculo": 2880
+              "receita_total_veiculo": 3840
             },
             {
               "vehicle_id": 8,
@@ -912,13 +912,6 @@
               "receita_total_veiculo": 2100
             },
             {
-              "vehicle_id": 27,
-              "vehicle_name": "FIAT CRONOS DRIVE",
-              "num_locacoes": 4,
-              "ticket_medio_veiculo": 700,
-              "receita_total_veiculo": 2800
-            },
-            {
               "vehicle_id": 31,
               "vehicle_name": "FORD KA SEDAN1.5",
               "num_locacoes": 4,
@@ -940,11 +933,11 @@
               "receita_total_veiculo": 2600
             },
             {
-              "vehicle_id": 10,
-              "vehicle_name": "PULSE 22",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
+              "vehicle_id": 27,
+              "vehicle_name": "FIAT CRONOS DRIVE",
+              "num_locacoes": 4,
+              "ticket_medio_veiculo": 525,
+              "receita_total_veiculo": 2100
             },
             {
               "vehicle_id": 28,
@@ -956,6 +949,13 @@
             {
               "vehicle_id": 26,
               "vehicle_name": "VW POLO TRACK BRANCO 25",
+              "num_locacoes": 0,
+              "ticket_medio_veiculo": 0,
+              "receita_total_veiculo": 0
+            },
+            {
+              "vehicle_id": 10,
+              "vehicle_name": "PULSE 22",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -975,7 +975,7 @@
               "receita_total_veiculo": 0
             }
           ],
-          "geral": 731.6666666666666
+          "geral": 712.2222222222222
         },
         "ltv_clientes": [
           {
@@ -991,8 +991,8 @@
             "customer_id": 5,
             "customer_name": "GILVAN VIEIRA DOS SANTOS",
             "num_locacoes": 38,
-            "ltv": 26900,
-            "ticket_medio": 707.894736,
+            "ltv": 26200,
+            "ticket_medio": 689.473684,
             "primeira_locacao": "2025-09-24T00:00:00.000Z",
             "ultima_locacao": "2026-06-22T00:00:00.000Z"
           },
@@ -1042,6 +1042,15 @@
             "ultima_locacao": "2026-06-22T00:00:00.000Z"
           },
           {
+            "customer_id": 25,
+            "customer_name": "ALEXANDRE NAVARRO FEITOSA",
+            "num_locacoes": 6,
+            "ltv": 5760,
+            "ticket_medio": 960,
+            "primeira_locacao": "2026-05-11T00:00:00.000Z",
+            "ultima_locacao": "2026-06-22T00:00:00.000Z"
+          },
+          {
             "customer_id": 19,
             "customer_name": "GABRIEL MELO LIMA",
             "num_locacoes": 8,
@@ -1058,15 +1067,6 @@
             "ticket_medio": 675,
             "primeira_locacao": "2026-04-29T00:00:00.000Z",
             "ultima_locacao": "2026-06-22T00:00:00.000Z"
-          },
-          {
-            "customer_id": 25,
-            "customer_name": "ALEXANDRE NAVARRO FEITOSA",
-            "num_locacoes": 5,
-            "ltv": 4800,
-            "ticket_medio": 960,
-            "primeira_locacao": "2026-05-11T00:00:00.000Z",
-            "ultima_locacao": "2026-06-15T00:00:00.000Z"
           },
           {
             "customer_id": 26,
@@ -1240,15 +1240,15 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 533517.0099999999,
-          "saldo_caixa": 26534.09
+          "equity_estimado": 534477.0099999999,
+          "saldo_caixa": 27494.09
         },
-        "crescimento_mom": 10.83,
-        "crescimento_anual": 410.67,
+        "crescimento_mom": 12.03,
+        "crescimento_anual": 411.82,
         "depreciacao_mensal": 9549.36,
-        "receita_total": 23930,
+        "receita_total": 24190,
         "receita_anterior_mes": 21592,
-        "receita_ano_atual": 115923,
+        "receita_ano_atual": 116183,
         "receita_ano_anterior": 22700
       }
     },
@@ -1259,53 +1259,53 @@
           "mes_num": 7,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 25740,
-          "imposto_das": 1544.4,
-          "manutencao": 5810,
+          "projecao_receita": 21900,
+          "imposto_das": 1314,
+          "manutencao": 4850,
           "custos_planejados": 5038.69,
-          "total_saidas": 12393.09,
-          "saldo": 13346.91
+          "total_saidas": 11202.69,
+          "saldo": 10697.31
         },
         {
           "mes_label": "Agosto/2026",
           "mes_num": 8,
           "ano": 2026,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 31550,
-          "imposto_das": 1893,
-          "manutencao": 7262.5,
+          "projecao_receita": 26750,
+          "imposto_das": 1605,
+          "manutencao": 6062.5,
           "custos_planejados": 5192.28,
-          "total_saidas": 14347.78,
-          "saldo": 17202.22
+          "total_saidas": 12859.78,
+          "saldo": 13890.22
         },
         {
           "mes_label": "Setembro/2026",
           "mes_num": 9,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 25740,
-          "imposto_das": 1544.4,
-          "manutencao": 5810,
+          "projecao_receita": 21900,
+          "imposto_das": 1314,
+          "manutencao": 4850,
           "custos_planejados": 5038.69,
-          "total_saidas": 12393.09,
-          "saldo": 13346.91
+          "total_saidas": 11202.69,
+          "saldo": 10697.31
         }
       ],
       "totais": {
-        "receita": 83030,
-        "imposto": 4981.8,
-        "manutencao": 18882.5,
+        "receita": 70550,
+        "imposto": 4233,
+        "manutencao": 15762.5,
         "custos": 15269.66,
-        "saidas": 39133.96,
-        "saldo": 43896.04
+        "saidas": 35265.16,
+        "saldo": 35284.84
       },
-      "receita_semanal_base": 5810,
+      "receita_semanal_base": 4850,
       "receita_mensal_fixa_base": 2500
     },
     "projecao6": {
@@ -1315,95 +1315,95 @@
           "mes_num": 7,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 25740,
-          "imposto_das": 1544.4,
-          "manutencao": 5810,
+          "projecao_receita": 21900,
+          "imposto_das": 1314,
+          "manutencao": 4850,
           "custos_planejados": 5038.69,
-          "total_saidas": 12393.09,
-          "saldo": 13346.91
+          "total_saidas": 11202.69,
+          "saldo": 10697.31
         },
         {
           "mes_label": "Agosto/2026",
           "mes_num": 8,
           "ano": 2026,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 31550,
-          "imposto_das": 1893,
-          "manutencao": 7262.5,
+          "projecao_receita": 26750,
+          "imposto_das": 1605,
+          "manutencao": 6062.5,
           "custos_planejados": 5192.28,
-          "total_saidas": 14347.78,
-          "saldo": 17202.22
+          "total_saidas": 12859.78,
+          "saldo": 13890.22
         },
         {
           "mes_label": "Setembro/2026",
           "mes_num": 9,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 25740,
-          "imposto_das": 1544.4,
-          "manutencao": 5810,
+          "projecao_receita": 21900,
+          "imposto_das": 1314,
+          "manutencao": 4850,
           "custos_planejados": 5038.69,
-          "total_saidas": 12393.09,
-          "saldo": 13346.91
+          "total_saidas": 11202.69,
+          "saldo": 10697.31
         },
         {
           "mes_label": "Outubro/2026",
           "mes_num": 10,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 25740,
-          "imposto_das": 1544.4,
-          "manutencao": 5810,
+          "projecao_receita": 21900,
+          "imposto_das": 1314,
+          "manutencao": 4850,
           "custos_planejados": 4997.57,
-          "total_saidas": 12351.97,
-          "saldo": 13388.03
+          "total_saidas": 11161.57,
+          "saldo": 10738.43
         },
         {
           "mes_label": "Novembro/2026",
           "mes_num": 11,
           "ano": 2026,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 31550,
-          "imposto_das": 1893,
-          "manutencao": 7262.5,
+          "projecao_receita": 26750,
+          "imposto_das": 1605,
+          "manutencao": 6062.5,
           "custos_planejados": 4373.6,
-          "total_saidas": 13529.1,
-          "saldo": 18020.9
+          "total_saidas": 12041.1,
+          "saldo": 14708.9
         },
         {
           "mes_label": "Dezembro/2026",
           "mes_num": 12,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5810,
+          "receita_semanal_base": 4850,
           "receita_mensal_fixa": 2500,
-          "projecao_receita": 25740,
-          "imposto_das": 1544.4,
-          "manutencao": 5810,
+          "projecao_receita": 21900,
+          "imposto_das": 1314,
+          "manutencao": 4850,
           "custos_planejados": 4373.6,
-          "total_saidas": 11728,
-          "saldo": 14012
+          "total_saidas": 10537.6,
+          "saldo": 11362.4
         }
       ],
       "totais": {
-        "receita": 166060,
-        "imposto": 9963.6,
-        "manutencao": 37765,
+        "receita": 141100,
+        "imposto": 8466,
+        "manutencao": 31525,
         "custos": 29014.43,
-        "saidas": 76743.03,
-        "saldo": 89316.97
+        "saidas": 69005.43,
+        "saldo": 72094.57
       },
-      "receita_semanal_base": 5810,
+      "receita_semanal_base": 4850,
       "receita_mensal_fixa_base": 2500
     }
   }
