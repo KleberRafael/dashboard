@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-24T18:48:51.710Z",
-  "gerado_em_label": "24/06/2026, 15:48",
+  "gerado_em": "2026-06-24T19:23:41.224Z",
+  "gerado_em_label": "24/06/2026, 16:23",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 26690,
+      "receita_total": 27440,
       "despesas_gerais": 12869.06,
       "despesas_veiculos": 4037.7599999999998,
       "investimento_total": 11098.82,
-      "lucro_liquido": 9783.18,
+      "lucro_liquido": 10533.18,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -421,7 +421,7 @@
       "receita_total": 191005.83000000002,
       "despesa_total": 161393.46999999988,
       "saldo": 29612.36000000013,
-      "lancamentos": 602
+      "lancamentos": 603
     },
     "kpis": {
       "periodo": {
@@ -433,19 +433,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 3506.75,
+            "receita": 4042.45,
             "despesa": 5038.69,
-            "saldo": -1531.9399999999996
+            "saldo": -996.2399999999998
           },
           "proj_60d": {
-            "receita": 14220.95,
+            "receita": 14756.65,
             "despesa": 10230.97,
-            "saldo": 3989.9800000000014
+            "saldo": 4525.68
           },
           "proj_90d": {
-            "receita": 14220.95,
+            "receita": 14756.65,
             "despesa": 15269.66,
-            "saldo": -1048.7099999999991
+            "saldo": -513.0100000000002
           }
         },
         "roi_por_veiculo": [
@@ -641,6 +641,17 @@
             "receita_perdida_ociosidade": -278.58
           },
           {
+            "vehicle_id": 8,
+            "vehicle_name": "PULSE 2024",
+            "plate": "SJE3H43",
+            "dias_alugados": 33,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 110,
+            "daily_rate": 114.28,
+            "receita_realizada": 3771.24,
+            "receita_perdida_ociosidade": -342.84
+          },
+          {
             "vehicle_id": 27,
             "vehicle_name": "FIAT CRONOS DRIVE",
             "plate": "SIT7E16",
@@ -696,17 +707,6 @@
             "receita_perdida_ociosidade": 0
           },
           {
-            "vehicle_id": 8,
-            "vehicle_name": "PULSE 2024",
-            "plate": "SJE3H43",
-            "dias_alugados": 25,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 83.3,
-            "daily_rate": 114.28,
-            "receita_realizada": 2857,
-            "receita_perdida_ociosidade": 571.4
-          },
-          {
             "vehicle_id": 25,
             "vehicle_name": "FIAT ARGO",
             "plate": "RUP1A88",
@@ -729,17 +729,6 @@
             "receita_perdida_ociosidade": 3428.4
           },
           {
-            "vehicle_id": 6,
-            "vehicle_name": "VOYAGE",
-            "plate": "RNP5I35",
-            "dias_alugados": 0,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 100,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3000
-          },
-          {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
             "plate": "RUX5A20",
@@ -760,6 +749,17 @@
             "daily_rate": 114.28,
             "receita_realizada": 0,
             "receita_perdida_ociosidade": 3428.4
+          },
+          {
+            "vehicle_id": 6,
+            "vehicle_name": "VOYAGE",
+            "plate": "RNP5I35",
+            "dias_alugados": 0,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 0,
+            "daily_rate": 100,
+            "receita_realizada": 0,
+            "receita_perdida_ociosidade": 3000
           }
         ],
         "manutencao_por_veiculo": [
@@ -902,9 +902,9 @@
             {
               "vehicle_id": 8,
               "vehicle_name": "PULSE 2024",
-              "num_locacoes": 3,
+              "num_locacoes": 4,
               "ticket_medio_veiculo": 750,
-              "receita_total_veiculo": 2250
+              "receita_total_veiculo": 3000
             },
             {
               "vehicle_id": 11,
@@ -1008,11 +1008,11 @@
           {
             "customer_id": 16,
             "customer_name": "LUCAS DE CASTRO SANTOS",
-            "num_locacoes": 26,
-            "ltv": 17588,
-            "ticket_medio": 676.461538,
+            "num_locacoes": 27,
+            "ltv": 18338,
+            "ticket_medio": 679.185185,
             "primeira_locacao": "2025-12-14T00:00:00.000Z",
-            "ultima_locacao": "2026-06-15T00:00:00.000Z"
+            "ultima_locacao": "2026-06-22T00:00:00.000Z"
           },
           {
             "customer_id": 15,
@@ -1252,12 +1252,12 @@
           "equity_estimado": 535148.0499999999,
           "saldo_caixa": 28165.13
         },
-        "crescimento_mom": 23.61,
-        "crescimento_anual": 422.83,
+        "crescimento_mom": 27.08,
+        "crescimento_anual": 426.14,
         "depreciacao_mensal": 9549.36,
-        "receita_total": 26690,
+        "receita_total": 27440,
         "receita_anterior_mes": 21592,
-        "receita_ano_atual": 118683,
+        "receita_ano_atual": 119433,
         "receita_ano_anterior": 22700
       }
     },
