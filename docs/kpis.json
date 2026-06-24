@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-24T16:48:51.616Z",
-  "gerado_em_label": "24/06/2026, 13:48",
+  "gerado_em": "2026-06-24T17:23:41.218Z",
+  "gerado_em_label": "24/06/2026, 14:23",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -10,13 +10,18 @@
     "finance": {
       "receita_total": 26690,
       "despesas_gerais": 12869.06,
-      "despesas_veiculos": 2181.76,
+      "despesas_veiculos": 4037.7599999999998,
       "investimento_total": 11098.82,
-      "lucro_liquido": 11639.18,
+      "lucro_liquido": 9783.18,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
           "total": 100,
+          "classificacao": "Despesa"
+        },
+        {
+          "vehicle_id": 11,
+          "total": 1856,
           "classificacao": "Despesa"
         },
         {
@@ -70,6 +75,10 @@
         {
           "vehicle_id": 8,
           "total": 100
+        },
+        {
+          "vehicle_id": 11,
+          "total": 1856
         },
         {
           "vehicle_id": 23,
@@ -410,9 +419,9 @@
     },
     "accounting": {
       "receita_total": 191005.83000000002,
-      "despesa_total": 159537.4699999999,
-      "saldo": 31468.360000000102,
-      "lancamentos": 601
+      "despesa_total": 161393.46999999988,
+      "saldo": 29612.36000000013,
+      "lancamentos": 602
     },
     "kpis": {
       "periodo": {
@@ -755,36 +764,12 @@
         ],
         "manutencao_por_veiculo": [
           {
-            "vehicle_id": 6,
-            "vehicle_name": "VOYAGE",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 8,
-            "vehicle_name": "PULSE 2024",
-            "num_manutencoes": 1,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 10,
-            "vehicle_name": "PULSE 22",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
             "vehicle_id": 11,
             "vehicle_name": "MOBI 24",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
+            "num_manutencoes": 1,
+            "media_dias_manutencao": 1,
+            "total_dias_parado": 1,
+            "receita_perdida_manutencao": 92.86
           },
           {
             "vehicle_id": 23,
@@ -861,6 +846,30 @@
           {
             "vehicle_id": 32,
             "vehicle_name": "VW POLO TRACK - BRANCO 24",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 6,
+            "vehicle_name": "VOYAGE",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 8,
+            "vehicle_name": "PULSE 2024",
+            "num_manutencoes": 1,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 10,
+            "vehicle_name": "PULSE 22",
             "num_manutencoes": 0,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
@@ -1240,8 +1249,8 @@
             }
           ],
           "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 537004.0499999999,
-          "saldo_caixa": 30021.13
+          "equity_estimado": 535148.0499999999,
+          "saldo_caixa": 28165.13
         },
         "crescimento_mom": 23.61,
         "crescimento_anual": 422.83,
