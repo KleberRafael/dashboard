@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-24T20:23:41.205Z",
-  "gerado_em_label": "24/06/2026, 17:23",
+  "gerado_em": "2026-06-26T17:48:51.700Z",
+  "gerado_em_label": "26/06/2026, 14:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 27440,
-      "despesas_gerais": 12869.06,
+      "despesas_gerais": 14177.42,
       "despesas_veiculos": 4037.7599999999998,
       "investimento_total": 11098.82,
-      "lucro_liquido": 10533.18,
+      "lucro_liquido": 9224.82,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -114,6 +114,13 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 2749,
+          "description": "Outros - IMPOSTO",
+          "amount": 1308.36,
+          "date": "2026-06-26T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 2732,
           "description": "Gasolina Voyage",
@@ -418,9 +425,9 @@
       ]
     },
     "accounting": {
-      "receita_total": 191005.83000000002,
-      "despesa_total": 161393.46999999988,
-      "saldo": 29612.36000000013,
+      "receita_total": 166828.32,
+      "despesa_total": 162701.8299999999,
+      "saldo": 4126.490000000107,
       "lancamentos": 603
     },
     "kpis": {
@@ -433,19 +440,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 4042.45,
+            "receita": 12869.26,
             "despesa": 5038.69,
-            "saldo": -996.2399999999998
+            "saldo": 7830.570000000001
           },
           "proj_60d": {
-            "receita": 14756.65,
+            "receita": 12869.26,
             "despesa": 10230.97,
-            "saldo": 4525.68
+            "saldo": 2638.290000000001
           },
           "proj_90d": {
-            "receita": 14756.65,
+            "receita": 12869.26,
             "despesa": 15269.66,
-            "saldo": -513.0100000000002
+            "saldo": -2400.3999999999996
           }
         },
         "roi_por_veiculo": [
@@ -532,10 +539,10 @@
             "plate": "SJE3H43",
             "valor_compra": 39990,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 9439.01,
+            "total_receita_acumulada": 10261.5,
             "investimento_total": 39990,
-            "lucro_acumulado": -30550.99,
-            "roi_pct": -76.4
+            "lucro_acumulado": -29728.5,
+            "roi_pct": -74.34
           },
           {
             "vehicle_id": 31,
@@ -593,6 +600,28 @@
             "roi_pct": -100
           },
           {
+            "vehicle_id": 33,
+            "vehicle_name": "HYUNDAI HB20S",
+            "plate": "HHH5A00",
+            "valor_compra": 55000,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 0,
+            "investimento_total": 55000,
+            "lucro_acumulado": -55000,
+            "roi_pct": -100
+          },
+          {
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S",
+            "plate": "HHH6A00",
+            "valor_compra": 55000,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 0,
+            "investimento_total": 55000,
+            "lucro_acumulado": -55000,
+            "roi_pct": -100
+          },
+          {
             "vehicle_id": 26,
             "vehicle_name": "VW POLO TRACK BRANCO 25",
             "plate": "SWN1D86",
@@ -625,9 +654,9 @@
             "dias_alugados": 33,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 110,
-            "daily_rate": 100,
-            "receita_realizada": 3300,
-            "receita_perdida_ociosidade": -300
+            "daily_rate": 107.14,
+            "receita_realizada": 3535.62,
+            "receita_perdida_ociosidade": -321.42
           },
           {
             "vehicle_id": 24,
@@ -663,9 +692,9 @@
             "receita_perdida_ociosidade": -300
           },
           {
-            "vehicle_id": 29,
-            "vehicle_name": "HYUNDAI HB20 LIMITED",
-            "plate": "RUS8I59",
+            "vehicle_id": 31,
+            "vehicle_name": "FORD KA SEDAN1.5",
+            "plate": "QOA5G39",
             "dias_alugados": 33,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 110,
@@ -674,9 +703,9 @@
             "receita_perdida_ociosidade": -300
           },
           {
-            "vehicle_id": 31,
-            "vehicle_name": "FORD KA SEDAN1.5",
-            "plate": "QOA5G39",
+            "vehicle_id": 29,
+            "vehicle_name": "HYUNDAI HB20 LIMITED",
+            "plate": "RUS8I59",
             "dias_alugados": 33,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 110,
@@ -702,8 +731,8 @@
             "dias_alugados": 30,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 100,
-            "daily_rate": 114.28,
-            "receita_realizada": 3428.4,
+            "daily_rate": 128.57,
+            "receita_realizada": 3857.1,
             "receita_perdida_ociosidade": 0
           },
           {
@@ -724,14 +753,25 @@
             "dias_alugados": 0,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 0,
-            "daily_rate": 114.28,
+            "daily_rate": 107.14,
             "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3428.4
+            "receita_perdida_ociosidade": 3214.2
           },
           {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
             "plate": "RUX5A20",
+            "dias_alugados": 0,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 0,
+            "daily_rate": 100,
+            "receita_realizada": 0,
+            "receita_perdida_ociosidade": 3000
+          },
+          {
+            "vehicle_id": 6,
+            "vehicle_name": "VOYAGE",
+            "plate": "RNP5I35",
             "dias_alugados": 0,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 0,
@@ -751,15 +791,26 @@
             "receita_perdida_ociosidade": 3428.4
           },
           {
-            "vehicle_id": 6,
-            "vehicle_name": "VOYAGE",
-            "plate": "RNP5I35",
+            "vehicle_id": 33,
+            "vehicle_name": "HYUNDAI HB20S",
+            "plate": "HHH5A00",
             "dias_alugados": 0,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 0,
-            "daily_rate": 100,
+            "daily_rate": 114.28,
             "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3000
+            "receita_perdida_ociosidade": 3428.4
+          },
+          {
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S",
+            "plate": "HHH6A00",
+            "dias_alugados": 0,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 0,
+            "daily_rate": 114.28,
+            "receita_realizada": 0,
+            "receita_perdida_ociosidade": 3428.4
           }
         ],
         "manutencao_por_veiculo": [
@@ -846,6 +897,22 @@
           {
             "vehicle_id": 32,
             "vehicle_name": "VW POLO TRACK - BRANCO 24",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 33,
+            "vehicle_name": "HYUNDAI HB20S",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S",
             "num_manutencoes": 0,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
@@ -965,6 +1032,20 @@
             {
               "vehicle_id": 32,
               "vehicle_name": "VW POLO TRACK - BRANCO 24",
+              "num_locacoes": 0,
+              "ticket_medio_veiculo": 0,
+              "receita_total_veiculo": 0
+            },
+            {
+              "vehicle_id": 33,
+              "vehicle_name": "HYUNDAI HB20S",
+              "num_locacoes": 0,
+              "ticket_medio_veiculo": 0,
+              "receita_total_veiculo": 0
+            },
+            {
+              "vehicle_id": 34,
+              "vehicle_name": "HYUNDAI HB20S",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -1118,6 +1199,26 @@
               "depreciacao_acumulada": 8577.51
             },
             {
+              "vehicle_id": 33,
+              "vehicle_name": "HYUNDAI HB20S",
+              "ano_fabricacao": 2022,
+              "plate": "HHH5A00",
+              "valor_compra": 55000,
+              "dataCompra": "2026-06-24T00:00:00.000Z",
+              "valor_atual_estimado": 55000,
+              "depreciacao_acumulada": 0
+            },
+            {
+              "vehicle_id": 34,
+              "vehicle_name": "HYUNDAI HB20S",
+              "ano_fabricacao": 2022,
+              "plate": "HHH6A00",
+              "valor_compra": 55000,
+              "dataCompra": "2026-06-24T00:00:00.000Z",
+              "valor_atual_estimado": 55000,
+              "depreciacao_acumulada": 0
+            },
+            {
               "vehicle_id": 29,
               "vehicle_name": "HYUNDAI HB20 LIMITED",
               "ano_fabricacao": 2023,
@@ -1248,13 +1349,13 @@
               "depreciacao_acumulada": 5151.82
             }
           ],
-          "valor_frota_atual": 506982.9199999999,
-          "equity_estimado": 535148.0499999999,
-          "saldo_caixa": 28165.13
+          "valor_frota_atual": 616982.9199999999,
+          "equity_estimado": 619662.1799999999,
+          "saldo_caixa": 2679.26
         },
         "crescimento_mom": 27.08,
         "crescimento_anual": 426.14,
-        "depreciacao_mensal": 9549.36,
+        "depreciacao_mensal": 11382.7,
         "receita_total": 27440,
         "receita_anterior_mes": 21592,
         "receita_ano_atual": 119433,
