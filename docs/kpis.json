@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-27T20:35:52.328Z",
-  "gerado_em_label": "27/06/2026, 17:35",
+  "gerado_em": "2026-06-27T20:48:51.645Z",
+  "gerado_em_label": "27/06/2026, 17:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -9,14 +9,14 @@
   "dados": {
     "finance": {
       "receita_total": 27440,
-      "despesas_gerais": 14177.42,
-      "despesas_veiculos": 4037.7599999999998,
+      "despesas_gerais": 14208.37,
+      "despesas_veiculos": 4722.76,
       "investimento_total": 11098.82,
-      "lucro_liquido": 9224.82,
+      "lucro_liquido": 8508.869999999999,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
-          "total": 100,
+          "total": 440,
           "classificacao": "Despesa"
         },
         {
@@ -61,7 +61,7 @@
         },
         {
           "vehicle_id": 31,
-          "total": 100,
+          "total": 445,
           "classificacao": "Despesa"
         }
       ],
@@ -74,7 +74,7 @@
       "manutencoes_por_veiculo": [
         {
           "vehicle_id": 8,
-          "total": 100
+          "total": 440
         },
         {
           "vehicle_id": 11,
@@ -110,7 +110,7 @@
         },
         {
           "vehicle_id": 31,
-          "total": 100
+          "total": 445
         }
       ],
       "detalhes_gerais": [
@@ -118,6 +118,13 @@
           "id": 2749,
           "description": "Outros - IMPOSTO",
           "amount": 1308.36,
+          "date": "2026-06-26T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 2753,
+          "description": "Anuncio Instagram",
+          "amount": 30.95,
           "date": "2026-06-26T00:00:00.000Z",
           "vehicle_id": null
         },
@@ -425,10 +432,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 166828.32,
-      "despesa_total": 162701.8299999999,
-      "saldo": 4126.490000000107,
-      "lancamentos": 603
+      "receita_total": 166928.32,
+      "despesa_total": 163377.7799999999,
+      "saldo": 3550.5400000000955,
+      "lancamentos": 607
     },
     "kpis": {
       "periodo": {
@@ -889,7 +896,7 @@
           {
             "vehicle_id": 31,
             "vehicle_name": "FORD KA SEDAN1.5",
-            "num_manutencoes": 1,
+            "num_manutencoes": 2,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -929,7 +936,7 @@
           {
             "vehicle_id": 8,
             "vehicle_name": "PULSE 2024",
-            "num_manutencoes": 1,
+            "num_manutencoes": 2,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1350,8 +1357,8 @@
             }
           ],
           "valor_frota_atual": 616982.9199999999,
-          "equity_estimado": 619662.1799999999,
-          "saldo_caixa": 2679.26
+          "equity_estimado": 619086.23,
+          "saldo_caixa": 2103.31
         },
         "crescimento_mom": 27.08,
         "crescimento_anual": 426.14,
