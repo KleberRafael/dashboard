@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-27T20:59:02.288Z",
-  "gerado_em_label": "27/06/2026, 17:59",
+  "gerado_em": "2026-06-27T21:35:05.628Z",
+  "gerado_em_label": "27/06/2026, 18:35",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -448,18 +448,18 @@
         "fluxo_caixa": {
           "proj_30d": {
             "receita": 11674.72,
-            "despesa": 5038.69,
-            "saldo": 6636.03
+            "despesa": 13038.689999999999,
+            "saldo": -1363.9699999999993
           },
           "proj_60d": {
             "receita": 11674.72,
-            "despesa": 10230.97,
-            "saldo": 1443.75
+            "despesa": 26230.97,
+            "saldo": -14556.250000000002
           },
           "proj_90d": {
             "receita": 11674.72,
-            "despesa": 15269.66,
-            "saldo": -3594.9400000000005
+            "despesa": 39269.66,
+            "saldo": -27594.940000000002
           }
         },
         "roi_por_veiculo": [
@@ -1381,9 +1381,9 @@
           "projecao_receita": 25948,
           "imposto_das": 1556.88,
           "manutencao": 5862,
-          "custos_planejados": 5038.69,
-          "total_saidas": 12457.57,
-          "saldo": 13490.43
+          "custos_planejados": 13038.69,
+          "total_saidas": 20457.57,
+          "saldo": 5490.43
         },
         {
           "mes_label": "Agosto/2026",
@@ -1395,9 +1395,9 @@
           "projecao_receita": 31810,
           "imposto_das": 1908.6,
           "manutencao": 7327.5,
-          "custos_planejados": 5192.28,
-          "total_saidas": 14428.38,
-          "saldo": 17381.62
+          "custos_planejados": 13192.28,
+          "total_saidas": 22428.38,
+          "saldo": 9381.62
         },
         {
           "mes_label": "Setembro/2026",
@@ -1409,18 +1409,18 @@
           "projecao_receita": 25948,
           "imposto_das": 1556.88,
           "manutencao": 5862,
-          "custos_planejados": 5038.69,
-          "total_saidas": 12457.57,
-          "saldo": 13490.43
+          "custos_planejados": 13038.69,
+          "total_saidas": 20457.57,
+          "saldo": 5490.43
         }
       ],
       "totais": {
         "receita": 83706,
         "imposto": 5022.36,
         "manutencao": 19051.5,
-        "custos": 15269.66,
-        "saidas": 39343.52,
-        "saldo": 44362.48
+        "custos": 39269.66,
+        "saidas": 63343.52,
+        "saldo": 20362.48
       },
       "receita_semanal_base": 5862,
       "receita_mensal_fixa_base": 2500
@@ -1437,9 +1437,9 @@
           "projecao_receita": 25948,
           "imposto_das": 1556.88,
           "manutencao": 5862,
-          "custos_planejados": 5038.69,
-          "total_saidas": 12457.57,
-          "saldo": 13490.43
+          "custos_planejados": 13038.69,
+          "total_saidas": 20457.57,
+          "saldo": 5490.43
         },
         {
           "mes_label": "Agosto/2026",
@@ -1451,9 +1451,9 @@
           "projecao_receita": 31810,
           "imposto_das": 1908.6,
           "manutencao": 7327.5,
-          "custos_planejados": 5192.28,
-          "total_saidas": 14428.38,
-          "saldo": 17381.62
+          "custos_planejados": 13192.28,
+          "total_saidas": 22428.38,
+          "saldo": 9381.62
         },
         {
           "mes_label": "Setembro/2026",
@@ -1465,9 +1465,9 @@
           "projecao_receita": 25948,
           "imposto_das": 1556.88,
           "manutencao": 5862,
-          "custos_planejados": 5038.69,
-          "total_saidas": 12457.57,
-          "saldo": 13490.43
+          "custos_planejados": 13038.69,
+          "total_saidas": 20457.57,
+          "saldo": 5490.43
         },
         {
           "mes_label": "Outubro/2026",
@@ -1479,9 +1479,9 @@
           "projecao_receita": 25948,
           "imposto_das": 1556.88,
           "manutencao": 5862,
-          "custos_planejados": 4997.57,
-          "total_saidas": 12416.45,
-          "saldo": 13531.55
+          "custos_planejados": 10997.57,
+          "total_saidas": 18416.45,
+          "saldo": 7531.55
         },
         {
           "mes_label": "Novembro/2026",
@@ -1516,9 +1516,9 @@
         "receita": 167412,
         "imposto": 10044.72,
         "manutencao": 38103,
-        "custos": 29014.43,
-        "saidas": 77162.15,
-        "saldo": 90249.85
+        "custos": 59014.43,
+        "saidas": 107162.15,
+        "saldo": 60249.85
       },
       "receita_semanal_base": 5862,
       "receita_mensal_fixa_base": 2500
