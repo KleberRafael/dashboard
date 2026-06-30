@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-27T21:59:02.282Z",
-  "gerado_em_label": "27/06/2026, 18:59",
+  "gerado_em": "2026-06-30T13:48:51.697Z",
+  "gerado_em_label": "30/06/2026, 10:48",
   "periodo": {
     "ano": 2026,
     "mes": 6
@@ -431,12 +431,6 @@
         }
       ]
     },
-    "accounting": {
-      "receita_total": 166928.32,
-      "despesa_total": 163377.7799999999,
-      "saldo": 3550.5400000000955,
-      "lancamentos": 607
-    },
     "kpis": {
       "periodo": {
         "year": 2026,
@@ -447,19 +441,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 11674.72,
+            "receita": 8928.5,
             "despesa": 13391.409999999998,
-            "saldo": -1716.6899999999987
+            "saldo": -4462.909999999998
           },
           "proj_60d": {
-            "receita": 11674.72,
+            "receita": 8928.5,
             "despesa": 26936.410000000003,
-            "saldo": -15261.690000000004
+            "saldo": -18007.910000000003
           },
           "proj_90d": {
-            "receita": 11674.72,
+            "receita": 8928.5,
             "despesa": 40327.82000000001,
-            "saldo": -28653.100000000006
+            "saldo": -31399.320000000007
           }
         },
         "roi_por_veiculo": [
@@ -1368,6 +1362,12 @@
         "receita_ano_atual": 119433,
         "receita_ano_anterior": 22700
       }
+    },
+    "accounting": {
+      "receita_total": 166928.32,
+      "despesa_total": 163377.7799999999,
+      "saldo": 3550.5400000000955,
+      "lancamentos": 607
     },
     "projecao3": {
       "meses": [
