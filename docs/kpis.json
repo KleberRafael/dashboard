@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-01T20:48:51.687Z",
-  "gerado_em_label": "01/07/2026, 17:48",
+  "gerado_em": "2026-07-03T17:48:51.724Z",
+  "gerado_em_label": "03/07/2026, 14:48",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -9,20 +9,39 @@
   "dados": {
     "finance": {
       "receita_total": 0,
-      "despesas_gerais": 0,
+      "despesas_gerais": 111.55,
       "despesas_veiculos": 0,
-      "investimento_total": 0,
-      "lucro_liquido": 0,
-      "despesas_por_veiculo": [],
+      "investimento_total": 1166.8,
+      "lucro_liquido": -111.55,
+      "despesas_por_veiculo": [
+        {
+          "vehicle_id": 28,
+          "total": 1166.8,
+          "classificacao": "Investimento"
+        }
+      ],
       "multas_por_veiculo": [],
-      "manutencoes_por_veiculo": [],
-      "detalhes_gerais": []
+      "manutencoes_por_veiculo": [
+        {
+          "vehicle_id": 28,
+          "total": 1166.8
+        }
+      ],
+      "detalhes_gerais": [
+        {
+          "id": 2767,
+          "description": "Anuncio Instagram",
+          "amount": 111.55,
+          "date": "2026-07-02T00:00:00.000Z",
+          "vehicle_id": null
+        }
+      ]
     },
     "accounting": {
-      "receita_total": 171708.04,
-      "despesa_total": 163799.93999999992,
-      "saldo": 7908.100000000093,
-      "lancamentos": 619
+      "receita_total": 172458.04,
+      "despesa_total": 165078.28999999992,
+      "saldo": 7379.750000000087,
+      "lancamentos": 621
     },
     "kpis": {
       "periodo": {
@@ -34,19 +53,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 12714.16,
-            "despesa": 15369.209999999997,
-            "saldo": -2655.0499999999975
+            "receita": 10342.76,
+            "despesa": 28914.210000000003,
+            "saldo": -18571.450000000004
           },
           "proj_60d": {
-            "receita": 12714.16,
-            "despesa": 28914.210000000003,
-            "saldo": -16200.050000000003
+            "receita": 10342.76,
+            "despesa": 42305.62000000001,
+            "saldo": -31962.860000000008
           },
           "proj_90d": {
-            "receita": 12714.16,
-            "despesa": 42305.62000000001,
-            "saldo": -29591.46000000001
+            "receita": 10342.76,
+            "despesa": 53655.91000000001,
+            "saldo": -43313.15000000001
           }
         },
         "roi_por_veiculo": [
@@ -133,10 +152,10 @@
             "plate": "SJE3H43",
             "valor_compra": 39990,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 10261.5,
+            "total_receita_acumulada": 11011.5,
             "investimento_total": 39990,
-            "lucro_acumulado": -29728.5,
-            "roi_pct": -74.34
+            "lucro_acumulado": -28978.5,
+            "roi_pct": -72.46
           },
           {
             "vehicle_id": 31,
@@ -409,6 +428,62 @@
         ],
         "manutencao_por_veiculo": [
           {
+            "vehicle_id": 28,
+            "vehicle_name": "HYUNDAI HB20 COMFORT",
+            "num_manutencoes": 1,
+            "media_dias_manutencao": 2,
+            "total_dias_parado": 2,
+            "receita_perdida_manutencao": 200
+          },
+          {
+            "vehicle_id": 29,
+            "vehicle_name": "HYUNDAI HB20 LIMITED",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 30,
+            "vehicle_name": "VW POLO TRACK - PRATA 23",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 31,
+            "vehicle_name": "FORD KA SEDAN1.5",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 32,
+            "vehicle_name": "VW POLO TRACK - BRANCO 24",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 33,
+            "vehicle_name": "HYUNDAI HB20S",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
             "vehicle_id": 6,
             "vehicle_name": "VOYAGE",
             "num_manutencoes": 0,
@@ -475,62 +550,6 @@
           {
             "vehicle_id": 27,
             "vehicle_name": "FIAT CRONOS DRIVE",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 28,
-            "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 29,
-            "vehicle_name": "HYUNDAI HB20 LIMITED",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 30,
-            "vehicle_name": "VW POLO TRACK - PRATA 23",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 31,
-            "vehicle_name": "FORD KA SEDAN1.5",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 32,
-            "vehicle_name": "VW POLO TRACK - BRANCO 24",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 33,
-            "vehicle_name": "HYUNDAI HB20S",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S",
             "num_manutencoes": 0,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
@@ -953,8 +972,8 @@
             }
           ],
           "valor_frota_atual": 605615.92,
-          "equity_estimado": 612076.79,
-          "saldo_caixa": 6460.87
+          "equity_estimado": 611548.4400000001,
+          "saldo_caixa": 5932.52
         },
         "crescimento_mom": -100,
         "crescimento_anual": 450.47,
