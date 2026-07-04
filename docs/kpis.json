@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-03T19:18:14.930Z",
-  "gerado_em_label": "03/07/2026, 16:18",
+  "gerado_em": "2026-07-04T15:48:51.744Z",
+  "gerado_em_label": "04/07/2026, 12:48",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -11,12 +11,12 @@
       "receita_total": 0,
       "despesas_gerais": 111.55,
       "despesas_veiculos": 0,
-      "investimento_total": 1166.8,
+      "investimento_total": 1916.8,
       "lucro_liquido": -111.55,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 28,
-          "total": 1166.8,
+          "total": 1916.8,
           "classificacao": "Investimento"
         }
       ],
@@ -24,7 +24,7 @@
       "manutencoes_por_veiculo": [
         {
           "vehicle_id": 28,
-          "total": 1166.8
+          "total": 1916.8
         }
       ],
       "detalhes_gerais": [
@@ -39,9 +39,9 @@
     },
     "accounting": {
       "receita_total": 172458.04,
-      "despesa_total": 165078.28999999992,
-      "saldo": 7379.750000000087,
-      "lancamentos": 621
+      "despesa_total": 165828.28999999992,
+      "saldo": 6629.750000000087,
+      "lancamentos": 622
     },
     "kpis": {
       "periodo": {
@@ -53,19 +53,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 10342.76,
+            "receita": 9157.06,
             "despesa": 28914.210000000003,
-            "saldo": -18571.450000000004
+            "saldo": -19757.15
           },
           "proj_60d": {
-            "receita": 10342.76,
+            "receita": 9157.06,
             "despesa": 42305.62000000001,
-            "saldo": -31962.860000000008
+            "saldo": -33148.56000000001
           },
           "proj_90d": {
-            "receita": 10342.76,
+            "receita": 9157.06,
             "despesa": 53655.91000000001,
-            "saldo": -43313.15000000001
+            "saldo": -44498.85000000001
           }
         },
         "roi_por_veiculo": [
@@ -430,10 +430,10 @@
           {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "num_manutencoes": 1,
-            "media_dias_manutencao": 2,
-            "total_dias_parado": 2,
-            "receita_perdida_manutencao": 200
+            "num_manutencoes": 2,
+            "media_dias_manutencao": 45,
+            "total_dias_parado": 90,
+            "receita_perdida_manutencao": 9000
           },
           {
             "vehicle_id": 29,
@@ -972,8 +972,8 @@
             }
           ],
           "valor_frota_atual": 605615.92,
-          "equity_estimado": 611548.4400000001,
-          "saldo_caixa": 5932.52
+          "equity_estimado": 610798.4400000001,
+          "saldo_caixa": 5182.52
         },
         "crescimento_mom": -100,
         "crescimento_anual": 450.47,
