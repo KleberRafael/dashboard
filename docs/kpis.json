@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-07T15:48:51.796Z",
-  "gerado_em_label": "07/07/2026, 12:48",
+  "gerado_em": "2026-07-07T16:22:26.983Z",
+  "gerado_em_label": "07/07/2026, 13:22",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 5050,
+      "receita_total": 5800,
       "despesas_gerais": 864.7,
       "despesas_veiculos": 437.72,
       "investimento_total": 3216.8,
-      "lucro_liquido": 3747.58,
+      "lucro_liquido": 4497.58,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 24,
@@ -87,10 +87,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 176958.04,
+      "receita_total": 177708.04,
       "despesa_total": 168319.15999999992,
-      "saldo": 8638.880000000092,
-      "lancamentos": 637
+      "saldo": 9388.880000000092,
+      "lancamentos": 638
     },
     "kpis": {
       "periodo": {
@@ -102,19 +102,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 10757.04,
+            "receita": 11399.88,
             "despesa": 28914.210000000003,
-            "saldo": -18157.170000000002
+            "saldo": -17514.33
           },
           "proj_60d": {
-            "receita": 10757.04,
+            "receita": 11399.88,
             "despesa": 42305.62000000001,
-            "saldo": -31548.58000000001
+            "saldo": -30905.740000000013
           },
           "proj_90d": {
-            "receita": 10757.04,
+            "receita": 11399.88,
             "despesa": 53655.91000000001,
-            "saldo": -42898.87000000001
+            "saldo": -42256.03000000001
           }
         },
         "roi_por_veiculo": [
@@ -240,6 +240,17 @@
             "roi_pct": -91.4
           },
           {
+            "vehicle_id": 26,
+            "vehicle_name": "VW POLO TRACK BRANCO 25",
+            "plate": "SWN1D86",
+            "valor_compra": 38000,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 750,
+            "investimento_total": 38000,
+            "lucro_acumulado": -37250,
+            "roi_pct": -98.03
+          },
+          {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
             "plate": "RUX5A20",
@@ -281,17 +292,6 @@
             "total_receita_acumulada": 0,
             "investimento_total": 55000,
             "lucro_acumulado": -55000,
-            "roi_pct": -100
-          },
-          {
-            "vehicle_id": 26,
-            "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "plate": "SWN1D86",
-            "valor_compra": 38000,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 0,
-            "investimento_total": 38000,
-            "lucro_acumulado": -38000,
             "roi_pct": -100
           }
         ]
@@ -343,6 +343,17 @@
             "receita_perdida_ociosidade": 1578.62
           },
           {
+            "vehicle_id": 26,
+            "vehicle_name": "VW POLO TRACK BRANCO 25",
+            "plate": "SWN1D86",
+            "dias_alugados": 14,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 45.2,
+            "daily_rate": 107.14,
+            "receita_realizada": 1499.96,
+            "receita_perdida_ociosidade": 1821.38
+          },
+          {
             "vehicle_id": 27,
             "vehicle_name": "FIAT CRONOS DRIVE",
             "plate": "SIT7E16",
@@ -385,17 +396,6 @@
             "daily_rate": 100,
             "receita_realizada": 1400,
             "receita_perdida_ociosidade": 1700
-          },
-          {
-            "vehicle_id": 26,
-            "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "plate": "SWN1D86",
-            "dias_alugados": 6,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 19.4,
-            "daily_rate": 107.14,
-            "receita_realizada": 642.84,
-            "receita_perdida_ociosidade": 2678.5
           },
           {
             "vehicle_id": 32,
@@ -629,6 +629,13 @@
               "receita_total_veiculo": 750
             },
             {
+              "vehicle_id": 26,
+              "vehicle_name": "VW POLO TRACK BRANCO 25",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 750,
+              "receita_total_veiculo": 750
+            },
+            {
               "vehicle_id": 27,
               "vehicle_name": "FIAT CRONOS DRIVE",
               "num_locacoes": 1,
@@ -685,13 +692,6 @@
               "receita_total_veiculo": 0
             },
             {
-              "vehicle_id": 26,
-              "vehicle_name": "VW POLO TRACK BRANCO 25",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
               "vehicle_id": 28,
               "vehicle_name": "HYUNDAI HB20 COMFORT",
               "num_locacoes": 0,
@@ -727,9 +727,18 @@
               "receita_total_veiculo": 0
             }
           ],
-          "geral": 721.4285714285714
+          "geral": 725
         },
         "ltv_clientes": [
+          {
+            "customer_id": 8,
+            "customer_name": "BRUNO OLIVEIRA ROCHA",
+            "num_locacoes": 40,
+            "ltv": 28450,
+            "ticket_medio": 711.25,
+            "primeira_locacao": "2025-09-22T00:00:00.000Z",
+            "ultima_locacao": "2026-07-06T00:00:00.000Z"
+          },
           {
             "customer_id": 5,
             "customer_name": "GILVAN VIEIRA DOS SANTOS",
@@ -738,15 +747,6 @@
             "ticket_medio": 692.5,
             "primeira_locacao": "2025-09-24T00:00:00.000Z",
             "ultima_locacao": "2026-07-06T00:00:00.000Z"
-          },
-          {
-            "customer_id": 8,
-            "customer_name": "BRUNO OLIVEIRA ROCHA",
-            "num_locacoes": 39,
-            "ltv": 27700,
-            "ticket_medio": 710.25641,
-            "primeira_locacao": "2025-09-22T00:00:00.000Z",
-            "ultima_locacao": "2026-06-29T00:00:00.000Z"
           },
           {
             "customer_id": 16,
@@ -1021,15 +1021,15 @@
             }
           ],
           "valor_frota_atual": 605615.92,
-          "equity_estimado": 612807.5700000001,
-          "saldo_caixa": 7191.65
+          "equity_estimado": 613557.5700000001,
+          "saldo_caixa": 7941.65
         },
-        "crescimento_mom": -84.68,
-        "crescimento_anual": 472.72,
+        "crescimento_mom": -82.41,
+        "crescimento_anual": 476.02,
         "depreciacao_mensal": 11382.7,
-        "receita_total": 5050,
+        "receita_total": 5800,
         "receita_anterior_mes": 32964,
-        "receita_ano_atual": 130007,
+        "receita_ano_atual": 130757,
         "receita_ano_anterior": 22700
       }
     },
