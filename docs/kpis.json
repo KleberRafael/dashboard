@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-07T20:48:51.658Z",
-  "gerado_em_label": "07/07/2026, 17:48",
+  "gerado_em": "2026-07-08T20:17:13.280Z",
+  "gerado_em_label": "08/07/2026, 17:17",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 5800,
-      "despesas_gerais": 864.7,
+      "despesas_gerais": 964.7,
       "despesas_veiculos": 437.72,
-      "investimento_total": 3216.8,
-      "lucro_liquido": 4497.58,
+      "investimento_total": 3366.8,
+      "lucro_liquido": 4397.58,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 24,
@@ -28,6 +28,11 @@
           "vehicle_id": 29,
           "total": 191,
           "classificacao": "Despesa"
+        },
+        {
+          "vehicle_id": 33,
+          "total": 150,
+          "classificacao": "Investimento"
         },
         {
           "vehicle_id": 8,
@@ -53,6 +58,10 @@
         {
           "vehicle_id": 29,
           "total": 191
+        },
+        {
+          "vehicle_id": 33,
+          "total": 150
         }
       ],
       "detalhes_gerais": [
@@ -60,6 +69,13 @@
           "id": 3779,
           "description": "Almoço Sócios",
           "amount": 453.15,
+          "date": "2026-07-07T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 3785,
+          "description": "Gasolina Voyage",
+          "amount": 100,
           "date": "2026-07-07T00:00:00.000Z",
           "vehicle_id": null
         },
@@ -86,12 +102,6 @@
         }
       ]
     },
-    "accounting": {
-      "receita_total": 177708.04,
-      "despesa_total": 168319.15999999992,
-      "saldo": 9388.880000000092,
-      "lancamentos": 638
-    },
     "kpis": {
       "periodo": {
         "year": 2026,
@@ -102,19 +112,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 11399.88,
+            "receita": 10214.18,
             "despesa": 28914.210000000003,
-            "saldo": -17514.33
+            "saldo": -18700.030000000002
           },
           "proj_60d": {
-            "receita": 11399.88,
+            "receita": 10214.18,
             "despesa": 42305.62000000001,
-            "saldo": -30905.740000000013
+            "saldo": -32091.44000000001
           },
           "proj_90d": {
-            "receita": 11399.88,
+            "receita": 10214.18,
             "despesa": 53655.91000000001,
-            "saldo": -42256.03000000001
+            "saldo": -43441.73000000001
           }
         },
         "roi_por_veiculo": [
@@ -519,7 +529,7 @@
           {
             "vehicle_id": 33,
             "vehicle_name": "HYUNDAI HB20S",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1021,8 +1031,8 @@
             }
           ],
           "valor_frota_atual": 605615.92,
-          "equity_estimado": 613557.5700000001,
-          "saldo_caixa": 7941.65
+          "equity_estimado": 613307.5700000001,
+          "saldo_caixa": 7691.65
         },
         "crescimento_mom": -82.41,
         "crescimento_anual": 476.02,
@@ -1032,6 +1042,12 @@
         "receita_ano_atual": 130757,
         "receita_ano_anterior": 22700
       }
+    },
+    "accounting": {
+      "receita_total": 177708.04,
+      "despesa_total": 168569.15999999992,
+      "saldo": 9138.880000000092,
+      "lancamentos": 640
     },
     "projecao3": {
       "meses": [
