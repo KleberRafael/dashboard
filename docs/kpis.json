@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-11T18:48:51.656Z",
-  "gerado_em_label": "11/07/2026, 15:48",
+  "gerado_em": "2026-07-11T19:20:48.690Z",
+  "gerado_em_label": "11/07/2026, 16:20",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -9,14 +9,24 @@
   "dados": {
     "finance": {
       "receita_total": 5800,
-      "despesas_gerais": 964.7,
-      "despesas_veiculos": 722.72,
-      "investimento_total": 3516.8,
-      "lucro_liquido": 4112.58,
+      "despesas_gerais": 1852.89,
+      "despesas_veiculos": 1347.72,
+      "investimento_total": 3861.8,
+      "lucro_liquido": 2599.3899999999994,
       "despesas_por_veiculo": [
+        {
+          "vehicle_id": 8,
+          "total": 420.12,
+          "classificacao": "Despesa"
+        },
         {
           "vehicle_id": 24,
           "total": 142.6,
+          "classificacao": "Despesa"
+        },
+        {
+          "vehicle_id": 26,
+          "total": 100,
           "classificacao": "Despesa"
         },
         {
@@ -35,14 +45,19 @@
           "classificacao": "Despesa"
         },
         {
-          "vehicle_id": 33,
-          "total": 150,
+          "vehicle_id": 31,
+          "total": 209,
+          "classificacao": "Despesa"
+        },
+        {
+          "vehicle_id": 32,
+          "total": 345,
           "classificacao": "Investimento"
         },
         {
-          "vehicle_id": 8,
-          "total": 104.12,
-          "classificacao": "Despesa"
+          "vehicle_id": 33,
+          "total": 150,
+          "classificacao": "Investimento"
         }
       ],
       "multas_por_veiculo": [
@@ -53,8 +68,16 @@
       ],
       "manutencoes_por_veiculo": [
         {
+          "vehicle_id": 8,
+          "total": 316
+        },
+        {
           "vehicle_id": 24,
           "total": 142.6
+        },
+        {
+          "vehicle_id": 26,
+          "total": 100
         },
         {
           "vehicle_id": 27,
@@ -69,11 +92,47 @@
           "total": 191
         },
         {
+          "vehicle_id": 31,
+          "total": 209
+        },
+        {
+          "vehicle_id": 32,
+          "total": 345
+        },
+        {
           "vehicle_id": 33,
           "total": 150
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 3788,
+          "description": "Rastreador J16",
+          "amount": 199.23,
+          "date": "2026-07-11T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 3791,
+          "description": "Conta Telefone Vivo",
+          "amount": 39.99,
+          "date": "2026-07-10T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 3794,
+          "description": "Imposto - TFE Anual Lokar",
+          "amount": 236.35,
+          "date": "2026-07-10T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 3797,
+          "description": "Anuncio Insta/Facebook.",
+          "amount": 278.31,
+          "date": "2026-07-07T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 3779,
           "description": "Almoço Sócios",
@@ -103,6 +162,13 @@
           "vehicle_id": null
         },
         {
+          "id": 3798,
+          "description": "Shampoo + n lembro (MercadoCar)",
+          "amount": 134.31,
+          "date": "2026-07-04T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
           "id": 2767,
           "description": "Anuncio Instagram",
           "amount": 111.55,
@@ -112,10 +178,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 177708.04,
-      "despesa_total": 169004.15999999995,
-      "saldo": 8703.880000000063,
-      "lancamentos": 642
+      "receita_total": 178208.04,
+      "despesa_total": 170862.34999999992,
+      "saldo": 7345.69000000009,
+      "lancamentos": 652
     },
     "kpis": {
       "periodo": {
@@ -226,10 +292,10 @@
             "plate": "SJE3H43",
             "valor_compra": 39990,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 11011.5,
+            "total_receita_acumulada": 11511.5,
             "investimento_total": 39990,
-            "lucro_acumulado": -28978.5,
-            "roi_pct": -72.46
+            "lucro_acumulado": -28478.5,
+            "roi_pct": -71.21
           },
           {
             "vehicle_id": 31,
@@ -528,7 +594,7 @@
           {
             "vehicle_id": 31,
             "vehicle_name": "FORD KA SEDAN1.5",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -536,7 +602,7 @@
           {
             "vehicle_id": 32,
             "vehicle_name": "VW POLO TRACK - BRANCO 24",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -568,7 +634,7 @@
           {
             "vehicle_id": 8,
             "vehicle_name": "PULSE 2024",
-            "num_manutencoes": 0,
+            "num_manutencoes": 2,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -616,7 +682,7 @@
           {
             "vehicle_id": 26,
             "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1046,8 +1112,8 @@
             }
           ],
           "valor_frota_atual": 605615.92,
-          "equity_estimado": 612872.5700000001,
-          "saldo_caixa": 7256.65
+          "equity_estimado": 611514.38,
+          "saldo_caixa": 5898.46
         },
         "crescimento_mom": -82.41,
         "crescimento_anual": 476.02,
