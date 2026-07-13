@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-11T19:48:51.655Z",
-  "gerado_em_label": "11/07/2026, 16:48",
+  "gerado_em": "2026-07-13T15:24:28.200Z",
+  "gerado_em_label": "13/07/2026, 12:24",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -193,19 +193,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 6842.78,
+            "receita": 4285.68,
             "despesa": 28914.210000000003,
-            "saldo": -22071.430000000004
+            "saldo": -24628.530000000002
           },
           "proj_60d": {
-            "receita": 6842.78,
+            "receita": 4285.68,
             "despesa": 42305.62000000001,
-            "saldo": -35462.84000000001
+            "saldo": -38019.94000000001
           },
           "proj_90d": {
-            "receita": 6842.78,
+            "receita": 4285.68,
             "despesa": 53655.91000000001,
-            "saldo": -46813.13000000001
+            "saldo": -49370.23000000001
           }
         },
         "roi_por_veiculo": [
@@ -365,8 +365,8 @@
           },
           {
             "vehicle_id": 33,
-            "vehicle_name": "HYUNDAI HB20S",
-            "plate": "HHH5A00",
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I75",
             "valor_compra": 55000,
             "total_despesas_acumuladas": 0,
             "total_receita_acumulada": 0,
@@ -376,8 +376,8 @@
           },
           {
             "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S",
-            "plate": "HHH6A00",
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I69",
             "valor_compra": 55000,
             "total_despesas_acumuladas": 0,
             "total_receita_acumulada": 0,
@@ -545,8 +545,8 @@
           },
           {
             "vehicle_id": 33,
-            "vehicle_name": "HYUNDAI HB20S",
-            "plate": "HHH5A00",
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I75",
             "dias_alugados": 0,
             "dias_no_mes": 31,
             "taxa_utilizacao_pct": 0,
@@ -556,8 +556,8 @@
           },
           {
             "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S",
-            "plate": "HHH6A00",
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I69",
             "dias_alugados": 0,
             "dias_no_mes": 31,
             "taxa_utilizacao_pct": 0,
@@ -609,7 +609,7 @@
           },
           {
             "vehicle_id": 33,
-            "vehicle_name": "HYUNDAI HB20S",
+            "vehicle_name": "HYUNDAI HB20S - VISION",
             "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
@@ -617,7 +617,7 @@
           },
           {
             "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S",
+            "vehicle_name": "HYUNDAI HB20S - VISION",
             "num_manutencoes": 0,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
@@ -805,14 +805,14 @@
             },
             {
               "vehicle_id": 33,
-              "vehicle_name": "HYUNDAI HB20S",
+              "vehicle_name": "HYUNDAI HB20S - VISION",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
             },
             {
               "vehicle_id": 34,
-              "vehicle_name": "HYUNDAI HB20S",
+              "vehicle_name": "HYUNDAI HB20S - VISION",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -962,9 +962,9 @@
             },
             {
               "vehicle_id": 33,
-              "vehicle_name": "HYUNDAI HB20S",
+              "vehicle_name": "HYUNDAI HB20S - VISION",
               "ano_fabricacao": 2022,
-              "plate": "HHH5A00",
+              "plate": "RUA9I75",
               "valor_compra": 55000,
               "dataCompra": "2026-06-24T00:00:00.000Z",
               "valor_atual_estimado": 53986.71,
@@ -972,9 +972,9 @@
             },
             {
               "vehicle_id": 34,
-              "vehicle_name": "HYUNDAI HB20S",
+              "vehicle_name": "HYUNDAI HB20S - VISION",
               "ano_fabricacao": 2022,
-              "plate": "HHH6A00",
+              "plate": "RUA9I69",
               "valor_compra": 55000,
               "dataCompra": "2026-06-24T00:00:00.000Z",
               "valor_atual_estimado": 53986.71,
