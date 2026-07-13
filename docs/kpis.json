@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-13T18:48:51.669Z",
-  "gerado_em_label": "13/07/2026, 15:48",
+  "gerado_em": "2026-07-13T19:24:12.603Z",
+  "gerado_em_label": "13/07/2026, 16:24",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 8050,
-      "despesas_gerais": 2251.9,
+      "despesas_gerais": 2351.9,
       "despesas_veiculos": 1347.72,
       "investimento_total": 3861.8,
-      "lucro_liquido": 4450.38,
+      "lucro_liquido": 4350.38,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -105,6 +105,13 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 4804,
+          "description": "Infosimples pesquisa crédito",
+          "amount": 100,
+          "date": "2026-07-13T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 4800,
           "description": "Sorvete sócios",
@@ -200,9 +207,65 @@
     },
     "accounting": {
       "receita_total": 180808.04,
-      "despesa_total": 171261.35999999993,
-      "saldo": 9546.68000000008,
-      "lancamentos": 659
+      "despesa_total": 171361.35999999993,
+      "saldo": 9446.68000000008,
+      "lancamentos": 660
+    },
+    "projecao3": {
+      "meses": [
+        {
+          "mes_label": "Agosto/2026",
+          "mes_num": 8,
+          "ano": 2026,
+          "segundas_no_mes": 5,
+          "receita_semanal_base": 6450,
+          "receita_mensal_fixa": 2500,
+          "projecao_receita": 34750,
+          "imposto_das": 2085,
+          "manutencao": 8062.5,
+          "custos_planejados": 13545,
+          "total_saidas": 23692.5,
+          "saldo": 11057.5
+        },
+        {
+          "mes_label": "Setembro/2026",
+          "mes_num": 9,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 6450,
+          "receita_mensal_fixa": 2500,
+          "projecao_receita": 28300,
+          "imposto_das": 1698,
+          "manutencao": 6450,
+          "custos_planejados": 13391.41,
+          "total_saidas": 21539.41,
+          "saldo": 6760.59
+        },
+        {
+          "mes_label": "Outubro/2026",
+          "mes_num": 10,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 6450,
+          "receita_mensal_fixa": 2500,
+          "projecao_receita": 28300,
+          "imposto_das": 1698,
+          "manutencao": 6450,
+          "custos_planejados": 11350.29,
+          "total_saidas": 19498.29,
+          "saldo": 8801.71
+        }
+      ],
+      "totais": {
+        "receita": 91350,
+        "imposto": 5481,
+        "manutencao": 20962.5,
+        "custos": 38286.7,
+        "saidas": 64730.2,
+        "saldo": 26619.8
+      },
+      "receita_semanal_base": 6450,
+      "receita_mensal_fixa_base": 2500
     },
     "kpis": {
       "periodo": {
@@ -1133,8 +1196,8 @@
             }
           ],
           "valor_frota_atual": 605615.92,
-          "equity_estimado": 613715.37,
-          "saldo_caixa": 8099.45
+          "equity_estimado": 613615.37,
+          "saldo_caixa": 7999.45
         },
         "crescimento_mom": -75.58,
         "crescimento_anual": 485.93,
@@ -1144,62 +1207,6 @@
         "receita_ano_atual": 133007,
         "receita_ano_anterior": 22700
       }
-    },
-    "projecao3": {
-      "meses": [
-        {
-          "mes_label": "Agosto/2026",
-          "mes_num": 8,
-          "ano": 2026,
-          "segundas_no_mes": 5,
-          "receita_semanal_base": 6450,
-          "receita_mensal_fixa": 2500,
-          "projecao_receita": 34750,
-          "imposto_das": 2085,
-          "manutencao": 8062.5,
-          "custos_planejados": 13545,
-          "total_saidas": 23692.5,
-          "saldo": 11057.5
-        },
-        {
-          "mes_label": "Setembro/2026",
-          "mes_num": 9,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 6450,
-          "receita_mensal_fixa": 2500,
-          "projecao_receita": 28300,
-          "imposto_das": 1698,
-          "manutencao": 6450,
-          "custos_planejados": 13391.41,
-          "total_saidas": 21539.41,
-          "saldo": 6760.59
-        },
-        {
-          "mes_label": "Outubro/2026",
-          "mes_num": 10,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 6450,
-          "receita_mensal_fixa": 2500,
-          "projecao_receita": 28300,
-          "imposto_das": 1698,
-          "manutencao": 6450,
-          "custos_planejados": 11350.29,
-          "total_saidas": 19498.29,
-          "saldo": 8801.71
-        }
-      ],
-      "totais": {
-        "receita": 91350,
-        "imposto": 5481,
-        "manutencao": 20962.5,
-        "custos": 38286.7,
-        "saidas": 64730.2,
-        "saldo": 26619.8
-      },
-      "receita_semanal_base": 6450,
-      "receita_mensal_fixa_base": 2500
     },
     "projecao6": {
       "meses": [
