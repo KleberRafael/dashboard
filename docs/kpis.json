@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-14T14:48:51.689Z",
-  "gerado_em_label": "14/07/2026, 11:48",
+  "gerado_em": "2026-07-14T15:28:05.317Z",
+  "gerado_em_label": "14/07/2026, 12:28",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 10571,
-      "despesas_gerais": 2351.9,
+      "receita_total": 12071,
+      "despesas_gerais": 7712.38,
       "despesas_veiculos": 1347.72,
-      "investimento_total": 3861.8,
-      "lucro_liquido": 6871.38,
+      "investimento_total": 4288.400000000001,
+      "lucro_liquido": 3010.8999999999996,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -51,7 +51,7 @@
         },
         {
           "vehicle_id": 32,
-          "total": 345,
+          "total": 771.6,
           "classificacao": "Investimento"
         },
         {
@@ -97,7 +97,7 @@
         },
         {
           "vehicle_id": 32,
-          "total": 345
+          "total": 771.6
         },
         {
           "vehicle_id": 33,
@@ -105,6 +105,153 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 4811,
+          "description": "SEGURO - HB20 VISION 2021",
+          "amount": 356.9,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4812,
+          "description": "SEGURO - POLO TRACK 2025 - BRANCO",
+          "amount": 352.72,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4813,
+          "description": "SEGURO - HB20 LIMITED",
+          "amount": 312.2,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4814,
+          "description": "SEGURO - PULSE AUDACE 2022",
+          "amount": 413.9,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4815,
+          "description": "SEGURO - POLO TRACK 2024 PRATA",
+          "amount": 321.9,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4816,
+          "description": "SEGURO - VOYAGE 2022",
+          "amount": 317.9,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4817,
+          "description": "SEGURO - FORD KA SEDAN 2018",
+          "amount": 259.1,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4818,
+          "description": "SEGURO - CRONOS DRIVE 2024",
+          "amount": 425.9,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4819,
+          "description": "SEGURO - PULSE AUDACE 2024",
+          "amount": 471.28,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4820,
+          "description": "SEGURO - ARGO 2022",
+          "amount": 290.62,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4821,
+          "description": "SEGURO - MOBI LIKE 2024",
+          "amount": 287.9,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4822,
+          "description": "SEGURO - POLO TRACK 2024 CINZA",
+          "amount": 356.9,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4823,
+          "description": "CARTAO CREDITO - PARACHOQUE POLO 24 - MERCADO LIVRE",
+          "amount": 160,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4824,
+          "description": "CARTAO CREDITO - FAROL ESQUERDO POLO 24 - MERCADO LIVRE",
+          "amount": 49.1,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4825,
+          "description": "CARTAO CREDITO - VALVULA BMW 118 - MERCADO LIVRE",
+          "amount": 153.59,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4826,
+          "description": "CARTAO CREDITO - COMANDO AR CONDICIONADO HB20 21 - MERCADO LIVRE",
+          "amount": 41.12,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4827,
+          "description": "CARTAO CREDITO - TABLE SAMSUMG LOKAR - MERCADO LIVRE",
+          "amount": 169.9,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4828,
+          "description": "CARTAO CREDITO - PARACHOQUE ARGO 22 - MERCADO LIVRE",
+          "amount": 109.49,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4829,
+          "description": "CARTAO CREDITO - CAPO+MINI-FRENTE+ALMA+FAROIS ARGO 22 - MERCADO LIVRE",
+          "amount": 190.99,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4830,
+          "description": "CARTAO CREDITO - Cobre Placas",
+          "amount": 45.99,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4833,
+          "description": "CARTAO CREDITO - CELULAR TICO (MEU IRMAO)",
+          "amount": 273.08,
+          "date": "2026-07-14T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 4804,
           "description": "Infosimples pesquisa crédito",
@@ -206,10 +353,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 183329.04,
-      "despesa_total": 171361.35999999993,
-      "saldo": 11967.68000000008,
-      "lancamentos": 664
+      "receita_total": 184353.46000000002,
+      "despesa_total": 177148.43999999992,
+      "saldo": 7205.020000000106,
+      "lancamentos": 689
     },
     "kpis": {
       "periodo": {
@@ -221,19 +368,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 8257,
-            "despesa": 28914.210000000003,
-            "saldo": -20657.210000000003
+            "receita": 9542.68,
+            "despesa": 23872.8,
+            "saldo": -14330.119999999999
           },
           "proj_60d": {
-            "receita": 8257,
-            "despesa": 42305.62000000001,
-            "saldo": -34048.62000000001
+            "receita": 9542.68,
+            "despesa": 37264.21000000001,
+            "saldo": -27721.530000000006
           },
           "proj_90d": {
-            "receita": 8257,
-            "despesa": 53655.91000000001,
-            "saldo": -45398.91000000001
+            "receita": 9542.68,
+            "despesa": 48614.50000000001,
+            "saldo": -39071.82000000001
           }
         },
         "roi_por_veiculo": [
@@ -364,10 +511,10 @@
             "plate": "SWN1D86",
             "valor_compra": 38000,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 750,
+            "total_receita_acumulada": 1500,
             "investimento_total": 38000,
-            "lucro_acumulado": -37250,
-            "roi_pct": -98.03
+            "lucro_acumulado": -36500,
+            "roi_pct": -96.05
           },
           {
             "vehicle_id": 28,
@@ -440,6 +587,17 @@
             "receita_perdida_ociosidade": 835.74
           },
           {
+            "vehicle_id": 8,
+            "vehicle_name": "PULSE 2024",
+            "plate": "SJE3H43",
+            "dias_alugados": 22,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 71,
+            "daily_rate": 114.28,
+            "receita_realizada": 2514.16,
+            "receita_perdida_ociosidade": 1028.52
+          },
+          {
             "vehicle_id": 24,
             "vehicle_name": "HYUNDAI HB20 VISION",
             "plate": "FMV8I93",
@@ -449,6 +607,17 @@
             "daily_rate": 92.86,
             "receita_realizada": 2042.92,
             "receita_perdida_ociosidade": 835.74
+          },
+          {
+            "vehicle_id": 26,
+            "vehicle_name": "VW POLO TRACK BRANCO 25",
+            "plate": "SWN1D86",
+            "dias_alugados": 22,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 71,
+            "daily_rate": 107.14,
+            "receita_realizada": 2357.08,
+            "receita_perdida_ociosidade": 964.26
           },
           {
             "vehicle_id": 27,
@@ -493,28 +662,6 @@
             "daily_rate": 100,
             "receita_realizada": 2200,
             "receita_perdida_ociosidade": 900
-          },
-          {
-            "vehicle_id": 26,
-            "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "plate": "SWN1D86",
-            "dias_alugados": 14,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 45.2,
-            "daily_rate": 107.14,
-            "receita_realizada": 1499.96,
-            "receita_perdida_ociosidade": 1821.38
-          },
-          {
-            "vehicle_id": 8,
-            "vehicle_name": "PULSE 2024",
-            "plate": "SJE3H43",
-            "dias_alugados": 14,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 45.2,
-            "daily_rate": 114.28,
-            "receita_realizada": 1599.92,
-            "receita_perdida_ociosidade": 1942.76
           },
           {
             "vehicle_id": 6,
@@ -630,7 +777,7 @@
           {
             "vehicle_id": 32,
             "vehicle_name": "VW POLO TRACK - BRANCO 24",
-            "num_manutencoes": 1,
+            "num_manutencoes": 2,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -752,16 +899,16 @@
             {
               "vehicle_id": 8,
               "vehicle_name": "PULSE 2024",
-              "num_locacoes": 1,
+              "num_locacoes": 2,
               "ticket_medio_veiculo": 750,
-              "receita_total_veiculo": 750
+              "receita_total_veiculo": 1500
             },
             {
               "vehicle_id": 26,
               "vehicle_name": "VW POLO TRACK BRANCO 25",
-              "num_locacoes": 1,
+              "num_locacoes": 2,
               "ticket_medio_veiculo": 750,
-              "receita_total_veiculo": 750
+              "receita_total_veiculo": 1500
             },
             {
               "vehicle_id": 27,
@@ -859,6 +1006,15 @@
         },
         "ltv_clientes": [
           {
+            "customer_id": 8,
+            "customer_name": "BRUNO OLIVEIRA ROCHA",
+            "num_locacoes": 41,
+            "ltv": 29200,
+            "ticket_medio": 712.195121,
+            "primeira_locacao": "2025-09-22T00:00:00.000Z",
+            "ultima_locacao": "2026-07-13T00:00:00.000Z"
+          },
+          {
             "customer_id": 5,
             "customer_name": "GILVAN VIEIRA DOS SANTOS",
             "num_locacoes": 41,
@@ -868,22 +1024,13 @@
             "ultima_locacao": "2026-07-13T00:00:00.000Z"
           },
           {
-            "customer_id": 8,
-            "customer_name": "BRUNO OLIVEIRA ROCHA",
-            "num_locacoes": 40,
-            "ltv": 28450,
-            "ticket_medio": 711.25,
-            "primeira_locacao": "2025-09-22T00:00:00.000Z",
-            "ultima_locacao": "2026-07-06T00:00:00.000Z"
-          },
-          {
             "customer_id": 16,
             "customer_name": "LUCAS DE CASTRO SANTOS",
-            "num_locacoes": 29,
-            "ltv": 19838,
-            "ticket_medio": 684.068965,
+            "num_locacoes": 30,
+            "ltv": 20588,
+            "ticket_medio": 686.266666,
             "primeira_locacao": "2025-12-14T00:00:00.000Z",
-            "ultima_locacao": "2026-07-06T00:00:00.000Z"
+            "ultima_locacao": "2026-07-13T00:00:00.000Z"
           },
           {
             "customer_id": 15,
@@ -1158,15 +1305,15 @@
             }
           ],
           "valor_frota_atual": 605615.92,
-          "equity_estimado": 616136.37,
-          "saldo_caixa": 10520.45
+          "equity_estimado": 611373.7100000001,
+          "saldo_caixa": 5757.79
         },
-        "crescimento_mom": -67.93,
-        "crescimento_anual": 497.04,
+        "crescimento_mom": -63.38,
+        "crescimento_anual": 503.65,
         "depreciacao_mensal": 11382.7,
-        "receita_total": 10571,
+        "receita_total": 12071,
         "receita_anterior_mes": 32964,
-        "receita_ano_atual": 135528,
+        "receita_ano_atual": 137028,
         "receita_ano_anterior": 22700
       }
     },
