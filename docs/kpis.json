@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-14T15:28:05.317Z",
-  "gerado_em_label": "14/07/2026, 12:28",
+  "gerado_em": "2026-07-14T15:48:51.648Z",
+  "gerado_em_label": "14/07/2026, 12:48",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -418,17 +418,6 @@
             "roi_pct": -58.71
           },
           {
-            "vehicle_id": 25,
-            "vehicle_name": "FIAT ARGO",
-            "plate": "RUP1A88",
-            "valor_compra": 28000,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 11372.33,
-            "investimento_total": 28000,
-            "lucro_acumulado": -16627.67,
-            "roi_pct": -59.38
-          },
-          {
             "vehicle_id": 24,
             "vehicle_name": "HYUNDAI HB20 VISION",
             "plate": "FMV8I93",
@@ -697,17 +686,6 @@
             "receita_perdida_ociosidade": 3100
           },
           {
-            "vehicle_id": 25,
-            "vehicle_name": "FIAT ARGO",
-            "plate": "RUP1A88",
-            "dias_alugados": 0,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 100,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3100
-          },
-          {
             "vehicle_id": 32,
             "vehicle_name": "VW POLO TRACK - BRANCO 24",
             "plate": "SIJ8I28",
@@ -847,14 +825,6 @@
             "receita_perdida_manutencao": 0
           },
           {
-            "vehicle_id": 25,
-            "vehicle_name": "FIAT ARGO",
-            "num_manutencoes": 0,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
             "vehicle_id": 26,
             "vehicle_name": "VW POLO TRACK BRANCO 25",
             "num_manutencoes": 1,
@@ -953,22 +923,8 @@
               "receita_total_veiculo": 371
             },
             {
-              "vehicle_id": 32,
-              "vehicle_name": "VW POLO TRACK - BRANCO 24",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 33,
-              "vehicle_name": "HYUNDAI HB20S - VISION",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 34,
-              "vehicle_name": "HYUNDAI HB20S - VISION",
+              "vehicle_id": 28,
+              "vehicle_name": "HYUNDAI HB20 COMFORT",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -988,15 +944,22 @@
               "receita_total_veiculo": 0
             },
             {
-              "vehicle_id": 25,
-              "vehicle_name": "FIAT ARGO",
+              "vehicle_id": 32,
+              "vehicle_name": "VW POLO TRACK - BRANCO 24",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
             },
             {
-              "vehicle_id": 28,
-              "vehicle_name": "HYUNDAI HB20 COMFORT",
+              "vehicle_id": 33,
+              "vehicle_name": "HYUNDAI HB20S - VISION",
+              "num_locacoes": 0,
+              "ticket_medio_veiculo": 0,
+              "receita_total_veiculo": 0
+            },
+            {
+              "vehicle_id": 34,
+              "vehicle_name": "HYUNDAI HB20S - VISION",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -1049,15 +1012,6 @@
             "ticket_medio": 676.190476,
             "primeira_locacao": "2026-02-16T00:00:00.000Z",
             "ultima_locacao": "2026-07-13T00:00:00.000Z"
-          },
-          {
-            "customer_id": 7,
-            "customer_name": "RODNEY DE MORAES MONTEIRO",
-            "num_locacoes": 18,
-            "ltv": 12072,
-            "ticket_medio": 670.666666,
-            "primeira_locacao": "2026-02-12T00:00:00.000Z",
-            "ultima_locacao": "2026-06-15T00:00:00.000Z"
           },
           {
             "customer_id": 22,
@@ -1284,16 +1238,6 @@
               "depreciacao_acumulada": 7827.38
             },
             {
-              "vehicle_id": 25,
-              "vehicle_name": "FIAT ARGO",
-              "ano_fabricacao": 2023,
-              "plate": "RUP1A88",
-              "valor_compra": 28000,
-              "dataCompra": "2025-11-03T00:00:00.000Z",
-              "valor_atual_estimado": 24129.67,
-              "depreciacao_acumulada": 3870.33
-            },
-            {
               "vehicle_id": 11,
               "vehicle_name": "MOBI 24",
               "ano_fabricacao": 2024,
@@ -1304,16 +1248,16 @@
               "depreciacao_acumulada": 5570
             }
           ],
-          "valor_frota_atual": 605615.92,
-          "equity_estimado": 611373.7100000001,
+          "valor_frota_atual": 581486.25,
+          "equity_estimado": 587244.04,
           "saldo_caixa": 5757.79
         },
-        "crescimento_mom": -63.38,
-        "crescimento_anual": 503.65,
-        "depreciacao_mensal": 11382.7,
+        "crescimento_mom": -60.89,
+        "crescimento_anual": 450.47,
+        "depreciacao_mensal": 10916.03,
         "receita_total": 12071,
-        "receita_anterior_mes": 32964,
-        "receita_ano_atual": 137028,
+        "receita_anterior_mes": 30864,
+        "receita_ano_atual": 124956,
         "receita_ano_anterior": 22700
       }
     },
