@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-14T17:28:05.323Z",
-  "gerado_em_label": "14/07/2026, 14:28",
+  "gerado_em": "2026-07-15T18:48:51.715Z",
+  "gerado_em_label": "15/07/2026, 15:48",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 12071,
-      "despesas_gerais": 7712.38,
+      "despesas_gerais": 7877.38,
       "despesas_veiculos": 1347.72,
-      "investimento_total": 4288.400000000001,
-      "lucro_liquido": 3010.8999999999996,
+      "investimento_total": 8488.400000000001,
+      "lucro_liquido": 2845.8999999999996,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -51,7 +51,7 @@
         },
         {
           "vehicle_id": 32,
-          "total": 771.6,
+          "total": 4971.6,
           "classificacao": "Investimento"
         },
         {
@@ -97,7 +97,7 @@
         },
         {
           "vehicle_id": 32,
-          "total": 771.6
+          "total": 4971.6
         },
         {
           "vehicle_id": 33,
@@ -105,6 +105,27 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 4836,
+          "description": "API-FULL - pesquisas",
+          "amount": 30,
+          "date": "2026-07-15T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4837,
+          "description": "Gasolina Polo SIJ - acabou na saida da oficina Ezequiel.",
+          "amount": 35,
+          "date": "2026-07-15T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4838,
+          "description": "Gasolina no HB20 Vision - tava falhando e foi dificil pegar pela manhã.",
+          "amount": 100,
+          "date": "2026-07-15T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 4811,
           "description": "SEGURO - HB20 VISION 2021",
@@ -353,10 +374,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 184353.46000000002,
-      "despesa_total": 177148.43999999992,
-      "saldo": 7205.020000000106,
-      "lancamentos": 689
+      "receita_total": 184644.46000000002,
+      "despesa_total": 181513.4399999999,
+      "saldo": 3131.020000000135,
+      "lancamentos": 694
     },
     "kpis": {
       "periodo": {
@@ -368,19 +389,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 9542.68,
+            "receita": 8249.85,
             "despesa": 23872.8,
-            "saldo": -14330.119999999999
+            "saldo": -15622.949999999999
           },
           "proj_60d": {
-            "receita": 9542.68,
+            "receita": 8249.85,
             "despesa": 37264.21000000001,
-            "saldo": -27721.530000000006
+            "saldo": -29014.360000000008
           },
           "proj_90d": {
-            "receita": 9542.68,
+            "receita": 8249.85,
             "despesa": 48614.50000000001,
-            "saldo": -39071.82000000001
+            "saldo": -40364.65000000001
           }
         },
         "roi_por_veiculo": [
@@ -729,6 +750,30 @@
             "receita_perdida_manutencao": 9000
           },
           {
+            "vehicle_id": 32,
+            "vehicle_name": "VW POLO TRACK - BRANCO 24",
+            "num_manutencoes": 3,
+            "media_dias_manutencao": 20,
+            "total_dias_parado": 61,
+            "receita_perdida_manutencao": 6971.08
+          },
+          {
+            "vehicle_id": 33,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "num_manutencoes": 1,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
             "vehicle_id": 29,
             "vehicle_name": "HYUNDAI HB20 LIMITED",
             "num_manutencoes": 1,
@@ -748,30 +793,6 @@
             "vehicle_id": 31,
             "vehicle_name": "FORD KA SEDAN1.5",
             "num_manutencoes": 1,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 32,
-            "vehicle_name": "VW POLO TRACK - BRANCO 24",
-            "num_manutencoes": 2,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 33,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "num_manutencoes": 1,
-            "media_dias_manutencao": 0,
-            "total_dias_parado": 0,
-            "receita_perdida_manutencao": 0
-          },
-          {
-            "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "num_manutencoes": 0,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1249,8 +1270,8 @@
             }
           ],
           "valor_frota_atual": 581486.25,
-          "equity_estimado": 587244.04,
-          "saldo_caixa": 5757.79
+          "equity_estimado": 583170.04,
+          "saldo_caixa": 1683.79
         },
         "crescimento_mom": -60.89,
         "crescimento_anual": 450.47,
