@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-16T17:48:51.711Z",
-  "gerado_em_label": "16/07/2026, 14:48",
+  "gerado_em": "2026-07-16T18:18:00.436Z",
+  "gerado_em_label": "16/07/2026, 15:18",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -11,7 +11,7 @@
       "receita_total": 12071,
       "despesas_gerais": 7877.38,
       "despesas_veiculos": 1347.72,
-      "investimento_total": 8488.400000000001,
+      "investimento_total": 8618.400000000001,
       "lucro_liquido": 2845.8999999999996,
       "despesas_por_veiculo": [
         {
@@ -36,7 +36,7 @@
         },
         {
           "vehicle_id": 28,
-          "total": 3366.8,
+          "total": 3496.8,
           "classificacao": "Investimento"
         },
         {
@@ -85,7 +85,7 @@
         },
         {
           "vehicle_id": 28,
-          "total": 3366.8
+          "total": 3496.8
         },
         {
           "vehicle_id": 29,
@@ -375,9 +375,9 @@
     },
     "accounting": {
       "receita_total": 184644.46000000002,
-      "despesa_total": 181513.4399999999,
-      "saldo": 3131.020000000135,
-      "lancamentos": 694
+      "despesa_total": 181643.4399999999,
+      "saldo": 3001.020000000135,
+      "lancamentos": 695
     },
     "kpis": {
       "periodo": {
@@ -744,8 +744,8 @@
           {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "num_manutencoes": 4,
-            "media_dias_manutencao": 22,
+            "num_manutencoes": 5,
+            "media_dias_manutencao": 18,
             "total_dias_parado": 90,
             "receita_perdida_manutencao": 9000
           },
@@ -1270,8 +1270,8 @@
             }
           ],
           "valor_frota_atual": 581486.25,
-          "equity_estimado": 583170.04,
-          "saldo_caixa": 1683.79
+          "equity_estimado": 583040.04,
+          "saldo_caixa": 1553.79
         },
         "crescimento_mom": -60.89,
         "crescimento_anual": 450.47,
