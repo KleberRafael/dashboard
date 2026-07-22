@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-22T21:58:52.237Z",
-  "gerado_em_label": "22/07/2026, 18:58",
+  "gerado_em": "2026-07-22T22:48:51.669Z",
+  "gerado_em_label": "22/07/2026, 19:48",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 18621,
-      "despesas_gerais": 10210.21,
+      "despesas_gerais": 10419.03,
       "despesas_veiculos": 1347.72,
-      "investimento_total": 9958.400000000001,
-      "lucro_liquido": 7063.070000000001,
+      "investimento_total": 10058.400000000001,
+      "lucro_liquido": 6854.249999999999,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 8,
@@ -36,7 +36,7 @@
         },
         {
           "vehicle_id": 28,
-          "total": 4836.8,
+          "total": 4936.8,
           "classificacao": "Investimento"
         },
         {
@@ -85,7 +85,7 @@
         },
         {
           "vehicle_id": 28,
-          "total": 4836.8
+          "total": 4936.8
         },
         {
           "vehicle_id": 29,
@@ -120,10 +120,31 @@
           "vehicle_id": null
         },
         {
+          "id": 4858,
+          "description": "cabo usb (Kleber + 6,00 ajuste)",
+          "amount": 26.8,
+          "date": "2026-07-22T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
           "id": 4850,
           "description": "Gasolina Voyage",
           "amount": 50,
           "date": "2026-07-21T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4855,
+          "description": "Pagamento Multa - ainda não sei qual é.",
+          "amount": 104.12,
+          "date": "2026-07-20T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 4856,
+          "description": "Almoço Sócio + convidado (Joanderson)",
+          "amount": 77.9,
+          "date": "2026-07-17T00:00:00.000Z",
           "vehicle_id": null
         },
         {
@@ -395,10 +416,66 @@
       ]
     },
     "accounting": {
-      "receita_total": 191464.47,
-      "despesa_total": 185316.26999999984,
-      "saldo": 6148.200000000157,
-      "lancamentos": 710
+      "receita_total": 192214.47,
+      "despesa_total": 185625.08999999982,
+      "saldo": 6589.380000000179,
+      "lancamentos": 714
+    },
+    "projecao3": {
+      "meses": [
+        {
+          "mes_label": "Agosto/2026",
+          "mes_num": 8,
+          "ano": 2026,
+          "segundas_no_mes": 5,
+          "receita_semanal_base": 5900,
+          "receita_mensal_fixa": 3088,
+          "projecao_receita": 32588,
+          "imposto_das": 1955.28,
+          "manutencao": 7375,
+          "custos_planejados": 13545,
+          "total_saidas": 22875.28,
+          "saldo": 9712.72
+        },
+        {
+          "mes_label": "Setembro/2026",
+          "mes_num": 9,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 5900,
+          "receita_mensal_fixa": 3088,
+          "projecao_receita": 26688,
+          "imposto_das": 1601.28,
+          "manutencao": 5900,
+          "custos_planejados": 13391.41,
+          "total_saidas": 20892.69,
+          "saldo": 5795.31
+        },
+        {
+          "mes_label": "Outubro/2026",
+          "mes_num": 10,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 5900,
+          "receita_mensal_fixa": 3088,
+          "projecao_receita": 26688,
+          "imposto_das": 1601.28,
+          "manutencao": 5900,
+          "custos_planejados": 11350.29,
+          "total_saidas": 18851.57,
+          "saldo": 7836.43
+        }
+      ],
+      "totais": {
+        "receita": 85964,
+        "imposto": 5157.84,
+        "manutencao": 19175,
+        "custos": 38286.7,
+        "saidas": 62619.54,
+        "saldo": 23344.46
+      },
+      "receita_semanal_base": 5900,
+      "receita_mensal_fixa_base": 3088
     },
     "kpis": {
       "periodo": {
@@ -482,6 +559,17 @@
             "roi_pct": -64.62
           },
           {
+            "vehicle_id": 8,
+            "vehicle_name": "PULSE 2024",
+            "plate": "SJE3H43",
+            "valor_compra": 39990,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 12511.51,
+            "investimento_total": 39990,
+            "lucro_acumulado": -27478.49,
+            "roi_pct": -68.71
+          },
+          {
             "vehicle_id": 23,
             "vehicle_name": "VW POLO TRACK CINZA 24",
             "plate": "SUD7A35",
@@ -491,17 +579,6 @@
             "investimento_total": 70278,
             "lucro_acumulado": -48725.08,
             "roi_pct": -69.33
-          },
-          {
-            "vehicle_id": 8,
-            "vehicle_name": "PULSE 2024",
-            "plate": "SJE3H43",
-            "valor_compra": 39990,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 11761.51,
-            "investimento_total": 39990,
-            "lucro_acumulado": -28228.49,
-            "roi_pct": -70.59
           },
           {
             "vehicle_id": 31,
@@ -765,8 +842,8 @@
           {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "num_manutencoes": 7,
-            "media_dias_manutencao": 12,
+            "num_manutencoes": 8,
+            "media_dias_manutencao": 11,
             "total_dias_parado": 90,
             "receita_perdida_manutencao": 9000
           },
@@ -1299,8 +1376,8 @@
             }
           ],
           "valor_frota_atual": 581486.25,
-          "equity_estimado": 586187.22,
-          "saldo_caixa": 4700.97
+          "equity_estimado": 586628.4,
+          "saldo_caixa": 5142.15
         },
         "crescimento_mom": -39.67,
         "crescimento_anual": 479.32,
@@ -1310,62 +1387,6 @@
         "receita_ano_atual": 131506,
         "receita_ano_anterior": 22700
       }
-    },
-    "projecao3": {
-      "meses": [
-        {
-          "mes_label": "Agosto/2026",
-          "mes_num": 8,
-          "ano": 2026,
-          "segundas_no_mes": 5,
-          "receita_semanal_base": 5900,
-          "receita_mensal_fixa": 3088,
-          "projecao_receita": 32588,
-          "imposto_das": 1955.28,
-          "manutencao": 7375,
-          "custos_planejados": 13545,
-          "total_saidas": 22875.28,
-          "saldo": 9712.72
-        },
-        {
-          "mes_label": "Setembro/2026",
-          "mes_num": 9,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 5900,
-          "receita_mensal_fixa": 3088,
-          "projecao_receita": 26688,
-          "imposto_das": 1601.28,
-          "manutencao": 5900,
-          "custos_planejados": 13391.41,
-          "total_saidas": 20892.69,
-          "saldo": 5795.31
-        },
-        {
-          "mes_label": "Outubro/2026",
-          "mes_num": 10,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 5900,
-          "receita_mensal_fixa": 3088,
-          "projecao_receita": 26688,
-          "imposto_das": 1601.28,
-          "manutencao": 5900,
-          "custos_planejados": 11350.29,
-          "total_saidas": 18851.57,
-          "saldo": 7836.43
-        }
-      ],
-      "totais": {
-        "receita": 85964,
-        "imposto": 5157.84,
-        "manutencao": 19175,
-        "custos": 38286.7,
-        "saidas": 62619.54,
-        "saldo": 23344.46
-      },
-      "receita_semanal_base": 5900,
-      "receita_mensal_fixa_base": 3088
     },
     "projecao6": {
       "meses": [
