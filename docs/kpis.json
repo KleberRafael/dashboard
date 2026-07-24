@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-22T22:48:51.669Z",
-  "gerado_em_label": "22/07/2026, 19:48",
+  "gerado_em": "2026-07-24T17:12:30.464Z",
+  "gerado_em_label": "24/07/2026, 14:12",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -416,66 +416,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 192214.47,
+      "receita_total": 193264.46000000002,
       "despesa_total": 185625.08999999982,
-      "saldo": 6589.380000000179,
+      "saldo": 7639.370000000199,
       "lancamentos": 714
-    },
-    "projecao3": {
-      "meses": [
-        {
-          "mes_label": "Agosto/2026",
-          "mes_num": 8,
-          "ano": 2026,
-          "segundas_no_mes": 5,
-          "receita_semanal_base": 5900,
-          "receita_mensal_fixa": 3088,
-          "projecao_receita": 32588,
-          "imposto_das": 1955.28,
-          "manutencao": 7375,
-          "custos_planejados": 13545,
-          "total_saidas": 22875.28,
-          "saldo": 9712.72
-        },
-        {
-          "mes_label": "Setembro/2026",
-          "mes_num": 9,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 5900,
-          "receita_mensal_fixa": 3088,
-          "projecao_receita": 26688,
-          "imposto_das": 1601.28,
-          "manutencao": 5900,
-          "custos_planejados": 13391.41,
-          "total_saidas": 20892.69,
-          "saldo": 5795.31
-        },
-        {
-          "mes_label": "Outubro/2026",
-          "mes_num": 10,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 5900,
-          "receita_mensal_fixa": 3088,
-          "projecao_receita": 26688,
-          "imposto_das": 1601.28,
-          "manutencao": 5900,
-          "custos_planejados": 11350.29,
-          "total_saidas": 18851.57,
-          "saldo": 7836.43
-        }
-      ],
-      "totais": {
-        "receita": 85964,
-        "imposto": 5157.84,
-        "manutencao": 19175,
-        "custos": 38286.7,
-        "saidas": 62619.54,
-        "saldo": 23344.46
-      },
-      "receita_semanal_base": 5900,
-      "receita_mensal_fixa_base": 3088
     },
     "kpis": {
       "periodo": {
@@ -487,19 +431,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 7721.57,
+            "receita": 5153.63,
             "despesa": 21545,
-            "saldo": -13823.43
+            "saldo": -16391.37
           },
           "proj_60d": {
-            "receita": 7721.57,
+            "receita": 5153.63,
             "despesa": 34936.41,
-            "saldo": -27214.840000000004
+            "saldo": -29782.780000000002
           },
           "proj_90d": {
-            "receita": 7721.57,
+            "receita": 5153.63,
             "despesa": 46286.700000000004,
-            "saldo": -38565.130000000005
+            "saldo": -41133.07000000001
           }
         },
         "roi_por_veiculo": [
@@ -531,10 +475,10 @@
             "plate": "RNP5I35",
             "valor_compra": 34150,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 14100,
+            "total_receita_acumulada": 14750,
             "investimento_total": 34150,
-            "lucro_acumulado": -20050,
-            "roi_pct": -58.71
+            "lucro_acumulado": -19400,
+            "roi_pct": -56.81
           },
           {
             "vehicle_id": 24,
@@ -564,10 +508,10 @@
             "plate": "SJE3H43",
             "valor_compra": 39990,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 12511.51,
+            "total_receita_acumulada": 12911.5,
             "investimento_total": 39990,
-            "lucro_acumulado": -27478.49,
-            "roi_pct": -68.71
+            "lucro_acumulado": -27078.5,
+            "roi_pct": -67.71
           },
           {
             "vehicle_id": 23,
@@ -1376,8 +1320,8 @@
             }
           ],
           "valor_frota_atual": 581486.25,
-          "equity_estimado": 586628.4,
-          "saldo_caixa": 5142.15
+          "equity_estimado": 587678.39,
+          "saldo_caixa": 6192.14
         },
         "crescimento_mom": -39.67,
         "crescimento_anual": 479.32,
@@ -1387,6 +1331,62 @@
         "receita_ano_atual": 131506,
         "receita_ano_anterior": 22700
       }
+    },
+    "projecao3": {
+      "meses": [
+        {
+          "mes_label": "Agosto/2026",
+          "mes_num": 8,
+          "ano": 2026,
+          "segundas_no_mes": 5,
+          "receita_semanal_base": 5900,
+          "receita_mensal_fixa": 3088,
+          "projecao_receita": 32588,
+          "imposto_das": 1955.28,
+          "manutencao": 7375,
+          "custos_planejados": 13545,
+          "total_saidas": 22875.28,
+          "saldo": 9712.72
+        },
+        {
+          "mes_label": "Setembro/2026",
+          "mes_num": 9,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 5900,
+          "receita_mensal_fixa": 3088,
+          "projecao_receita": 26688,
+          "imposto_das": 1601.28,
+          "manutencao": 5900,
+          "custos_planejados": 13391.41,
+          "total_saidas": 20892.69,
+          "saldo": 5795.31
+        },
+        {
+          "mes_label": "Outubro/2026",
+          "mes_num": 10,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 5900,
+          "receita_mensal_fixa": 3088,
+          "projecao_receita": 26688,
+          "imposto_das": 1601.28,
+          "manutencao": 5900,
+          "custos_planejados": 11350.29,
+          "total_saidas": 18851.57,
+          "saldo": 7836.43
+        }
+      ],
+      "totais": {
+        "receita": 85964,
+        "imposto": 5157.84,
+        "manutencao": 19175,
+        "custos": 38286.7,
+        "saidas": 62619.54,
+        "saldo": 23344.46
+      },
+      "receita_semanal_base": 5900,
+      "receita_mensal_fixa_base": 3088
     },
     "projecao6": {
       "meses": [
