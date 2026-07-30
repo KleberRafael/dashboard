@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-28T17:48:51.642Z",
-  "gerado_em_label": "28/07/2026, 14:48",
+  "gerado_em": "2026-07-30T17:48:19.521Z",
+  "gerado_em_label": "30/07/2026, 14:48",
   "periodo": {
     "ano": 2026,
     "mes": 7
@@ -10,10 +10,15 @@
     "finance": {
       "receita_total": 23771,
       "despesas_gerais": 18862.11,
-      "despesas_veiculos": 1347.72,
-      "investimento_total": 10158.400000000001,
-      "lucro_liquido": 3561.169999999999,
+      "despesas_veiculos": 1507.88,
+      "investimento_total": 10298.400000000001,
+      "lucro_liquido": 3401.0099999999993,
       "despesas_por_veiculo": [
+        {
+          "vehicle_id": 6,
+          "total": 30,
+          "classificacao": "Despesa"
+        },
         {
           "vehicle_id": 8,
           "total": 420.12,
@@ -36,7 +41,7 @@
         },
         {
           "vehicle_id": 28,
-          "total": 4936.8,
+          "total": 5076.8,
           "classificacao": "Investimento"
         },
         {
@@ -58,15 +63,28 @@
           "vehicle_id": 33,
           "total": 150,
           "classificacao": "Investimento"
+        },
+        {
+          "vehicle_id": 11,
+          "total": 130.16,
+          "classificacao": "Despesa"
         }
       ],
       "multas_por_veiculo": [
         {
           "vehicle_id": 8,
           "total": 104.12
+        },
+        {
+          "vehicle_id": 11,
+          "total": 130.16
         }
       ],
       "manutencoes_por_veiculo": [
+        {
+          "vehicle_id": 6,
+          "total": 30
+        },
         {
           "vehicle_id": 8,
           "total": 316
@@ -85,7 +103,7 @@
         },
         {
           "vehicle_id": 28,
-          "total": 4936.8
+          "total": 5076.8
         },
         {
           "vehicle_id": 29,
@@ -465,10 +483,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 197514.46,
-      "despesa_total": 194272.28999999983,
-      "saldo": 3242.1700000001583,
-      "lancamentos": 730
+      "receita_total": 198487.69999999998,
+      "despesa_total": 194572.44999999987,
+      "saldo": 3915.2500000001164,
+      "lancamentos": 734
     },
     "kpis": {
       "periodo": {
@@ -480,19 +498,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 6934.14,
+            "receita": 5294.76,
             "despesa": 21545,
-            "saldo": -14610.86
+            "saldo": -16250.24
           },
           "proj_60d": {
-            "receita": 6934.14,
+            "receita": 5294.76,
             "despesa": 34936.41,
-            "saldo": -28002.270000000004
+            "saldo": -29641.65
           },
           "proj_90d": {
-            "receita": 6934.14,
+            "receita": 5294.76,
             "despesa": 46286.700000000004,
-            "saldo": -39352.560000000005
+            "saldo": -40991.94
           }
         },
         "roi_por_veiculo": [
@@ -546,10 +564,10 @@
             "plate": "SIT7E16",
             "valor_compra": 49177.5,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 18100,
+            "total_receita_acumulada": 18202,
             "investimento_total": 49177.5,
-            "lucro_acumulado": -31077.5,
-            "roi_pct": -63.19
+            "lucro_acumulado": -30975.5,
+            "roi_pct": -62.99
           },
           {
             "vehicle_id": 8,
@@ -568,10 +586,10 @@
             "plate": "SUD7A35",
             "valor_compra": 70278,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 22202.92,
+            "total_receita_acumulada": 22252.92,
             "investimento_total": 70278,
-            "lucro_acumulado": -48075.08,
-            "roi_pct": -68.41
+            "lucro_acumulado": -48025.08,
+            "roi_pct": -68.34
           },
           {
             "vehicle_id": 31,
@@ -612,10 +630,10 @@
             "plate": "SWN1D86",
             "valor_compra": 38000,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 2250,
+            "total_receita_acumulada": 3071.24,
             "investimento_total": 38000,
-            "lucro_acumulado": -35750,
-            "roi_pct": -94.08
+            "lucro_acumulado": -34928.76,
+            "roi_pct": -91.92
           },
           {
             "vehicle_id": 28,
@@ -835,10 +853,10 @@
           {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "num_manutencoes": 8,
-            "media_dias_manutencao": 11,
-            "total_dias_parado": 90,
-            "receita_perdida_manutencao": 9000
+            "num_manutencoes": 10,
+            "media_dias_manutencao": 9,
+            "total_dias_parado": 91,
+            "receita_perdida_manutencao": 9100
           },
           {
             "vehicle_id": 32,
@@ -891,7 +909,7 @@
           {
             "vehicle_id": 6,
             "vehicle_name": "VOYAGE",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1369,8 +1387,8 @@
             }
           ],
           "valor_frota_atual": 581486.25,
-          "equity_estimado": 583281.19,
-          "saldo_caixa": 1794.94
+          "equity_estimado": 583954.27,
+          "saldo_caixa": 2468.02
         },
         "crescimento_mom": -22.98,
         "crescimento_anual": 502.01,
