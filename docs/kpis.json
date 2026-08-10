@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-10T17:48:51.723Z",
-  "gerado_em_label": "10/08/2026, 14:48",
+  "gerado_em": "2026-08-10T18:20:12.443Z",
+  "gerado_em_label": "10/08/2026, 15:20",
   "periodo": {
     "ano": 2026,
     "mes": 8
@@ -8,16 +8,16 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 5150,
+      "receita_total": 6450,
       "despesas_gerais": 456.71,
-      "despesas_veiculos": 319.5,
-      "investimento_total": 280,
-      "lucro_liquido": 4373.79,
+      "despesas_veiculos": 449.5,
+      "investimento_total": 150,
+      "lucro_liquido": 5543.79,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 6,
           "total": 130,
-          "classificacao": "Investimento"
+          "classificacao": "Despesa"
         },
         {
           "vehicle_id": 30,
@@ -106,19 +106,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 3957.1,
+            "receita": 5257,
             "despesa": 34936.41,
-            "saldo": -30979.310000000005
+            "saldo": -29679.410000000003
           },
           "proj_60d": {
-            "receita": 3957.1,
+            "receita": 5257,
             "despesa": 46286.700000000004,
-            "saldo": -42329.600000000006
+            "saldo": -41029.700000000004
           },
           "proj_90d": {
-            "receita": 3957.1,
+            "receita": 5257,
             "despesa": 51013.020000000004,
-            "saldo": -47055.920000000006
+            "saldo": -45756.020000000004
           }
         },
         "roi_por_veiculo": [
@@ -306,12 +306,12 @@
             "vehicle_id": 11,
             "vehicle_name": "MOBI 24",
             "plate": "SYI0A86",
-            "dias_alugados": 11,
+            "dias_alugados": 19,
             "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 35.5,
+            "taxa_utilizacao_pct": 61.3,
             "daily_rate": 92.86,
-            "receita_realizada": 1021.46,
-            "receita_perdida_ociosidade": 1857.2
+            "receita_realizada": 1764.34,
+            "receita_perdida_ociosidade": 1114.32
           },
           {
             "vehicle_id": 23,
@@ -323,17 +323,6 @@
             "daily_rate": 100,
             "receita_realizada": 1100,
             "receita_perdida_ociosidade": 2000
-          },
-          {
-            "vehicle_id": 24,
-            "vehicle_name": "HYUNDAI HB20 VISION",
-            "plate": "FMV8I93",
-            "dias_alugados": 11,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 35.5,
-            "daily_rate": 92.86,
-            "receita_realizada": 1021.46,
-            "receita_perdida_ociosidade": 1857.2
           },
           {
             "vehicle_id": 26,
@@ -391,6 +380,28 @@
             "receita_perdida_ociosidade": 2300
           },
           {
+            "vehicle_id": 6,
+            "vehicle_name": "VOYAGE",
+            "plate": "RNP5I35",
+            "dias_alugados": 8,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 25.8,
+            "daily_rate": 100,
+            "receita_realizada": 800,
+            "receita_perdida_ociosidade": 2300
+          },
+          {
+            "vehicle_id": 8,
+            "vehicle_name": "PULSE 2024",
+            "plate": "SJE3H43",
+            "dias_alugados": 8,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 25.8,
+            "daily_rate": 114.28,
+            "receita_realizada": 914.24,
+            "receita_perdida_ociosidade": 2628.44
+          },
+          {
             "vehicle_id": 33,
             "vehicle_name": "HYUNDAI HB20S - VISION",
             "plate": "RUA9I75",
@@ -400,6 +411,28 @@
             "daily_rate": 114.28,
             "receita_realizada": 571.4,
             "receita_perdida_ociosidade": 2971.28
+          },
+          {
+            "vehicle_id": 24,
+            "vehicle_name": "HYUNDAI HB20 VISION",
+            "plate": "FMV8I93",
+            "dias_alugados": 3,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 9.7,
+            "daily_rate": 92.86,
+            "receita_realizada": 278.58,
+            "receita_perdida_ociosidade": 2600.08
+          },
+          {
+            "vehicle_id": 10,
+            "vehicle_name": "PULSE 22",
+            "plate": "RTZ1G00",
+            "dias_alugados": 0,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 0,
+            "daily_rate": 357.14,
+            "receita_realizada": 0,
+            "receita_perdida_ociosidade": 11071.34
           },
           {
             "vehicle_id": 34,
@@ -422,39 +455,6 @@
             "daily_rate": 114.28,
             "receita_realizada": 0,
             "receita_perdida_ociosidade": 3542.68
-          },
-          {
-            "vehicle_id": 6,
-            "vehicle_name": "VOYAGE",
-            "plate": "RNP5I35",
-            "dias_alugados": 0,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 100,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3100
-          },
-          {
-            "vehicle_id": 8,
-            "vehicle_name": "PULSE 2024",
-            "plate": "SJE3H43",
-            "dias_alugados": 0,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 114.28,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3542.68
-          },
-          {
-            "vehicle_id": 10,
-            "vehicle_name": "PULSE 22",
-            "plate": "RTZ1G00",
-            "dias_alugados": 0,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 357.14,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 11071.34
           }
         ],
         "manutencao_por_veiculo": [
@@ -582,6 +582,22 @@
         "inadimplencia": {
           "locacoes": [
             {
+              "rental_id": 2302,
+              "vehicle_id": 11,
+              "customer_id": 22,
+              "customer_name": "ALEX COELHO CALVANTE",
+              "end_date": "2026-08-10T00:00:00.000Z",
+              "valor_locacao": 650
+            },
+            {
+              "rental_id": 2305,
+              "vehicle_id": 6,
+              "customer_id": 28,
+              "customer_name": "RENATO SILVA RAFAEL",
+              "end_date": "2026-08-10T00:00:00.000Z",
+              "valor_locacao": 650
+            },
+            {
               "rental_id": 2294,
               "vehicle_id": 11,
               "customer_id": 22,
@@ -598,8 +614,8 @@
               "valor_locacao": 900
             }
           ],
-          "total": 1550,
-          "quantidade": 2
+          "total": 2850,
+          "quantidade": 4
         }
       },
       "fase3": {
@@ -648,22 +664,22 @@
               "receita_total_veiculo": 650
             },
             {
-              "vehicle_id": 11,
-              "vehicle_name": "MOBI 24",
+              "vehicle_id": 6,
+              "vehicle_name": "VOYAGE",
               "num_locacoes": 1,
               "ticket_medio_veiculo": 650,
               "receita_total_veiculo": 650
             },
             {
-              "vehicle_id": 28,
-              "vehicle_name": "HYUNDAI HB20 COMFORT",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
+              "vehicle_id": 11,
+              "vehicle_name": "MOBI 24",
+              "num_locacoes": 2,
+              "ticket_medio_veiculo": 650,
+              "receita_total_veiculo": 1300
             },
             {
-              "vehicle_id": 6,
-              "vehicle_name": "VOYAGE",
+              "vehicle_id": 28,
+              "vehicle_name": "HYUNDAI HB20 COMFORT",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -711,7 +727,7 @@
               "receita_total_veiculo": 0
             }
           ],
-          "geral": 735.7142857142857
+          "geral": 725
         },
         "ltv_clientes": [
           {
@@ -762,11 +778,11 @@
           {
             "customer_id": 22,
             "customer_name": "ALEX COELHO CALVANTE",
-            "num_locacoes": 18,
-            "ltv": 12707,
-            "ticket_medio": 705.944444,
+            "num_locacoes": 19,
+            "ltv": 13357,
+            "ticket_medio": 703,
             "primeira_locacao": "2026-03-30T00:00:00.000Z",
-            "ultima_locacao": "2026-08-03T00:00:00.000Z"
+            "ultima_locacao": "2026-08-10T00:00:00.000Z"
           },
           {
             "customer_id": 24,
@@ -816,11 +832,11 @@
           {
             "customer_id": 28,
             "customer_name": "RENATO SILVA RAFAEL",
-            "num_locacoes": 4,
-            "ltv": 2321,
-            "ticket_medio": 580.25,
+            "num_locacoes": 5,
+            "ltv": 2971,
+            "ticket_medio": 594.2,
             "primeira_locacao": "2026-07-09T00:00:00.000Z",
-            "ultima_locacao": "2026-08-03T00:00:00.000Z"
+            "ultima_locacao": "2026-08-10T00:00:00.000Z"
           },
           {
             "customer_id": 18,
@@ -998,12 +1014,12 @@
           "equity_estimado": 576189.2000000001,
           "saldo_caixa": 5415.93
         },
-        "crescimento_mom": -80.4,
-        "crescimento_anual": 535.71,
+        "crescimento_mom": -75.45,
+        "crescimento_anual": 541.44,
         "depreciacao_mensal": 10916.03,
-        "receita_total": 5150,
+        "receita_total": 6450,
         "receita_anterior_mes": 26271,
-        "receita_ano_atual": 144306,
+        "receita_ano_atual": 145606,
         "receita_ano_anterior": 22700
       }
     },
