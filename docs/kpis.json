@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-11T14:48:51.662Z",
-  "gerado_em_label": "11/08/2026, 11:48",
+  "gerado_em": "2026-08-11T15:27:43.411Z",
+  "gerado_em_label": "11/08/2026, 12:27",
   "periodo": {
     "ano": 2026,
     "mes": 8
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 10090,
+      "receita_total": 11540,
       "despesas_gerais": 556.71,
       "despesas_veiculos": 449.5,
       "investimento_total": 150,
-      "lucro_liquido": 9083.79,
+      "lucro_liquido": 10533.79,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 6,
@@ -98,10 +98,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 207307.69999999998,
+      "receita_total": 208057.69999999998,
       "despesa_total": 197064.53999999983,
-      "saldo": 10243.160000000149,
-      "lancamentos": 762
+      "saldo": 10993.160000000149,
+      "lancamentos": 764
     },
     "kpis": {
       "periodo": {
@@ -113,19 +113,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 7795.53,
+            "receita": 9038.37,
             "despesa": 34936.41,
-            "saldo": -27140.880000000005
+            "saldo": -25898.04
           },
           "proj_60d": {
-            "receita": 7795.53,
+            "receita": 9038.37,
             "despesa": 46286.700000000004,
-            "saldo": -38491.170000000006
+            "saldo": -37248.33
           },
           "proj_90d": {
-            "receita": 7795.53,
+            "receita": 9038.37,
             "despesa": 51013.020000000004,
-            "saldo": -43217.490000000005
+            "saldo": -41974.65
           }
         },
         "roi_por_veiculo": [
@@ -245,10 +245,10 @@
             "plate": "SWN1D86",
             "valor_compra": 38000,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 3821.24,
+            "total_receita_acumulada": 4571.24,
             "investimento_total": 38000,
-            "lucro_acumulado": -34178.76,
-            "roi_pct": -89.94
+            "lucro_acumulado": -33428.76,
+            "roi_pct": -87.97
           },
           {
             "vehicle_id": 33,
@@ -332,9 +332,31 @@
             "receita_perdida_ociosidade": 1200
           },
           {
+            "vehicle_id": 26,
+            "vehicle_name": "VW POLO TRACK BRANCO 25",
+            "plate": "SWN1D86",
+            "dias_alugados": 19,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 61.3,
+            "daily_rate": 107.14,
+            "receita_realizada": 2035.66,
+            "receita_perdida_ociosidade": 1285.68
+          },
+          {
             "vehicle_id": 27,
             "vehicle_name": "FIAT CRONOS DRIVE",
             "plate": "SIT7E16",
+            "dias_alugados": 19,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 61.3,
+            "daily_rate": 100,
+            "receita_realizada": 1900,
+            "receita_perdida_ociosidade": 1200
+          },
+          {
+            "vehicle_id": 29,
+            "vehicle_name": "HYUNDAI HB20 LIMITED",
+            "plate": "RUS8I59",
             "dias_alugados": 19,
             "dias_no_mes": 31,
             "taxa_utilizacao_pct": 61.3,
@@ -374,28 +396,6 @@
             "daily_rate": 114.28,
             "receita_realizada": 1485.64,
             "receita_perdida_ociosidade": 2057.04
-          },
-          {
-            "vehicle_id": 29,
-            "vehicle_name": "HYUNDAI HB20 LIMITED",
-            "plate": "RUS8I59",
-            "dias_alugados": 11,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 35.5,
-            "daily_rate": 100,
-            "receita_realizada": 1100,
-            "receita_perdida_ociosidade": 2000
-          },
-          {
-            "vehicle_id": 26,
-            "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "plate": "SWN1D86",
-            "dias_alugados": 11,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 35.5,
-            "daily_rate": 107.14,
-            "receita_realizada": 1178.54,
-            "receita_perdida_ociosidade": 2142.8
           },
           {
             "vehicle_id": 6,
@@ -684,16 +684,16 @@
             {
               "vehicle_id": 26,
               "vehicle_name": "VW POLO TRACK BRANCO 25",
-              "num_locacoes": 1,
+              "num_locacoes": 2,
               "ticket_medio_veiculo": 750,
-              "receita_total_veiculo": 750
+              "receita_total_veiculo": 1500
             },
             {
               "vehicle_id": 29,
               "vehicle_name": "HYUNDAI HB20 LIMITED",
-              "num_locacoes": 1,
+              "num_locacoes": 2,
               "ticket_medio_veiculo": 700,
-              "receita_total_veiculo": 700
+              "receita_total_veiculo": 1400
             },
             {
               "vehicle_id": 23,
@@ -770,6 +770,15 @@
         },
         "ltv_clientes": [
           {
+            "customer_id": 8,
+            "customer_name": "BRUNO OLIVEIRA ROCHA",
+            "num_locacoes": 45,
+            "ltv": 32200,
+            "ticket_medio": 715.555555,
+            "primeira_locacao": "2025-09-22T00:00:00.000Z",
+            "ultima_locacao": "2026-08-10T00:00:00.000Z"
+          },
+          {
             "customer_id": 5,
             "customer_name": "GILVAN VIEIRA DOS SANTOS",
             "num_locacoes": 45,
@@ -777,15 +786,6 @@
             "ticket_medio": 704.444444,
             "primeira_locacao": "2025-09-24T00:00:00.000Z",
             "ultima_locacao": "2026-08-10T00:00:00.000Z"
-          },
-          {
-            "customer_id": 8,
-            "customer_name": "BRUNO OLIVEIRA ROCHA",
-            "num_locacoes": 44,
-            "ltv": 31450,
-            "ticket_medio": 714.772727,
-            "primeira_locacao": "2025-09-22T00:00:00.000Z",
-            "ultima_locacao": "2026-08-03T00:00:00.000Z"
           },
           {
             "customer_id": 16,
@@ -835,11 +835,11 @@
           {
             "customer_id": 26,
             "customer_name": "JOSE DA CRUZ VIEIRA DE SOUSA",
-            "num_locacoes": 11,
-            "ltv": 7300,
-            "ticket_medio": 663.636363,
+            "num_locacoes": 12,
+            "ltv": 8000,
+            "ticket_medio": 666.666666,
             "primeira_locacao": "2026-05-22T00:00:00.000Z",
-            "ultima_locacao": "2026-08-03T00:00:00.000Z"
+            "ultima_locacao": "2026-08-10T00:00:00.000Z"
           },
           {
             "customer_id": 27,
@@ -1068,15 +1068,15 @@
             }
           ],
           "valor_frota_atual": 570773.27,
-          "equity_estimado": 579569.2000000001,
-          "saldo_caixa": 8795.93
+          "equity_estimado": 580319.2000000001,
+          "saldo_caixa": 9545.93
         },
-        "crescimento_mom": -61.59,
-        "crescimento_anual": 557.47,
+        "crescimento_mom": -56.07,
+        "crescimento_anual": 563.86,
         "depreciacao_mensal": 10916.03,
-        "receita_total": 10090,
+        "receita_total": 11540,
         "receita_anterior_mes": 26271,
-        "receita_ano_atual": 149246,
+        "receita_ano_atual": 150696,
         "receita_ano_anterior": 22700
       }
     },
