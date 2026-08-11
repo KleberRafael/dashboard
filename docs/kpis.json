@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-10T23:20:12.463Z",
-  "gerado_em_label": "10/08/2026, 20:20",
+  "gerado_em": "2026-08-11T14:48:51.662Z",
+  "gerado_em_label": "11/08/2026, 11:48",
   "periodo": {
     "ano": 2026,
     "mes": 8
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 9690,
+      "receita_total": 10090,
       "despesas_gerais": 556.71,
       "despesas_veiculos": 449.5,
       "investimento_total": 150,
-      "lucro_liquido": 8683.79,
+      "lucro_liquido": 9083.79,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 6,
@@ -98,10 +98,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 203827.69999999998,
+      "receita_total": 207307.69999999998,
       "despesa_total": 197064.53999999983,
-      "saldo": 6763.160000000149,
-      "lancamentos": 755
+      "saldo": 10243.160000000149,
+      "lancamentos": 762
     },
     "kpis": {
       "periodo": {
@@ -113,19 +113,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 8496.95,
+            "receita": 7795.53,
             "despesa": 34936.41,
-            "saldo": -26439.460000000003
+            "saldo": -27140.880000000005
           },
           "proj_60d": {
-            "receita": 8496.95,
+            "receita": 7795.53,
             "despesa": 46286.700000000004,
-            "saldo": -37789.75
+            "saldo": -38491.170000000006
           },
           "proj_90d": {
-            "receita": 8496.95,
+            "receita": 7795.53,
             "despesa": 51013.020000000004,
-            "saldo": -42516.07000000001
+            "saldo": -43217.490000000005
           }
         },
         "roi_por_veiculo": [
@@ -163,6 +163,17 @@
             "roi_pct": -56.81
           },
           {
+            "vehicle_id": 24,
+            "vehicle_name": "HYUNDAI HB20 VISION",
+            "plate": "FMV8I93",
+            "valor_compra": 40882.5,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 16119.08,
+            "investimento_total": 40882.5,
+            "lucro_acumulado": -24763.42,
+            "roi_pct": -60.57
+          },
+          {
             "vehicle_id": 27,
             "vehicle_name": "FIAT CRONOS DRIVE",
             "plate": "SIT7E16",
@@ -172,17 +183,6 @@
             "investimento_total": 49177.5,
             "lucro_acumulado": -30175.5,
             "roi_pct": -61.36
-          },
-          {
-            "vehicle_id": 24,
-            "vehicle_name": "HYUNDAI HB20 VISION",
-            "plate": "FMV8I93",
-            "valor_compra": 40882.5,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 15469.08,
-            "investimento_total": 40882.5,
-            "lucro_acumulado": -25413.42,
-            "roi_pct": -62.16
           },
           {
             "vehicle_id": 23,
@@ -251,14 +251,25 @@
             "roi_pct": -89.94
           },
           {
-            "vehicle_id": 28,
-            "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "plate": "RUX5A20",
-            "valor_compra": 38095,
+            "vehicle_id": 33,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I75",
+            "valor_compra": 55000,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 540,
+            "investimento_total": 55000,
+            "lucro_acumulado": -54460,
+            "roi_pct": -99.02
+          },
+          {
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I69",
+            "valor_compra": 55000,
             "total_despesas_acumuladas": 0,
             "total_receita_acumulada": 0,
-            "investimento_total": 38095,
-            "lucro_acumulado": -38095,
+            "investimento_total": 55000,
+            "lucro_acumulado": -55000,
             "roi_pct": -100
           },
           {
@@ -273,25 +284,14 @@
             "roi_pct": -100
           },
           {
-            "vehicle_id": 33,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "plate": "RUA9I75",
-            "valor_compra": 55000,
+            "vehicle_id": 28,
+            "vehicle_name": "HYUNDAI HB20 COMFORT",
+            "plate": "RUX5A20",
+            "valor_compra": 38095,
             "total_despesas_acumuladas": 0,
             "total_receita_acumulada": 0,
-            "investimento_total": 55000,
-            "lucro_acumulado": -55000,
-            "roi_pct": -100
-          },
-          {
-            "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "plate": "RUA9I69",
-            "valor_compra": 55000,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 0,
-            "investimento_total": 55000,
-            "lucro_acumulado": -55000,
+            "investimento_total": 38095,
+            "lucro_acumulado": -38095,
             "roi_pct": -100
           }
         ]
@@ -365,6 +365,17 @@
             "receita_perdida_ociosidade": 1500
           },
           {
+            "vehicle_id": 33,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I75",
+            "dias_alugados": 13,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 41.9,
+            "daily_rate": 114.28,
+            "receita_realizada": 1485.64,
+            "receita_perdida_ociosidade": 2057.04
+          },
+          {
             "vehicle_id": 29,
             "vehicle_name": "HYUNDAI HB20 LIMITED",
             "plate": "RUS8I59",
@@ -407,17 +418,6 @@
             "daily_rate": 114.28,
             "receita_realizada": 914.24,
             "receita_perdida_ociosidade": 2628.44
-          },
-          {
-            "vehicle_id": 33,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "plate": "RUA9I75",
-            "dias_alugados": 5,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 16.1,
-            "daily_rate": 114.28,
-            "receita_realizada": 571.4,
-            "receita_perdida_ociosidade": 2971.28
           },
           {
             "vehicle_id": 24,
@@ -589,10 +589,10 @@
         "inadimplencia": {
           "locacoes": [
             {
-              "rental_id": 2302,
-              "vehicle_id": 11,
-              "customer_id": 22,
-              "customer_name": "ALEX COELHO CALVANTE",
+              "rental_id": 2305,
+              "vehicle_id": 6,
+              "customer_id": 28,
+              "customer_name": "RENATO SILVA RAFAEL",
               "end_date": "2026-08-10T00:00:00.000Z",
               "valor_locacao": 650
             },
@@ -605,20 +605,20 @@
               "valor_locacao": 900
             },
             {
+              "rental_id": 2302,
+              "vehicle_id": 11,
+              "customer_id": 22,
+              "customer_name": "ALEX COELHO CALVANTE",
+              "end_date": "2026-08-10T00:00:00.000Z",
+              "valor_locacao": 650
+            },
+            {
               "rental_id": 2304,
               "vehicle_id": 27,
               "customer_id": 5,
               "customer_name": "GILVAN VIEIRA DOS SANTOS",
               "end_date": "2026-08-10T00:00:00.000Z",
               "valor_locacao": 800
-            },
-            {
-              "rental_id": 2305,
-              "vehicle_id": 6,
-              "customer_id": 28,
-              "customer_name": "RENATO SILVA RAFAEL",
-              "end_date": "2026-08-10T00:00:00.000Z",
-              "valor_locacao": 650
             },
             {
               "rental_id": 2306,
@@ -724,15 +724,15 @@
               "receita_total_veiculo": 1300
             },
             {
-              "vehicle_id": 8,
-              "vehicle_name": "PULSE 2024",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
+              "vehicle_id": 33,
+              "vehicle_name": "HYUNDAI HB20S - VISION",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 400,
+              "receita_total_veiculo": 400
             },
             {
-              "vehicle_id": 10,
-              "vehicle_name": "PULSE 22",
+              "vehicle_id": 34,
+              "vehicle_name": "HYUNDAI HB20S - VISION",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -752,21 +752,21 @@
               "receita_total_veiculo": 0
             },
             {
-              "vehicle_id": 33,
-              "vehicle_name": "HYUNDAI HB20S - VISION",
+              "vehicle_id": 8,
+              "vehicle_name": "PULSE 2024",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
             },
             {
-              "vehicle_id": 34,
-              "vehicle_name": "HYUNDAI HB20S - VISION",
+              "vehicle_id": 10,
+              "vehicle_name": "PULSE 22",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
             }
           ],
-          "geral": 737.7777777777778
+          "geral": 704
         },
         "ltv_clientes": [
           {
@@ -903,6 +903,15 @@
             "ticket_medio": 400,
             "primeira_locacao": "2026-03-30T00:00:00.000Z",
             "ultima_locacao": "2026-04-13T00:00:00.000Z"
+          },
+          {
+            "customer_id": 1030,
+            "customer_name": "ANDRE LUIZ COELHO CAVALCANTE",
+            "num_locacoes": 1,
+            "ltv": 400,
+            "ticket_medio": 400,
+            "primeira_locacao": "2026-08-06T00:00:00.000Z",
+            "ultima_locacao": "2026-08-10T00:00:00.000Z"
           }
         ],
         "frota": {
@@ -1059,15 +1068,15 @@
             }
           ],
           "valor_frota_atual": 570773.27,
-          "equity_estimado": 576089.2000000001,
-          "saldo_caixa": 5315.93
+          "equity_estimado": 579569.2000000001,
+          "saldo_caixa": 8795.93
         },
-        "crescimento_mom": -63.12,
-        "crescimento_anual": 555.71,
+        "crescimento_mom": -61.59,
+        "crescimento_anual": 557.47,
         "depreciacao_mensal": 10916.03,
-        "receita_total": 9690,
+        "receita_total": 10090,
         "receita_anterior_mes": 26271,
-        "receita_ano_atual": 148846,
+        "receita_ano_atual": 149246,
         "receita_ano_anterior": 22700
       }
     },
