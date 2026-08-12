@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-11T17:48:51.658Z",
-  "gerado_em_label": "11/08/2026, 14:48",
+  "gerado_em": "2026-08-12T18:43:43.751Z",
+  "gerado_em_label": "12/08/2026, 15:43",
   "periodo": {
     "ano": 2026,
     "mes": 8
@@ -9,15 +9,20 @@
   "dados": {
     "finance": {
       "receita_total": 11540,
-      "despesas_gerais": 556.71,
-      "despesas_veiculos": 449.5,
-      "investimento_total": 150,
-      "lucro_liquido": 10533.79,
+      "despesas_gerais": 1064.11,
+      "despesas_veiculos": 479.5,
+      "investimento_total": 2684.32,
+      "lucro_liquido": 9996.39,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 6,
           "total": 130,
           "classificacao": "Despesa"
+        },
+        {
+          "vehicle_id": 8,
+          "total": 1830,
+          "classificacao": "Investimento"
         },
         {
           "vehicle_id": 30,
@@ -28,13 +33,32 @@
           "vehicle_id": 32,
           "total": 150,
           "classificacao": "Investimento"
+        },
+        {
+          "vehicle_id": 33,
+          "total": 30,
+          "classificacao": "Despesa"
+        },
+        {
+          "vehicle_id": 10,
+          "total": 704.32,
+          "classificacao": "Investimento"
         }
       ],
-      "multas_por_veiculo": [],
+      "multas_por_veiculo": [
+        {
+          "vehicle_id": 10,
+          "total": 704.32
+        }
+      ],
       "manutencoes_por_veiculo": [
         {
           "vehicle_id": 6,
           "total": 130
+        },
+        {
+          "vehicle_id": 8,
+          "total": 1830
         },
         {
           "vehicle_id": 30,
@@ -43,14 +67,60 @@
         {
           "vehicle_id": 32,
           "total": 150
+        },
+        {
+          "vehicle_id": 33,
+          "total": 30
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 5911,
+          "description": "Uber Andrei",
+          "amount": 25,
+          "date": "2026-08-12T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 5912,
+          "description": "Pix Joanderson (levou as peças)",
+          "amount": 60,
+          "date": "2026-08-11T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 5913,
+          "description": "Conta telefone Vivo",
+          "amount": 40,
+          "date": "2026-08-11T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 5914,
+          "description": "Conta M2M Vivo",
+          "amount": 33.16,
+          "date": "2026-08-11T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 5915,
+          "description": "Pagamento Multa KA - prazo de transferencia ultrapassado",
+          "amount": 78.09,
+          "date": "2026-08-10T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 5897,
           "description": "Premio ao Alex por indicar o André.",
           "amount": 100,
           "date": "2026-08-10T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 5917,
+          "description": "Almoço Socios - Chico.",
+          "amount": 271.15,
+          "date": "2026-08-08T00:00:00.000Z",
           "vehicle_id": null
         },
         {
@@ -98,10 +168,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 208057.69999999998,
-      "despesa_total": 197064.53999999983,
-      "saldo": 10993.160000000149,
-      "lancamentos": 764
+      "receita_total": 210357.7,
+      "despesa_total": 200136.25999999986,
+      "saldo": 10221.440000000148,
+      "lancamentos": 775
     },
     "kpis": {
       "periodo": {
@@ -113,19 +183,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 9038.37,
+            "receita": 7729.83,
             "despesa": 34936.41,
-            "saldo": -25898.04
+            "saldo": -27206.58
           },
           "proj_60d": {
-            "receita": 9038.37,
+            "receita": 7729.83,
             "despesa": 46286.700000000004,
-            "saldo": -37248.33
+            "saldo": -38556.87
           },
           "proj_90d": {
-            "receita": 9038.37,
+            "receita": 7729.83,
             "despesa": 51013.020000000004,
-            "saldo": -41974.65
+            "saldo": -43283.19
           }
         },
         "roi_por_veiculo": [
@@ -234,10 +304,10 @@
             "plate": "RUS8I59",
             "valor_compra": 52331.35,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 7300,
+            "total_receita_acumulada": 8000,
             "investimento_total": 52331.35,
-            "lucro_acumulado": -45031.35,
-            "roi_pct": -86.05
+            "lucro_acumulado": -44331.35,
+            "roi_pct": -84.71
           },
           {
             "vehicle_id": 26,
@@ -484,7 +554,7 @@
           {
             "vehicle_id": 8,
             "vehicle_name": "PULSE 2024",
-            "num_manutencoes": 0,
+            "num_manutencoes": 2,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -572,7 +642,7 @@
           {
             "vehicle_id": 33,
             "vehicle_name": "HYUNDAI HB20S - VISION",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1068,8 +1138,8 @@
             }
           ],
           "valor_frota_atual": 570773.27,
-          "equity_estimado": 580319.2000000001,
-          "saldo_caixa": 9545.93
+          "equity_estimado": 579547.48,
+          "saldo_caixa": 8774.21
         },
         "crescimento_mom": -56.07,
         "crescimento_anual": 563.86,
