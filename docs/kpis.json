@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-24T17:48:51.699Z",
-  "gerado_em_label": "24/08/2026, 14:48",
+  "gerado_em": "2026-08-24T17:52:20.610Z",
+  "gerado_em_label": "24/08/2026, 14:52",
   "periodo": {
     "ano": 2026,
     "mes": 8
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 22640,
-      "despesas_gerais": 1064.11,
+      "despesas_gerais": 1287.08,
       "despesas_veiculos": 2309.5,
       "investimento_total": 854.32,
-      "lucro_liquido": 19266.39,
+      "lucro_liquido": 19043.42,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 6,
@@ -74,6 +74,13 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 5932,
+          "description": "Café Requinte",
+          "amount": 222.97,
+          "date": "2026-08-23T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 5911,
           "description": "Uber Andrei",
@@ -169,9 +176,9 @@
     },
     "accounting": {
       "receita_total": 220749.69999999998,
-      "despesa_total": 200136.25999999986,
-      "saldo": 20613.44000000012,
-      "lancamentos": 788
+      "despesa_total": 200359.22999999986,
+      "saldo": 20390.470000000118,
+      "lancamentos": 789
     },
     "kpis": {
       "periodo": {
@@ -1138,8 +1145,8 @@
             }
           ],
           "valor_frota_atual": 570773.27,
-          "equity_estimado": 589939.48,
-          "saldo_caixa": 19166.21
+          "equity_estimado": 589716.51,
+          "saldo_caixa": 18943.24
         },
         "crescimento_mom": -13.82,
         "crescimento_anual": 612.76,
