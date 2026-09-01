@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-01T18:22:17.587Z",
-  "gerado_em_label": "01/09/2026, 15:22",
+  "gerado_em": "2026-09-01T18:48:58.151Z",
+  "gerado_em_label": "01/09/2026, 15:48",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 0,
-      "despesas_gerais": 8000,
+      "despesas_gerais": 9267.92,
       "despesas_veiculos": 0,
       "investimento_total": 0,
-      "lucro_liquido": -8000,
+      "lucro_liquido": -9267.92,
       "despesas_por_veiculo": [],
       "multas_por_veiculo": [],
       "manutencoes_por_veiculo": [],
@@ -23,14 +23,15 @@
           "amount": 8000,
           "date": "2026-09-01T00:00:00.000Z",
           "vehicle_id": null
+        },
+        {
+          "id": 6938,
+          "description": "1/3 Parcela seguro Suhai HB20S RUA9I69",
+          "amount": 1267.92,
+          "date": "2026-09-01T00:00:00.000Z",
+          "vehicle_id": null
         }
       ]
-    },
-    "accounting": {
-      "receita_total": 230330.70000000004,
-      "despesa_total": 214362.1699999998,
-      "saldo": 15968.530000000232,
-      "lancamentos": 811
     },
     "kpis": {
       "periodo": {
@@ -250,9 +251,9 @@
             "receita_perdida_ociosidade": 2000
           },
           {
-            "vehicle_id": 8,
-            "vehicle_name": "PULSE 2024",
-            "plate": "SJE3H43",
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I69",
             "dias_alugados": 7,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 23.3,
@@ -349,6 +350,17 @@
             "receita_perdida_ociosidade": 2957.11
           },
           {
+            "vehicle_id": 8,
+            "vehicle_name": "PULSE 2024",
+            "plate": "SJE3H43",
+            "dias_alugados": 0,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 0,
+            "daily_rate": 114.28,
+            "receita_realizada": 0,
+            "receita_perdida_ociosidade": 3428.4
+          },
+          {
             "vehicle_id": 10,
             "vehicle_name": "PULSE 22",
             "plate": "RTZ1G00",
@@ -374,17 +386,6 @@
             "vehicle_id": 33,
             "vehicle_name": "HYUNDAI HB20S - VISION",
             "plate": "RUA9I75",
-            "dias_alugados": 0,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 114.28,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3428.4
-          },
-          {
-            "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "plate": "RUA9I69",
             "dias_alugados": 0,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 0,
@@ -932,8 +933,8 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 574778.9500000001,
-          "saldo_caixa": 14521.3
+          "equity_estimado": 573511.03,
+          "saldo_caixa": 13253.38
         },
         "crescimento_mom": -100,
         "crescimento_anual": 668.44,
@@ -943,6 +944,12 @@
         "receita_ano_atual": 174436,
         "receita_ano_anterior": 22700
       }
+    },
+    "accounting": {
+      "receita_total": 230330.70000000004,
+      "despesa_total": 215630.0899999998,
+      "saldo": 14700.610000000248,
+      "lancamentos": 812
     },
     "projecao3": {
       "meses": [
