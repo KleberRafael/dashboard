@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-02T17:21:02.570Z",
-  "gerado_em_label": "02/09/2026, 14:21",
+  "gerado_em": "2026-09-09T16:03:37.203Z",
+  "gerado_em_label": "09/09/2026, 13:03",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 0,
+      "receita_total": 7300,
       "despesas_gerais": 9267.92,
       "despesas_veiculos": 0,
       "investimento_total": 0,
-      "lucro_liquido": -9267.92,
+      "lucro_liquido": -1967.92,
       "despesas_por_veiculo": [],
       "multas_por_veiculo": [],
       "manutencoes_por_veiculo": [],
@@ -34,9 +34,9 @@
       ]
     },
     "accounting": {
-      "receita_total": 230330.70000000004,
+      "receita_total": 231780.70000000004,
       "despesa_total": 215630.0899999998,
-      "saldo": 14700.610000000248,
+      "saldo": 16150.610000000248,
       "lancamentos": 812
     },
     "kpis": {
@@ -49,19 +49,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 14305.4,
+            "receita": 3757.02,
             "despesa": 37936.700000000004,
-            "saldo": -23631.300000000003
+            "saldo": -34179.68000000001
           },
           "proj_60d": {
-            "receita": 14305.4,
+            "receita": 14362.61,
             "despesa": 42663.020000000004,
-            "saldo": -28357.620000000003
+            "saldo": -28300.410000000003
           },
           "proj_90d": {
-            "receita": 14305.4,
+            "receita": 14362.61,
             "despesa": 47389.34000000001,
-            "saldo": -33083.94000000001
+            "saldo": -33026.73000000001
           }
         },
         "roi_por_veiculo": [
@@ -238,12 +238,78 @@
             "vehicle_id": 31,
             "vehicle_name": "FORD KA SEDAN1.5",
             "plate": "QOA5G39",
-            "dias_alugados": 21,
+            "dias_alugados": 31,
             "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 70,
+            "taxa_utilizacao_pct": 103.3,
             "daily_rate": 100,
-            "receita_realizada": 2100,
-            "receita_perdida_ociosidade": 900
+            "receita_realizada": 3100,
+            "receita_perdida_ociosidade": -100
+          },
+          {
+            "vehicle_id": 30,
+            "vehicle_name": "VW POLO TRACK - PRATA 23",
+            "plate": "AXG5F56",
+            "dias_alugados": 15,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 50,
+            "daily_rate": 128.57,
+            "receita_realizada": 1928.55,
+            "receita_perdida_ociosidade": 1928.55
+          },
+          {
+            "vehicle_id": 11,
+            "vehicle_name": "MOBI 24",
+            "plate": "SYI0A86",
+            "dias_alugados": 15,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 50,
+            "daily_rate": 92.86,
+            "receita_realizada": 1392.9,
+            "receita_perdida_ociosidade": 1392.9
+          },
+          {
+            "vehicle_id": 23,
+            "vehicle_name": "VW POLO TRACK CINZA 24",
+            "plate": "SUD7A35",
+            "dias_alugados": 15,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 50,
+            "daily_rate": 100,
+            "receita_realizada": 1500,
+            "receita_perdida_ociosidade": 1500
+          },
+          {
+            "vehicle_id": 24,
+            "vehicle_name": "HYUNDAI HB20 VISION",
+            "plate": "FMV8I93",
+            "dias_alugados": 15,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 50,
+            "daily_rate": 92.86,
+            "receita_realizada": 1392.9,
+            "receita_perdida_ociosidade": 1392.9
+          },
+          {
+            "vehicle_id": 27,
+            "vehicle_name": "FIAT CRONOS DRIVE",
+            "plate": "SIT7E16",
+            "dias_alugados": 15,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 50,
+            "daily_rate": 100,
+            "receita_realizada": 1500,
+            "receita_perdida_ociosidade": 1500
+          },
+          {
+            "vehicle_id": 28,
+            "vehicle_name": "HYUNDAI HB20 COMFORT",
+            "plate": "RUX5A20",
+            "dias_alugados": 15,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 50,
+            "daily_rate": 100,
+            "receita_realizada": 1500,
+            "receita_perdida_ociosidade": 1500
           },
           {
             "vehicle_id": 6,
@@ -257,48 +323,15 @@
             "receita_perdida_ociosidade": 2000
           },
           {
-            "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "plate": "RUA9I69",
-            "dias_alugados": 7,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 23.3,
-            "daily_rate": 114.28,
-            "receita_realizada": 799.96,
-            "receita_perdida_ociosidade": 2628.44
-          },
-          {
-            "vehicle_id": 11,
-            "vehicle_name": "MOBI 24",
-            "plate": "SYI0A86",
-            "dias_alugados": 7,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 23.3,
-            "daily_rate": 92.86,
-            "receita_realizada": 650.02,
-            "receita_perdida_ociosidade": 2135.78
-          },
-          {
-            "vehicle_id": 23,
-            "vehicle_name": "VW POLO TRACK CINZA 24",
-            "plate": "SUD7A35",
+            "vehicle_id": 29,
+            "vehicle_name": "HYUNDAI HB20 LIMITED",
+            "plate": "RUS8I59",
             "dias_alugados": 7,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 23.3,
             "daily_rate": 100,
             "receita_realizada": 700,
             "receita_perdida_ociosidade": 2300
-          },
-          {
-            "vehicle_id": 24,
-            "vehicle_name": "HYUNDAI HB20 VISION",
-            "plate": "FMV8I93",
-            "dias_alugados": 7,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 23.3,
-            "daily_rate": 92.86,
-            "receita_realizada": 650.02,
-            "receita_perdida_ociosidade": 2135.78
           },
           {
             "vehicle_id": 26,
@@ -312,70 +345,15 @@
             "receita_perdida_ociosidade": 2464.22
           },
           {
-            "vehicle_id": 27,
-            "vehicle_name": "FIAT CRONOS DRIVE",
-            "plate": "SIT7E16",
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I69",
             "dias_alugados": 7,
             "dias_no_mes": 30,
             "taxa_utilizacao_pct": 23.3,
-            "daily_rate": 100,
-            "receita_realizada": 700,
-            "receita_perdida_ociosidade": 2300
-          },
-          {
-            "vehicle_id": 28,
-            "vehicle_name": "HYUNDAI HB20 COMFORT",
-            "plate": "RUX5A20",
-            "dias_alugados": 7,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 23.3,
-            "daily_rate": 100,
-            "receita_realizada": 700,
-            "receita_perdida_ociosidade": 2300
-          },
-          {
-            "vehicle_id": 29,
-            "vehicle_name": "HYUNDAI HB20 LIMITED",
-            "plate": "RUS8I59",
-            "dias_alugados": 7,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 23.3,
-            "daily_rate": 100,
-            "receita_realizada": 700,
-            "receita_perdida_ociosidade": 2300
-          },
-          {
-            "vehicle_id": 30,
-            "vehicle_name": "VW POLO TRACK - PRATA 23",
-            "plate": "AXG5F56",
-            "dias_alugados": 7,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 23.3,
-            "daily_rate": 128.57,
-            "receita_realizada": 899.99,
-            "receita_perdida_ociosidade": 2957.11
-          },
-          {
-            "vehicle_id": 8,
-            "vehicle_name": "PULSE 2024",
-            "plate": "SJE3H43",
-            "dias_alugados": 0,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 0,
             "daily_rate": 114.28,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3428.4
-          },
-          {
-            "vehicle_id": 10,
-            "vehicle_name": "PULSE 22",
-            "plate": "RTZ1G00",
-            "dias_alugados": 0,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 357.14,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 10714.2
+            "receita_realizada": 799.96,
+            "receita_perdida_ociosidade": 2628.44
           },
           {
             "vehicle_id": 32,
@@ -398,6 +376,28 @@
             "daily_rate": 114.28,
             "receita_realizada": 0,
             "receita_perdida_ociosidade": 3428.4
+          },
+          {
+            "vehicle_id": 8,
+            "vehicle_name": "PULSE 2024",
+            "plate": "SJE3H43",
+            "dias_alugados": 0,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 0,
+            "daily_rate": 114.28,
+            "receita_realizada": 0,
+            "receita_perdida_ociosidade": 3428.4
+          },
+          {
+            "vehicle_id": 10,
+            "vehicle_name": "PULSE 22",
+            "plate": "RTZ1G00",
+            "dias_alugados": 0,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 0,
+            "daily_rate": 357.14,
+            "receita_realizada": 0,
+            "receita_perdida_ociosidade": 10714.2
           }
         ],
         "manutencao_por_veiculo": [
@@ -523,14 +523,120 @@
           }
         ],
         "inadimplencia": {
-          "locacoes": [],
-          "total": 0,
-          "quantidade": 0
+          "locacoes": [
+            {
+              "rental_id": 2322,
+              "vehicle_id": 31,
+              "customer_id": 25,
+              "customer_name": "ALEXANDRE NAVARRO FEITOSA",
+              "end_date": "2026-09-21T00:00:00.000Z",
+              "valor_locacao": 2560
+            },
+            {
+              "rental_id": 3330,
+              "vehicle_id": 24,
+              "customer_id": 1030,
+              "customer_name": "ANDRE LUIZ COELHO CAVALCANTE",
+              "end_date": "2026-09-07T00:00:00.000Z",
+              "valor_locacao": 850
+            },
+            {
+              "rental_id": 3334,
+              "vehicle_id": 28,
+              "customer_id": 29,
+              "customer_name": "ANDREI SORTANJI SILVA",
+              "end_date": "2026-09-07T00:00:00.000Z",
+              "valor_locacao": 840
+            },
+            {
+              "rental_id": 3326,
+              "vehicle_id": 30,
+              "customer_id": 27,
+              "customer_name": "GABRIEL OLIVEIRA DA SILVA",
+              "end_date": "2026-09-07T00:00:00.000Z",
+              "valor_locacao": 900
+            },
+            {
+              "rental_id": 3329,
+              "vehicle_id": 23,
+              "customer_id": 20,
+              "customer_name": "THIAGO NILTON DE OLIVEIRA",
+              "end_date": "2026-09-07T00:00:00.000Z",
+              "valor_locacao": 700
+            },
+            {
+              "rental_id": 3324,
+              "vehicle_id": 11,
+              "customer_id": 22,
+              "customer_name": "ALEX COELHO CALVANTE",
+              "end_date": "2026-09-07T00:00:00.000Z",
+              "valor_locacao": 650
+            },
+            {
+              "rental_id": 3322,
+              "vehicle_id": 27,
+              "customer_id": 5,
+              "customer_name": "GILVAN VIEIRA DOS SANTOS",
+              "end_date": "2026-09-07T00:00:00.000Z",
+              "valor_locacao": 800
+            }
+          ],
+          "total": 7300,
+          "quantidade": 7
         }
       },
       "fase3": {
         "ticket_medio": {
           "por_veiculo": [
+            {
+              "vehicle_id": 31,
+              "vehicle_name": "FORD KA SEDAN1.5",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 2560,
+              "receita_total_veiculo": 2560
+            },
+            {
+              "vehicle_id": 30,
+              "vehicle_name": "VW POLO TRACK - PRATA 23",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 900,
+              "receita_total_veiculo": 900
+            },
+            {
+              "vehicle_id": 24,
+              "vehicle_name": "HYUNDAI HB20 VISION",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 850,
+              "receita_total_veiculo": 850
+            },
+            {
+              "vehicle_id": 28,
+              "vehicle_name": "HYUNDAI HB20 COMFORT",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 840,
+              "receita_total_veiculo": 840
+            },
+            {
+              "vehicle_id": 27,
+              "vehicle_name": "FIAT CRONOS DRIVE",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 800,
+              "receita_total_veiculo": 800
+            },
+            {
+              "vehicle_id": 23,
+              "vehicle_name": "VW POLO TRACK CINZA 24",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 700,
+              "receita_total_veiculo": 700
+            },
+            {
+              "vehicle_id": 11,
+              "vehicle_name": "MOBI 24",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 650,
+              "receita_total_veiculo": 650
+            },
             {
               "vehicle_id": 6,
               "vehicle_name": "VOYAGE",
@@ -553,48 +659,6 @@
               "receita_total_veiculo": 0
             },
             {
-              "vehicle_id": 11,
-              "vehicle_name": "MOBI 24",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 23,
-              "vehicle_name": "VW POLO TRACK CINZA 24",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 24,
-              "vehicle_name": "HYUNDAI HB20 VISION",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 26,
-              "vehicle_name": "VW POLO TRACK BRANCO 25",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 27,
-              "vehicle_name": "FIAT CRONOS DRIVE",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 28,
-              "vehicle_name": "HYUNDAI HB20 COMFORT",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
               "vehicle_id": 29,
               "vehicle_name": "HYUNDAI HB20 LIMITED",
               "num_locacoes": 0,
@@ -602,15 +666,8 @@
               "receita_total_veiculo": 0
             },
             {
-              "vehicle_id": 30,
-              "vehicle_name": "VW POLO TRACK - PRATA 23",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 31,
-              "vehicle_name": "FORD KA SEDAN1.5",
+              "vehicle_id": 26,
+              "vehicle_name": "VW POLO TRACK BRANCO 25",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -637,9 +694,18 @@
               "receita_total_veiculo": 0
             }
           ],
-          "geral": 0
+          "geral": 1042.857142857143
         },
         "ltv_clientes": [
+          {
+            "customer_id": 5,
+            "customer_name": "GILVAN VIEIRA DOS SANTOS",
+            "num_locacoes": 49,
+            "ltv": 34900,
+            "ticket_medio": 712.244897,
+            "primeira_locacao": "2025-09-24T00:00:00.000Z",
+            "ultima_locacao": "2026-09-07T00:00:00.000Z"
+          },
           {
             "customer_id": 8,
             "customer_name": "BRUNO OLIVEIRA ROCHA",
@@ -647,15 +713,6 @@
             "ltv": 34450,
             "ticket_medio": 717.708333,
             "primeira_locacao": "2025-09-22T00:00:00.000Z",
-            "ultima_locacao": "2026-08-31T00:00:00.000Z"
-          },
-          {
-            "customer_id": 5,
-            "customer_name": "GILVAN VIEIRA DOS SANTOS",
-            "num_locacoes": 48,
-            "ltv": 34100,
-            "ticket_medio": 710.416666,
-            "primeira_locacao": "2025-09-24T00:00:00.000Z",
             "ultima_locacao": "2026-08-31T00:00:00.000Z"
           },
           {
@@ -670,11 +727,11 @@
           {
             "customer_id": 20,
             "customer_name": "THIAGO NILTON DE OLIVEIRA",
-            "num_locacoes": 28,
-            "ltv": 19050,
-            "ticket_medio": 680.357142,
+            "num_locacoes": 29,
+            "ltv": 19750,
+            "ticket_medio": 681.034482,
             "primeira_locacao": "2026-02-16T00:00:00.000Z",
-            "ultima_locacao": "2026-08-31T00:00:00.000Z"
+            "ultima_locacao": "2026-09-07T00:00:00.000Z"
           },
           {
             "customer_id": 15,
@@ -688,11 +745,29 @@
           {
             "customer_id": 22,
             "customer_name": "ALEX COELHO CALVANTE",
-            "num_locacoes": 22,
-            "ltv": 15307,
-            "ticket_medio": 695.772727,
+            "num_locacoes": 23,
+            "ltv": 15957,
+            "ticket_medio": 693.782608,
             "primeira_locacao": "2026-03-30T00:00:00.000Z",
-            "ultima_locacao": "2026-08-31T00:00:00.000Z"
+            "ultima_locacao": "2026-09-07T00:00:00.000Z"
+          },
+          {
+            "customer_id": 25,
+            "customer_name": "ALEXANDRE NAVARRO FEITOSA",
+            "num_locacoes": 8,
+            "ltv": 11090,
+            "ticket_medio": 1386.25,
+            "primeira_locacao": "2026-05-11T00:00:00.000Z",
+            "ultima_locacao": "2026-09-21T00:00:00.000Z"
+          },
+          {
+            "customer_id": 27,
+            "customer_name": "GABRIEL OLIVEIRA DA SILVA",
+            "num_locacoes": 11,
+            "ltv": 9574,
+            "ticket_medio": 870.363636,
+            "primeira_locacao": "2026-06-25T00:00:00.000Z",
+            "ultima_locacao": "2026-09-07T00:00:00.000Z"
           },
           {
             "customer_id": 26,
@@ -702,24 +777,6 @@
             "ticket_medio": 580,
             "primeira_locacao": "2026-05-22T00:00:00.000Z",
             "ultima_locacao": "2026-08-31T00:00:00.000Z"
-          },
-          {
-            "customer_id": 27,
-            "customer_name": "GABRIEL OLIVEIRA DA SILVA",
-            "num_locacoes": 10,
-            "ltv": 8674,
-            "ticket_medio": 867.4,
-            "primeira_locacao": "2026-06-25T00:00:00.000Z",
-            "ultima_locacao": "2026-08-31T00:00:00.000Z"
-          },
-          {
-            "customer_id": 25,
-            "customer_name": "ALEXANDRE NAVARRO FEITOSA",
-            "num_locacoes": 7,
-            "ltv": 8530,
-            "ticket_medio": 1218.571428,
-            "primeira_locacao": "2026-05-11T00:00:00.000Z",
-            "ultima_locacao": "2026-08-20T00:00:00.000Z"
           },
           {
             "customer_id": 24,
@@ -751,20 +808,20 @@
           {
             "customer_id": 1030,
             "customer_name": "ANDRE LUIZ COELHO CAVALCANTE",
-            "num_locacoes": 4,
-            "ltv": 3400,
+            "num_locacoes": 5,
+            "ltv": 4250,
             "ticket_medio": 850,
             "primeira_locacao": "2026-08-06T00:00:00.000Z",
-            "ultima_locacao": "2026-08-31T00:00:00.000Z"
+            "ultima_locacao": "2026-09-07T00:00:00.000Z"
           },
           {
             "customer_id": 29,
             "customer_name": "ANDREI SORTANJI SILVA",
-            "num_locacoes": 4,
-            "ltv": 3360,
+            "num_locacoes": 5,
+            "ltv": 4200,
             "ticket_medio": 840,
             "primeira_locacao": "2026-08-03T00:00:00.000Z",
-            "ultima_locacao": "2026-08-31T00:00:00.000Z"
+            "ultima_locacao": "2026-09-07T00:00:00.000Z"
           },
           {
             "customer_id": 18,
@@ -939,15 +996,15 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 573511.03,
-          "saldo_caixa": 13253.38
+          "equity_estimado": 574961.03,
+          "saldo_caixa": 14703.38
         },
-        "crescimento_mom": -100,
-        "crescimento_anual": 662.27,
+        "crescimento_mom": -78.45,
+        "crescimento_anual": 694.43,
         "depreciacao_mensal": 10916.03,
-        "receita_total": 0,
+        "receita_total": 7300,
         "receita_anterior_mes": 33880,
-        "receita_ano_atual": 173036,
+        "receita_ano_atual": 180336,
         "receita_ano_anterior": 22700
       }
     },
