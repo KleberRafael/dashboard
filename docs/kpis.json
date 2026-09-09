@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-09T17:03:37.162Z",
-  "gerado_em_label": "09/09/2026, 14:03",
+  "gerado_em": "2026-09-09T17:48:51.650Z",
+  "gerado_em_label": "09/09/2026, 14:48",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 6990,
-      "despesas_gerais": 13264.23,
+      "despesas_gerais": 14473.26,
       "despesas_veiculos": 832,
       "investimento_total": 0,
-      "lucro_liquido": -7106.23,
+      "lucro_liquido": -8315.26,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 27,
@@ -48,6 +48,20 @@
           "id": 6950,
           "description": "CONTA VIVO TELEFONE LOKAR",
           "amount": 39.99,
+          "date": "2026-09-09T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 6986,
+          "description": "AJUSTE SALDO - TINHA DIFERENÇA DE 67 ENTRE A CONTA E O SISTEMA",
+          "amount": 67.03,
+          "date": "2026-09-09T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 6987,
+          "description": "DOCUMENTAÇÃO POLOS SIJ E SWN + ETIOS DO ARAKA - TRANSFERENCIA PARA LOKAR - PIX RODRIGO",
+          "amount": 1142,
           "date": "2026-09-09T00:00:00.000Z",
           "vehicle_id": null
         },
@@ -96,10 +110,66 @@
       ]
     },
     "accounting": {
-      "receita_total": 240213.55000000002,
-      "despesa_total": 223176.16999999987,
-      "saldo": 17037.38000000015,
-      "lancamentos": 840
+      "receita_total": 240313.55000000002,
+      "despesa_total": 235119.19999999987,
+      "saldo": 5194.350000000151,
+      "lancamentos": 861
+    },
+    "projecao3": {
+      "meses": [
+        {
+          "mes_label": "Outubro/2026",
+          "mes_num": 10,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 6140,
+          "receita_mensal_fixa": 5160,
+          "projecao_receita": 29720,
+          "imposto_das": 1783.2,
+          "manutencao": 6140,
+          "custos_planejados": 11350.29,
+          "total_saidas": 19273.49,
+          "saldo": 10446.51
+        },
+        {
+          "mes_label": "Novembro/2026",
+          "mes_num": 11,
+          "ano": 2026,
+          "segundas_no_mes": 5,
+          "receita_semanal_base": 6140,
+          "receita_mensal_fixa": 5160,
+          "projecao_receita": 35860,
+          "imposto_das": 2151.6,
+          "manutencao": 7675,
+          "custos_planejados": 4726.32,
+          "total_saidas": 14552.92,
+          "saldo": 21307.08
+        },
+        {
+          "mes_label": "Dezembro/2026",
+          "mes_num": 12,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 6140,
+          "receita_mensal_fixa": 5160,
+          "projecao_receita": 29720,
+          "imposto_das": 1783.2,
+          "manutencao": 6140,
+          "custos_planejados": 4726.32,
+          "total_saidas": 12649.52,
+          "saldo": 17070.48
+        }
+      ],
+      "totais": {
+        "receita": 95300,
+        "imposto": 5718,
+        "manutencao": 19955,
+        "custos": 20802.93,
+        "saidas": 46475.93,
+        "saldo": 48824.07
+      },
+      "receita_semanal_base": 6140,
+      "receita_mensal_fixa_base": 5160
     },
     "kpis": {
       "periodo": {
@@ -1058,8 +1128,8 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 575847.8,
-          "saldo_caixa": 15590.15
+          "equity_estimado": 564004.77,
+          "saldo_caixa": 3747.12
         },
         "crescimento_mom": -79.37,
         "crescimento_anual": 693.07,
@@ -1069,62 +1139,6 @@
         "receita_ano_atual": 180026,
         "receita_ano_anterior": 22700
       }
-    },
-    "projecao3": {
-      "meses": [
-        {
-          "mes_label": "Outubro/2026",
-          "mes_num": 10,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 6140,
-          "receita_mensal_fixa": 5160,
-          "projecao_receita": 29720,
-          "imposto_das": 1783.2,
-          "manutencao": 6140,
-          "custos_planejados": 11350.29,
-          "total_saidas": 19273.49,
-          "saldo": 10446.51
-        },
-        {
-          "mes_label": "Novembro/2026",
-          "mes_num": 11,
-          "ano": 2026,
-          "segundas_no_mes": 5,
-          "receita_semanal_base": 6140,
-          "receita_mensal_fixa": 5160,
-          "projecao_receita": 35860,
-          "imposto_das": 2151.6,
-          "manutencao": 7675,
-          "custos_planejados": 4726.32,
-          "total_saidas": 14552.92,
-          "saldo": 21307.08
-        },
-        {
-          "mes_label": "Dezembro/2026",
-          "mes_num": 12,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 6140,
-          "receita_mensal_fixa": 5160,
-          "projecao_receita": 29720,
-          "imposto_das": 1783.2,
-          "manutencao": 6140,
-          "custos_planejados": 4726.32,
-          "total_saidas": 12649.52,
-          "saldo": 17070.48
-        }
-      ],
-      "totais": {
-        "receita": 95300,
-        "imposto": 5718,
-        "manutencao": 19955,
-        "custos": 20802.93,
-        "saidas": 46475.93,
-        "saldo": 48824.07
-      },
-      "receita_semanal_base": 6140,
-      "receita_mensal_fixa_base": 5160
     },
     "projecao6": {
       "meses": [
