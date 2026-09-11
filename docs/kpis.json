@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-10T18:48:51.717Z",
-  "gerado_em_label": "10/09/2026, 15:48",
+  "gerado_em": "2026-09-11T16:48:51.316Z",
+  "gerado_em_label": "11/09/2026, 13:48",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -110,10 +110,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 249113.55000000002,
+      "receita_total": 240313.55000000002,
       "despesa_total": 235119.19999999987,
-      "saldo": 13994.350000000151,
-      "lancamentos": 874
+      "saldo": 5194.350000000151,
+      "lancamentos": 863
     },
     "kpis": {
       "periodo": {
@@ -125,19 +125,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 3508.44,
+            "receita": 2631.33,
             "despesa": 22700,
-            "saldo": -19191.56
+            "saldo": -20068.67
           },
           "proj_60d": {
-            "receita": 14114.03,
+            "receita": 13236.92,
             "despesa": 23050,
-            "saldo": -8935.97
+            "saldo": -9813.08
           },
           "proj_90d": {
-            "receita": 14114.03,
+            "receita": 13236.92,
             "despesa": 23400,
-            "saldo": -9285.97
+            "saldo": -10163.08
           }
         },
         "roi_por_veiculo": [
@@ -153,17 +153,6 @@
             "roi_pct": -22.06
           },
           {
-            "vehicle_id": 27,
-            "vehicle_name": "FIAT CRONOS DRIVE",
-            "plate": "SIT7E16",
-            "valor_compra": 49177.5,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 28604,
-            "investimento_total": 49177.5,
-            "lucro_acumulado": -20573.5,
-            "roi_pct": -41.84
-          },
-          {
             "vehicle_id": 10,
             "vehicle_name": "PULSE 22",
             "plate": "RTZ1G00",
@@ -173,6 +162,17 @@
             "investimento_total": 41490,
             "lucro_acumulado": -21389.99,
             "roi_pct": -51.55
+          },
+          {
+            "vehicle_id": 27,
+            "vehicle_name": "FIAT CRONOS DRIVE",
+            "plate": "SIT7E16",
+            "valor_compra": 49177.5,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 21404,
+            "investimento_total": 49177.5,
+            "lucro_acumulado": -27773.5,
+            "roi_pct": -56.48
           },
           {
             "vehicle_id": 6,
@@ -1072,8 +1072,8 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 572804.77,
-          "saldo_caixa": 12547.12
+          "equity_estimado": 564004.77,
+          "saldo_caixa": 3747.12
         },
         "crescimento_mom": -77.45,
         "crescimento_anual": 696.37,
