@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-15T14:48:51.746Z",
-  "gerado_em_label": "15/09/2026, 11:48",
+  "gerado_em": "2026-09-21T16:48:51.784Z",
+  "gerado_em_label": "21/09/2026, 13:48",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -125,19 +125,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 8214.22,
+            "receita": 16676.97,
             "despesa": 22700,
-            "saldo": -14485.78
+            "saldo": -6023.029999999999
           },
           "proj_60d": {
-            "receita": 18819.81,
+            "receita": 16676.97,
             "despesa": 23050,
-            "saldo": -4230.189999999999
+            "saldo": -6373.029999999999
           },
           "proj_90d": {
-            "receita": 18819.81,
+            "receita": 16676.97,
             "despesa": 23400,
-            "saldo": -4580.189999999999
+            "saldo": -6723.029999999999
           }
         },
         "roi_por_veiculo": [
