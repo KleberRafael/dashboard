@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-21T18:54:58.365Z",
-  "gerado_em_label": "21/09/2026, 15:54",
+  "gerado_em": "2026-09-28T15:48:51.657Z",
+  "gerado_em_label": "28/09/2026, 12:48",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 22220,
-      "despesas_gerais": 23287.02,
+      "despesas_gerais": 24554.94,
       "despesas_veiculos": 6847,
       "investimento_total": 0,
-      "lucro_liquido": -7914.02,
+      "lucro_liquido": -9181.939999999999,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 24,
@@ -73,6 +73,13 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 7032,
+          "description": "2a PARCELA SEGURUO HB20S 69",
+          "amount": 1267.92,
+          "date": "2026-09-21T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 7010,
           "description": "ALMOÇO SOCIOS CHICO",
@@ -188,10 +195,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 263235.55000000005,
-      "despesa_total": 250244.35999999984,
-      "saldo": 12991.190000000206,
-      "lancamentos": 894
+      "receita_total": 259921.55000000008,
+      "despesa_total": 251512.27999999982,
+      "saldo": 8409.270000000251,
+      "lancamentos": 895
     },
     "kpis": {
       "periodo": {
@@ -203,19 +210,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 29389.49,
+            "receita": 15999.82,
             "despesa": 22700,
-            "saldo": 6689.490000000002
+            "saldo": -6700.18
           },
           "proj_60d": {
-            "receita": 29389.49,
+            "receita": 15999.82,
             "despesa": 23050,
-            "saldo": 6339.490000000002
+            "saldo": -7050.18
           },
           "proj_90d": {
-            "receita": 29389.49,
+            "receita": 15999.82,
             "despesa": 23400,
-            "saldo": 5989.490000000002
+            "saldo": -7400.18
           }
         },
         "roi_por_veiculo": [
@@ -247,21 +254,10 @@
             "plate": "SIT7E16",
             "valor_compra": 49177.5,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 23004,
+            "total_receita_acumulada": 22204,
             "investimento_total": 49177.5,
-            "lucro_acumulado": -26173.5,
-            "roi_pct": -53.22
-          },
-          {
-            "vehicle_id": 24,
-            "vehicle_name": "HYUNDAI HB20 VISION",
-            "plate": "FMV8I93",
-            "valor_compra": 40882.5,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 17819.08,
-            "investimento_total": 40882.5,
-            "lucro_acumulado": -23063.42,
-            "roi_pct": -56.41
+            "lucro_acumulado": -26973.5,
+            "roi_pct": -54.85
           },
           {
             "vehicle_id": 6,
@@ -275,15 +271,26 @@
             "roi_pct": -56.81
           },
           {
+            "vehicle_id": 24,
+            "vehicle_name": "HYUNDAI HB20 VISION",
+            "plate": "FMV8I93",
+            "valor_compra": 40882.5,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 16969.08,
+            "investimento_total": 40882.5,
+            "lucro_acumulado": -23913.42,
+            "roi_pct": -58.49
+          },
+          {
             "vehicle_id": 23,
             "vehicle_name": "VW POLO TRACK CINZA 24",
             "plate": "SUD7A35",
             "valor_compra": 70278,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 25752.92,
+            "total_receita_acumulada": 25052.92,
             "investimento_total": 70278,
-            "lucro_acumulado": -44525.08,
-            "roi_pct": -63.36
+            "lucro_acumulado": -45225.08,
+            "roi_pct": -64.35
           },
           {
             "vehicle_id": 8,
@@ -313,10 +320,10 @@
             "plate": "AXG5F56",
             "valor_compra": 43392.5,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 12339.72,
+            "total_receita_acumulada": 12125.72,
             "investimento_total": 43392.5,
-            "lucro_acumulado": -31052.78,
-            "roi_pct": -71.56
+            "lucro_acumulado": -31266.78,
+            "roi_pct": -72.06
           },
           {
             "vehicle_id": 26,
@@ -324,10 +331,10 @@
             "plate": "SWN1D86",
             "valor_compra": 38000,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 8321.24,
+            "total_receita_acumulada": 7571.24,
             "investimento_total": 38000,
-            "lucro_acumulado": -29678.76,
-            "roi_pct": -78.1
+            "lucro_acumulado": -30428.76,
+            "roi_pct": -80.08
           },
           {
             "vehicle_id": 29,
@@ -1159,8 +1166,8 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 571801.61,
-          "saldo_caixa": 11543.96
+          "equity_estimado": 567219.6900000001,
+          "saldo_caixa": 6962.04
         },
         "crescimento_mom": -34.42,
         "crescimento_anual": 760.6,
