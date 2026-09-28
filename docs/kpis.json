@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-28T16:47:09.306Z",
-  "gerado_em_label": "28/09/2026, 13:47",
+  "gerado_em": "2026-09-28T16:48:51.651Z",
+  "gerado_em_label": "28/09/2026, 13:48",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -195,9 +195,9 @@
       ]
     },
     "accounting": {
-      "receita_total": 260671.55000000008,
+      "receita_total": 261321.55000000008,
       "despesa_total": 251512.27999999982,
-      "saldo": 9159.270000000251,
+      "saldo": 9809.270000000251,
       "lancamentos": 895
     },
     "kpis": {
@@ -370,6 +370,17 @@
             "roi_pct": -96.4
           },
           {
+            "vehicle_id": 34,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I69",
+            "valor_compra": 55000,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 1950,
+            "investimento_total": 55000,
+            "lucro_acumulado": -53050,
+            "roi_pct": -96.45
+          },
+          {
             "vehicle_id": 33,
             "vehicle_name": "HYUNDAI HB20S - VISION",
             "plate": "RUA9I75",
@@ -379,17 +390,6 @@
             "investimento_total": 55000,
             "lucro_acumulado": -53210,
             "roi_pct": -96.75
-          },
-          {
-            "vehicle_id": 34,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "plate": "RUA9I69",
-            "valor_compra": 55000,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 1300,
-            "investimento_total": 55000,
-            "lucro_acumulado": -53700,
-            "roi_pct": -97.64
           }
         ]
       },
@@ -1166,8 +1166,8 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 567969.6900000001,
-          "saldo_caixa": 7712.04
+          "equity_estimado": 568619.6900000001,
+          "saldo_caixa": 8362.04
         },
         "crescimento_mom": -34.42,
         "crescimento_anual": 760.6,
