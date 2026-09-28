@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-28T15:48:51.657Z",
-  "gerado_em_label": "28/09/2026, 12:48",
+  "gerado_em": "2026-09-28T16:47:09.306Z",
+  "gerado_em_label": "28/09/2026, 13:47",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -195,9 +195,9 @@
       ]
     },
     "accounting": {
-      "receita_total": 259921.55000000008,
+      "receita_total": 260671.55000000008,
       "despesa_total": 251512.27999999982,
-      "saldo": 8409.270000000251,
+      "saldo": 9159.270000000251,
       "lancamentos": 895
     },
     "kpis": {
@@ -260,6 +260,17 @@
             "roi_pct": -54.85
           },
           {
+            "vehicle_id": 24,
+            "vehicle_name": "HYUNDAI HB20 VISION",
+            "plate": "FMV8I93",
+            "valor_compra": 40882.5,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 17719.08,
+            "investimento_total": 40882.5,
+            "lucro_acumulado": -23163.42,
+            "roi_pct": -56.66
+          },
+          {
             "vehicle_id": 6,
             "vehicle_name": "VOYAGE",
             "plate": "RNP5I35",
@@ -269,17 +280,6 @@
             "investimento_total": 34150,
             "lucro_acumulado": -19400,
             "roi_pct": -56.81
-          },
-          {
-            "vehicle_id": 24,
-            "vehicle_name": "HYUNDAI HB20 VISION",
-            "plate": "FMV8I93",
-            "valor_compra": 40882.5,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 16969.08,
-            "investimento_total": 40882.5,
-            "lucro_acumulado": -23913.42,
-            "roi_pct": -58.49
           },
           {
             "vehicle_id": 23,
@@ -1166,8 +1166,8 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 567219.6900000001,
-          "saldo_caixa": 6962.04
+          "equity_estimado": 567969.6900000001,
+          "saldo_caixa": 7712.04
         },
         "crescimento_mom": -34.42,
         "crescimento_anual": 760.6,
