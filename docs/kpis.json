@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-28T17:47:09.430Z",
-  "gerado_em_label": "28/09/2026, 14:47",
+  "gerado_em": "2026-09-28T17:48:51.650Z",
+  "gerado_em_label": "28/09/2026, 14:48",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -226,6 +226,17 @@
           }
         },
         "roi_por_veiculo": [
+          {
+            "vehicle_id": 35,
+            "vehicle_name": "FIAT MOBI LIKE",
+            "plate": "SHI8A47",
+            "valor_compra": 0,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 0,
+            "investimento_total": 0,
+            "lucro_acumulado": 0,
+            "roi_pct": 0
+          },
           {
             "vehicle_id": 11,
             "vehicle_name": "MOBI 24",
@@ -559,6 +570,17 @@
             "daily_rate": 114.28,
             "receita_realizada": 0,
             "receita_perdida_ociosidade": 3428.4
+          },
+          {
+            "vehicle_id": 35,
+            "vehicle_name": "FIAT MOBI LIKE",
+            "plate": "SHI8A47",
+            "dias_alugados": 0,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 0,
+            "daily_rate": 92.85,
+            "receita_realizada": 0,
+            "receita_perdida_ociosidade": 2785.5
           }
         ],
         "manutencao_por_veiculo": [
@@ -613,6 +635,14 @@
           {
             "vehicle_id": 34,
             "vehicle_name": "HYUNDAI HB20S - VISION",
+            "num_manutencoes": 0,
+            "media_dias_manutencao": 0,
+            "total_dias_parado": 0,
+            "receita_perdida_manutencao": 0
+          },
+          {
+            "vehicle_id": 35,
+            "vehicle_name": "FIAT MOBI LIKE",
             "num_manutencoes": 0,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
@@ -806,18 +836,18 @@
               "receita_total_veiculo": 2100
             },
             {
-              "vehicle_id": 34,
-              "vehicle_name": "HYUNDAI HB20S - VISION",
-              "num_locacoes": 3,
-              "ticket_medio_veiculo": 650,
-              "receita_total_veiculo": 1950
-            },
-            {
               "vehicle_id": 32,
               "vehicle_name": "VW POLO TRACK - BRANCO 24",
               "num_locacoes": 2,
               "ticket_medio_veiculo": 650,
               "receita_total_veiculo": 1300
+            },
+            {
+              "vehicle_id": 34,
+              "vehicle_name": "HYUNDAI HB20S - VISION",
+              "num_locacoes": 3,
+              "ticket_medio_veiculo": 650,
+              "receita_total_veiculo": 1950
             },
             {
               "vehicle_id": 27,
@@ -843,6 +873,13 @@
             {
               "vehicle_id": 10,
               "vehicle_name": "PULSE 22",
+              "num_locacoes": 0,
+              "ticket_medio_veiculo": 0,
+              "receita_total_veiculo": 0
+            },
+            {
+              "vehicle_id": 35,
+              "vehicle_name": "FIAT MOBI LIKE",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -1163,6 +1200,16 @@
               "dataCompra": "2025-07-27T00:00:00.000Z",
               "valor_atual_estimado": 21466.62,
               "depreciacao_acumulada": 6383.38
+            },
+            {
+              "vehicle_id": 35,
+              "vehicle_name": "FIAT MOBI LIKE",
+              "ano_fabricacao": 2023,
+              "plate": "SHI8A47",
+              "valor_compra": 0,
+              "dataCompra": null,
+              "valor_atual_estimado": 0,
+              "depreciacao_acumulada": 0
             }
           ],
           "valor_frota_atual": 560257.65,
