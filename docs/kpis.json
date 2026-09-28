@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-28T16:48:51.651Z",
-  "gerado_em_label": "28/09/2026, 13:48",
+  "gerado_em": "2026-09-28T17:47:09.430Z",
+  "gerado_em_label": "28/09/2026, 14:47",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -195,9 +195,9 @@
       ]
     },
     "accounting": {
-      "receita_total": 261321.55000000008,
+      "receita_total": 264011.55000000005,
       "despesa_total": 251512.27999999982,
-      "saldo": 9809.270000000251,
+      "saldo": 12499.270000000222,
       "lancamentos": 895
     },
     "kpis": {
@@ -254,10 +254,21 @@
             "plate": "SIT7E16",
             "valor_compra": 49177.5,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 22204,
+            "total_receita_acumulada": 23004,
             "investimento_total": 49177.5,
-            "lucro_acumulado": -26973.5,
-            "roi_pct": -54.85
+            "lucro_acumulado": -26173.5,
+            "roi_pct": -53.22
+          },
+          {
+            "vehicle_id": 6,
+            "vehicle_name": "VOYAGE",
+            "plate": "RNP5I35",
+            "valor_compra": 34150,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 15190,
+            "investimento_total": 34150,
+            "lucro_acumulado": -18960,
+            "roi_pct": -55.52
           },
           {
             "vehicle_id": 24,
@@ -271,26 +282,15 @@
             "roi_pct": -56.66
           },
           {
-            "vehicle_id": 6,
-            "vehicle_name": "VOYAGE",
-            "plate": "RNP5I35",
-            "valor_compra": 34150,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 14750,
-            "investimento_total": 34150,
-            "lucro_acumulado": -19400,
-            "roi_pct": -56.81
-          },
-          {
             "vehicle_id": 23,
             "vehicle_name": "VW POLO TRACK CINZA 24",
             "plate": "SUD7A35",
             "valor_compra": 70278,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 25052.92,
+            "total_receita_acumulada": 25752.92,
             "investimento_total": 70278,
-            "lucro_acumulado": -45225.08,
-            "roi_pct": -64.35
+            "lucro_acumulado": -44525.08,
+            "roi_pct": -63.36
           },
           {
             "vehicle_id": 8,
@@ -331,10 +331,10 @@
             "plate": "SWN1D86",
             "valor_compra": 38000,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 7571.24,
+            "total_receita_acumulada": 8321.24,
             "investimento_total": 38000,
-            "lucro_acumulado": -30428.76,
-            "roi_pct": -80.08
+            "lucro_acumulado": -29678.76,
+            "roi_pct": -78.1
           },
           {
             "vehicle_id": 29,
@@ -1166,8 +1166,8 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 568619.6900000001,
-          "saldo_caixa": 8362.04
+          "equity_estimado": 571309.6900000001,
+          "saldo_caixa": 11052.04
         },
         "crescimento_mom": -34.42,
         "crescimento_anual": 760.6,
