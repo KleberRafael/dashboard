@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-30T19:50:01.991Z",
-  "gerado_em_label": "30/09/2026, 16:50",
+  "gerado_em": "2026-09-30T20:48:51.673Z",
+  "gerado_em_label": "30/09/2026, 17:48",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -9,10 +9,10 @@
   "dados": {
     "finance": {
       "receita_total": 22220,
-      "despesas_gerais": 24554.94,
+      "despesas_gerais": 32554.94,
       "despesas_veiculos": 6847,
       "investimento_total": 0,
-      "lucro_liquido": -9181.939999999999,
+      "lucro_liquido": -17181.94,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 24,
@@ -73,6 +73,13 @@
         }
       ],
       "detalhes_gerais": [
+        {
+          "id": 7033,
+          "description": "PARCELA HB20 - PARCELA COMPRA HB20 FERREIRA - PIX PARA THE PLACE (PAGOU EM DINHEIRO AO FERREIRA)",
+          "amount": 8000,
+          "date": "2026-09-30T00:00:00.000Z",
+          "vehicle_id": null
+        },
         {
           "id": 7032,
           "description": "2a PARCELA SEGURUO HB20S 69",
@@ -196,9 +203,9 @@
     },
     "accounting": {
       "receita_total": 264011.55000000005,
-      "despesa_total": 251512.27999999982,
-      "saldo": 12499.270000000222,
-      "lancamentos": 895
+      "despesa_total": 260712.27999999985,
+      "saldo": 3299.2700000001932,
+      "lancamentos": 896
     },
     "kpis": {
       "periodo": {
@@ -211,18 +218,18 @@
         "fluxo_caixa": {
           "proj_30d": {
             "receita": 13885.56,
-            "despesa": 22700,
-            "saldo": -8814.44
+            "despesa": 14700,
+            "saldo": -814.4400000000005
           },
           "proj_60d": {
             "receita": 13885.56,
-            "despesa": 23050,
-            "saldo": -9164.44
+            "despesa": 15050,
+            "saldo": -1164.4400000000005
           },
           "proj_90d": {
             "receita": 13885.56,
-            "despesa": 23400,
-            "saldo": -9514.44
+            "despesa": 15400,
+            "saldo": -1514.4400000000005
           }
         },
         "roi_por_veiculo": [
@@ -539,6 +546,17 @@
             "receita_perdida_ociosidade": 1500
           },
           {
+            "vehicle_id": 10,
+            "vehicle_name": "PULSE 22",
+            "plate": "RTZ1G00",
+            "dias_alugados": 8,
+            "dias_no_mes": 30,
+            "taxa_utilizacao_pct": 26.7,
+            "daily_rate": 357.14,
+            "receita_realizada": 2857.12,
+            "receita_perdida_ociosidade": 7857.08
+          },
+          {
             "vehicle_id": 29,
             "vehicle_name": "HYUNDAI HB20 LIMITED",
             "plate": "RUS8I59",
@@ -548,17 +566,6 @@
             "daily_rate": 100,
             "receita_realizada": 700,
             "receita_perdida_ociosidade": 2300
-          },
-          {
-            "vehicle_id": 10,
-            "vehicle_name": "PULSE 22",
-            "plate": "RTZ1G00",
-            "dias_alugados": 0,
-            "dias_no_mes": 30,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 357.14,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 10714.2
           },
           {
             "vehicle_id": 33,
@@ -1213,8 +1220,8 @@
             }
           ],
           "valor_frota_atual": 560257.65,
-          "equity_estimado": 571309.6900000001,
-          "saldo_caixa": 11052.04
+          "equity_estimado": 562109.6900000001,
+          "saldo_caixa": 1852.04
         },
         "crescimento_mom": -34.42,
         "crescimento_anual": 760.6,
@@ -1232,53 +1239,53 @@
           "mes_num": 10,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 31360,
-          "imposto_das": 1881.6,
-          "manutencao": 5990,
+          "projecao_receita": 34160,
+          "imposto_das": 2049.6,
+          "manutencao": 6690,
           "custos_planejados": 6350,
-          "total_saidas": 14221.6,
-          "saldo": 17138.4
+          "total_saidas": 15089.6,
+          "saldo": 19070.4
         },
         {
           "mes_label": "Novembro/2026",
           "mes_num": 11,
           "ano": 2026,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 37350,
-          "imposto_das": 2241,
-          "manutencao": 7487.5,
+          "projecao_receita": 40850,
+          "imposto_das": 2451,
+          "manutencao": 8362.5,
           "custos_planejados": 350,
-          "total_saidas": 10078.5,
-          "saldo": 27271.5
+          "total_saidas": 11163.5,
+          "saldo": 29686.5
         },
         {
           "mes_label": "Dezembro/2026",
           "mes_num": 12,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 31360,
-          "imposto_das": 1881.6,
-          "manutencao": 5990,
+          "projecao_receita": 34160,
+          "imposto_das": 2049.6,
+          "manutencao": 6690,
           "custos_planejados": 350,
-          "total_saidas": 8221.6,
-          "saldo": 23138.4
+          "total_saidas": 9089.6,
+          "saldo": 25070.4
         }
       ],
       "totais": {
-        "receita": 100070,
-        "imposto": 6004.2,
-        "manutencao": 19467.5,
+        "receita": 109170,
+        "imposto": 6550.2,
+        "manutencao": 21742.5,
         "custos": 7050,
-        "saidas": 32521.7,
-        "saldo": 67548.3
+        "saidas": 35342.7,
+        "saldo": 73827.3
       },
-      "receita_semanal_base": 5990,
+      "receita_semanal_base": 6690,
       "receita_mensal_fixa_base": 7400
     },
     "projecao6": {
@@ -1288,95 +1295,95 @@
           "mes_num": 10,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 31360,
-          "imposto_das": 1881.6,
-          "manutencao": 5990,
+          "projecao_receita": 34160,
+          "imposto_das": 2049.6,
+          "manutencao": 6690,
           "custos_planejados": 6350,
-          "total_saidas": 14221.6,
-          "saldo": 17138.4
+          "total_saidas": 15089.6,
+          "saldo": 19070.4
         },
         {
           "mes_label": "Novembro/2026",
           "mes_num": 11,
           "ano": 2026,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 37350,
-          "imposto_das": 2241,
-          "manutencao": 7487.5,
+          "projecao_receita": 40850,
+          "imposto_das": 2451,
+          "manutencao": 8362.5,
           "custos_planejados": 350,
-          "total_saidas": 10078.5,
-          "saldo": 27271.5
+          "total_saidas": 11163.5,
+          "saldo": 29686.5
         },
         {
           "mes_label": "Dezembro/2026",
           "mes_num": 12,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 31360,
-          "imposto_das": 1881.6,
-          "manutencao": 5990,
+          "projecao_receita": 34160,
+          "imposto_das": 2049.6,
+          "manutencao": 6690,
           "custos_planejados": 350,
-          "total_saidas": 8221.6,
-          "saldo": 23138.4
+          "total_saidas": 9089.6,
+          "saldo": 25070.4
         },
         {
           "mes_label": "Janeiro/2027",
           "mes_num": 1,
           "ano": 2027,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 31360,
-          "imposto_das": 1881.6,
-          "manutencao": 5990,
+          "projecao_receita": 34160,
+          "imposto_das": 2049.6,
+          "manutencao": 6690,
           "custos_planejados": 0,
-          "total_saidas": 7871.6,
-          "saldo": 23488.4
+          "total_saidas": 8739.6,
+          "saldo": 25420.4
         },
         {
           "mes_label": "Fevereiro/2027",
           "mes_num": 2,
           "ano": 2027,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 31360,
-          "imposto_das": 1881.6,
-          "manutencao": 5990,
+          "projecao_receita": 34160,
+          "imposto_das": 2049.6,
+          "manutencao": 6690,
           "custos_planejados": 0,
-          "total_saidas": 7871.6,
-          "saldo": 23488.4
+          "total_saidas": 8739.6,
+          "saldo": 25420.4
         },
         {
           "mes_label": "Março/2027",
           "mes_num": 3,
           "ano": 2027,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 5990,
+          "receita_semanal_base": 6690,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 37350,
-          "imposto_das": 2241,
-          "manutencao": 7487.5,
+          "projecao_receita": 40850,
+          "imposto_das": 2451,
+          "manutencao": 8362.5,
           "custos_planejados": 0,
-          "total_saidas": 9728.5,
-          "saldo": 27621.5
+          "total_saidas": 10813.5,
+          "saldo": 30036.5
         }
       ],
       "totais": {
-        "receita": 200140,
-        "imposto": 12008.4,
-        "manutencao": 38935,
+        "receita": 218340,
+        "imposto": 13100.4,
+        "manutencao": 43485,
         "custos": 7050,
-        "saidas": 57993.4,
-        "saldo": 142146.6
+        "saidas": 63635.4,
+        "saldo": 154704.6
       },
-      "receita_semanal_base": 5990,
+      "receita_semanal_base": 6690,
       "receita_mensal_fixa_base": 7400
     }
   }
