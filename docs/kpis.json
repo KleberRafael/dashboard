@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-30T17:48:51.737Z",
-  "gerado_em_label": "30/09/2026, 14:48",
+  "gerado_em": "2026-09-30T17:50:01.999Z",
+  "gerado_em_label": "30/09/2026, 14:50",
   "periodo": {
     "ano": 2026,
     "mes": 9
@@ -193,12 +193,6 @@
           "vehicle_id": null
         }
       ]
-    },
-    "accounting": {
-      "receita_total": 264011.55000000005,
-      "despesa_total": 251512.27999999982,
-      "saldo": 12499.270000000222,
-      "lancamentos": 895
     },
     "kpis": {
       "periodo": {
@@ -1224,6 +1218,12 @@
         "receita_ano_atual": 195356,
         "receita_ano_anterior": 22700
       }
+    },
+    "accounting": {
+      "receita_total": 264011.55000000005,
+      "despesa_total": 251512.27999999982,
+      "saldo": 12499.270000000222,
+      "lancamentos": 895
     },
     "projecao3": {
       "meses": [
