@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-10-02T17:59:38.412Z",
-  "gerado_em_label": "02/10/2026, 14:59",
+  "gerado_em": "2026-10-02T18:48:51.657Z",
+  "gerado_em_label": "02/10/2026, 15:48",
   "periodo": {
     "ano": 2026,
     "mes": 10
@@ -9,11 +9,16 @@
   "dados": {
     "finance": {
       "receita_total": 0,
-      "despesas_gerais": 473.71,
+      "despesas_gerais": 1604.71,
       "despesas_veiculos": 0,
-      "investimento_total": 500,
-      "lucro_liquido": -473.71,
+      "investimento_total": 700,
+      "lucro_liquido": -1604.71,
       "despesas_por_veiculo": [
+        {
+          "vehicle_id": 6,
+          "total": 200,
+          "classificacao": "Investimento"
+        },
         {
           "vehicle_id": 10,
           "total": 400,
@@ -27,6 +32,10 @@
       ],
       "multas_por_veiculo": [],
       "manutencoes_por_veiculo": [
+        {
+          "vehicle_id": 6,
+          "total": 200
+        },
         {
           "vehicle_id": 10,
           "total": 400
@@ -45,6 +54,13 @@
           "vehicle_id": null
         },
         {
+          "id": 7058,
+          "description": "LICENCIAMENTO + IPVA + MULTAS HB20S75 - FERREIRA CIENTE. (DESCONTAREMOS DA PARCELA)",
+          "amount": 1131,
+          "date": "2026-10-02T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
           "id": 7043,
           "description": "ALMOÇO SÓCIOS - GORDOS",
           "amount": 123.71,
@@ -55,9 +71,9 @@
     },
     "accounting": {
       "receita_total": 270822.95000000007,
-      "despesa_total": 266842.96999999986,
-      "saldo": 3979.980000000214,
-      "lancamentos": 920
+      "despesa_total": 268173.9699999999,
+      "saldo": 2648.980000000156,
+      "lancamentos": 922
     },
     "kpis": {
       "periodo": {
@@ -446,7 +462,7 @@
           {
             "vehicle_id": 6,
             "vehicle_name": "VOYAGE",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1015,8 +1031,8 @@
             }
           ],
           "valor_frota_atual": 549935.7400000001,
-          "equity_estimado": 552468.4900000001,
-          "saldo_caixa": 2532.75
+          "equity_estimado": 551137.4900000001,
+          "saldo_caixa": 1201.75
         },
         "crescimento_mom": -100,
         "crescimento_anual": 786.99,
