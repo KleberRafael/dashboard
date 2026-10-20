@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-10-20T20:33:38.859Z",
-  "gerado_em_label": "20/10/2026, 17:33",
+  "gerado_em": "2026-10-20T20:48:51.839Z",
+  "gerado_em_label": "20/10/2026, 17:48",
   "periodo": {
     "ano": 2026,
     "mes": 10
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 15390,
+      "receita_total": 18390,
       "despesas_gerais": 6584.16,
       "despesas_veiculos": 1160,
       "investimento_total": 0,
-      "lucro_liquido": 7645.84,
+      "lucro_liquido": 10645.84,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 6,
@@ -108,12 +108,6 @@
         }
       ]
     },
-    "accounting": {
-      "receita_total": 285402.95,
-      "despesa_total": 273613.41999999987,
-      "saldo": 11789.530000000144,
-      "lancamentos": 945
-    },
     "kpis": {
       "periodo": {
         "year": 2026,
@@ -124,19 +118,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 17056.88,
+            "receita": 18342.56,
             "despesa": 14700,
-            "saldo": 2356.880000000001
+            "saldo": 3642.5600000000013
           },
           "proj_60d": {
-            "receita": 17056.88,
+            "receita": 18342.56,
             "despesa": 15050,
-            "saldo": 2006.880000000001
+            "saldo": 3292.5600000000013
           },
           "proj_90d": {
-            "receita": 17056.88,
+            "receita": 18342.56,
             "despesa": 15400,
-            "saldo": 1656.880000000001
+            "saldo": 2942.5600000000013
           }
         },
         "roi_por_veiculo": [
@@ -179,10 +173,10 @@
             "plate": "SIT7E16",
             "valor_compra": 49177.5,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 24604,
+            "total_receita_acumulada": 26204,
             "investimento_total": 49177.5,
-            "lucro_acumulado": -24573.5,
-            "roi_pct": -49.97
+            "lucro_acumulado": -22973.5,
+            "roi_pct": -46.72
           },
           {
             "vehicle_id": 6,
@@ -207,6 +201,17 @@
             "roi_pct": -52.5
           },
           {
+            "vehicle_id": 23,
+            "vehicle_name": "VW POLO TRACK CINZA 24",
+            "plate": "SUD7A35",
+            "valor_compra": 70278,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 28552.92,
+            "investimento_total": 70278,
+            "lucro_acumulado": -41725.08,
+            "roi_pct": -59.37
+          },
+          {
             "vehicle_id": 8,
             "vehicle_name": "PULSE 2024",
             "plate": "SJE3H43",
@@ -216,17 +221,6 @@
             "investimento_total": 39990,
             "lucro_acumulado": -23928.5,
             "roi_pct": -59.84
-          },
-          {
-            "vehicle_id": 23,
-            "vehicle_name": "VW POLO TRACK CINZA 24",
-            "plate": "SUD7A35",
-            "valor_compra": 70278,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 27152.92,
-            "investimento_total": 70278,
-            "lucro_acumulado": -43125.08,
-            "roi_pct": -61.36
           },
           {
             "vehicle_id": 31,
@@ -343,6 +337,17 @@
             "receita_perdida_ociosidade": -92.86
           },
           {
+            "vehicle_id": 23,
+            "vehicle_name": "VW POLO TRACK CINZA 24",
+            "plate": "SUD7A35",
+            "dias_alugados": 29,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 93.5,
+            "daily_rate": 100,
+            "receita_realizada": 2900,
+            "receita_perdida_ociosidade": 200
+          },
+          {
             "vehicle_id": 10,
             "vehicle_name": "PULSE 22",
             "plate": "RTZ1G00",
@@ -352,6 +357,17 @@
             "daily_rate": 357.14,
             "receita_realizada": 10357.06,
             "receita_perdida_ociosidade": 714.28
+          },
+          {
+            "vehicle_id": 27,
+            "vehicle_name": "FIAT CRONOS DRIVE",
+            "plate": "SIT7E16",
+            "dias_alugados": 29,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 93.5,
+            "daily_rate": 100,
+            "receita_realizada": 2900,
+            "receita_perdida_ociosidade": 200
           },
           {
             "vehicle_id": 26,
@@ -431,31 +447,9 @@
             "receita_perdida_ociosidade": 2314.26
           },
           {
-            "vehicle_id": 27,
-            "vehicle_name": "FIAT CRONOS DRIVE",
-            "plate": "SIT7E16",
-            "dias_alugados": 13,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 41.9,
-            "daily_rate": 100,
-            "receita_realizada": 1300,
-            "receita_perdida_ociosidade": 1800
-          },
-          {
             "vehicle_id": 6,
             "vehicle_name": "VOYAGE",
             "plate": "RNP5I35",
-            "dias_alugados": 13,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 41.9,
-            "daily_rate": 100,
-            "receita_realizada": 1300,
-            "receita_perdida_ociosidade": 1800
-          },
-          {
-            "vehicle_id": 23,
-            "vehicle_name": "VW POLO TRACK CINZA 24",
-            "plate": "SUD7A35",
             "dias_alugados": 13,
             "dias_no_mes": 31,
             "taxa_utilizacao_pct": 41.9,
@@ -674,9 +668,9 @@
             {
               "vehicle_id": 27,
               "vehicle_name": "FIAT CRONOS DRIVE",
-              "num_locacoes": 1,
+              "num_locacoes": 3,
               "ticket_medio_veiculo": 800,
-              "receita_total_veiculo": 800
+              "receita_total_veiculo": 2400
             },
             {
               "vehicle_id": 26,
@@ -702,9 +696,9 @@
             {
               "vehicle_id": 23,
               "vehicle_name": "VW POLO TRACK CINZA 24",
-              "num_locacoes": 1,
+              "num_locacoes": 3,
               "ticket_medio_veiculo": 700,
-              "receita_total_veiculo": 700
+              "receita_total_veiculo": 2100
             },
             {
               "vehicle_id": 32,
@@ -753,6 +747,15 @@
         },
         "ltv_clientes": [
           {
+            "customer_id": 5,
+            "customer_name": "GILVAN VIEIRA DOS SANTOS",
+            "num_locacoes": 55,
+            "ltv": 39000,
+            "ticket_medio": 709.090909,
+            "primeira_locacao": "2025-09-24T00:00:00.000Z",
+            "ultima_locacao": "2026-10-19T00:00:00.000Z"
+          },
+          {
             "customer_id": 8,
             "customer_name": "BRUNO OLIVEIRA ROCHA",
             "num_locacoes": 54,
@@ -762,22 +765,13 @@
             "ultima_locacao": "2026-10-12T00:00:00.000Z"
           },
           {
-            "customer_id": 5,
-            "customer_name": "GILVAN VIEIRA DOS SANTOS",
-            "num_locacoes": 53,
-            "ltv": 37400,
-            "ticket_medio": 705.660377,
-            "primeira_locacao": "2025-09-24T00:00:00.000Z",
-            "ultima_locacao": "2026-10-05T00:00:00.000Z"
-          },
-          {
             "customer_id": 20,
             "customer_name": "THIAGO NILTON DE OLIVEIRA",
-            "num_locacoes": 33,
-            "ltv": 22550,
-            "ticket_medio": 683.333333,
+            "num_locacoes": 35,
+            "ltv": 23950,
+            "ticket_medio": 684.285714,
             "primeira_locacao": "2026-02-16T00:00:00.000Z",
-            "ultima_locacao": "2026-10-05T00:00:00.000Z"
+            "ultima_locacao": "2026-10-19T00:00:00.000Z"
           },
           {
             "customer_id": 16,
@@ -1097,17 +1091,23 @@
             }
           ],
           "valor_frota_atual": 549935.7400000001,
-          "equity_estimado": 560278.0400000002,
-          "saldo_caixa": 10342.3
+          "equity_estimado": 563278.0400000002,
+          "saldo_caixa": 13342.3
         },
-        "crescimento_mom": -46.77,
-        "crescimento_anual": 857.87,
+        "crescimento_mom": -36.39,
+        "crescimento_anual": 871.08,
         "depreciacao_mensal": 10916.03,
-        "receita_total": 15390,
+        "receita_total": 18390,
         "receita_anterior_mes": 28910,
-        "receita_ano_atual": 217436,
+        "receita_ano_atual": 220436,
         "receita_ano_anterior": 22700
       }
+    },
+    "accounting": {
+      "receita_total": 288402.95,
+      "despesa_total": 273613.41999999987,
+      "saldo": 14789.530000000144,
+      "lancamentos": 949
     },
     "projecao3": {
       "meses": [
