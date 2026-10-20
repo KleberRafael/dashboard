@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-10-17T17:36:30.414Z",
-  "gerado_em_label": "17/10/2026, 14:36",
+  "gerado_em": "2026-10-20T20:33:38.859Z",
+  "gerado_em_label": "20/10/2026, 17:33",
   "periodo": {
     "ano": 2026,
     "mes": 10
@@ -8,11 +8,11 @@
   "erros": null,
   "dados": {
     "finance": {
-      "receita_total": 9840,
+      "receita_total": 15390,
       "despesas_gerais": 6584.16,
       "despesas_veiculos": 1160,
       "investimento_total": 0,
-      "lucro_liquido": 2095.84,
+      "lucro_liquido": 7645.84,
       "despesas_por_veiculo": [
         {
           "vehicle_id": 6,
@@ -109,10 +109,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 279852.95000000007,
+      "receita_total": 285402.95,
       "despesa_total": 273613.41999999987,
-      "saldo": 6239.530000000203,
-      "lancamentos": 940
+      "saldo": 11789.530000000144,
+      "lancamentos": 945
     },
     "kpis": {
       "periodo": {
@@ -124,19 +124,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 9199.93,
+            "receita": 17056.88,
             "despesa": 14700,
-            "saldo": -5500.07
+            "saldo": 2356.880000000001
           },
           "proj_60d": {
-            "receita": 9199.93,
+            "receita": 17056.88,
             "despesa": 15050,
-            "saldo": -5850.07
+            "saldo": 2006.880000000001
           },
           "proj_90d": {
-            "receita": 9199.93,
+            "receita": 17056.88,
             "despesa": 15400,
-            "saldo": -6200.07
+            "saldo": 1656.880000000001
           }
         },
         "roi_por_veiculo": [
@@ -157,10 +157,10 @@
             "plate": "SYI0A86",
             "valor_compra": 27850,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 24307.14,
+            "total_receita_acumulada": 26907.14,
             "investimento_total": 27850,
-            "lucro_acumulado": -3542.86,
-            "roi_pct": -12.72
+            "lucro_acumulado": -942.86,
+            "roi_pct": -3.39
           },
           {
             "vehicle_id": 10,
@@ -168,10 +168,10 @@
             "plate": "RTZ1G00",
             "valor_compra": 41490,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 21200.01,
+            "total_receita_acumulada": 22600.01,
             "investimento_total": 41490,
-            "lucro_acumulado": -20289.99,
-            "roi_pct": -48.9
+            "lucro_acumulado": -18889.99,
+            "roi_pct": -45.53
           },
           {
             "vehicle_id": 27,
@@ -256,10 +256,10 @@
             "plate": "SWN1D86",
             "valor_compra": 38000,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 9821.24,
+            "total_receita_acumulada": 10571.24,
             "investimento_total": 38000,
-            "lucro_acumulado": -28178.76,
-            "roi_pct": -74.15
+            "lucro_acumulado": -27428.76,
+            "roi_pct": -72.18
           },
           {
             "vehicle_id": 29,
@@ -311,10 +311,10 @@
             "plate": "RUA9I75",
             "valor_compra": 55000,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 1790,
+            "total_receita_acumulada": 2590,
             "investimento_total": 55000,
-            "lucro_acumulado": -53210,
-            "roi_pct": -96.75
+            "lucro_acumulado": -52410,
+            "roi_pct": -95.29
           }
         ]
       },
@@ -332,6 +332,39 @@
             "receita_perdida_ociosidade": -114.28
           },
           {
+            "vehicle_id": 11,
+            "vehicle_name": "MOBI 24",
+            "plate": "SYI0A86",
+            "dias_alugados": 32,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 103.2,
+            "daily_rate": 92.86,
+            "receita_realizada": 2971.52,
+            "receita_perdida_ociosidade": -92.86
+          },
+          {
+            "vehicle_id": 10,
+            "vehicle_name": "PULSE 22",
+            "plate": "RTZ1G00",
+            "dias_alugados": 29,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 93.5,
+            "daily_rate": 357.14,
+            "receita_realizada": 10357.06,
+            "receita_perdida_ociosidade": 714.28
+          },
+          {
+            "vehicle_id": 26,
+            "vehicle_name": "VW POLO TRACK BRANCO 25",
+            "plate": "SWN1D86",
+            "dias_alugados": 21,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 67.7,
+            "daily_rate": 107.14,
+            "receita_realizada": 2249.94,
+            "receita_perdida_ociosidade": 1071.4
+          },
+          {
             "vehicle_id": 31,
             "vehicle_name": "FORD KA SEDAN1.5",
             "plate": "QOA5G39",
@@ -346,6 +379,17 @@
             "vehicle_id": 32,
             "vehicle_name": "VW POLO TRACK - BRANCO 24",
             "plate": "SIJ8I28",
+            "dias_alugados": 13,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 41.9,
+            "daily_rate": 114.28,
+            "receita_realizada": 1485.64,
+            "receita_perdida_ociosidade": 2057.04
+          },
+          {
+            "vehicle_id": 33,
+            "vehicle_name": "HYUNDAI HB20S - VISION",
+            "plate": "RUA9I75",
             "dias_alugados": 13,
             "dias_no_mes": 31,
             "taxa_utilizacao_pct": 41.9,
@@ -376,15 +420,26 @@
             "receita_perdida_ociosidade": 1671.3
           },
           {
-            "vehicle_id": 10,
-            "vehicle_name": "PULSE 22",
-            "plate": "RTZ1G00",
+            "vehicle_id": 30,
+            "vehicle_name": "VW POLO TRACK - PRATA 23",
+            "plate": "AXG5F56",
             "dias_alugados": 13,
             "dias_no_mes": 31,
             "taxa_utilizacao_pct": 41.9,
-            "daily_rate": 357.14,
-            "receita_realizada": 4642.82,
-            "receita_perdida_ociosidade": 6428.52
+            "daily_rate": 128.57,
+            "receita_realizada": 1671.41,
+            "receita_perdida_ociosidade": 2314.26
+          },
+          {
+            "vehicle_id": 27,
+            "vehicle_name": "FIAT CRONOS DRIVE",
+            "plate": "SIT7E16",
+            "dias_alugados": 13,
+            "dias_no_mes": 31,
+            "taxa_utilizacao_pct": 41.9,
+            "daily_rate": 100,
+            "receita_realizada": 1300,
+            "receita_perdida_ociosidade": 1800
           },
           {
             "vehicle_id": 6,
@@ -396,17 +451,6 @@
             "daily_rate": 100,
             "receita_realizada": 1300,
             "receita_perdida_ociosidade": 1800
-          },
-          {
-            "vehicle_id": 30,
-            "vehicle_name": "VW POLO TRACK - PRATA 23",
-            "plate": "AXG5F56",
-            "dias_alugados": 13,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 41.9,
-            "daily_rate": 128.57,
-            "receita_realizada": 1671.41,
-            "receita_perdida_ociosidade": 2314.26
           },
           {
             "vehicle_id": 23,
@@ -431,64 +475,20 @@
             "receita_perdida_ociosidade": 1671.48
           },
           {
-            "vehicle_id": 26,
-            "vehicle_name": "VW POLO TRACK BRANCO 25",
-            "plate": "SWN1D86",
-            "dias_alugados": 13,
+            "vehicle_id": 29,
+            "vehicle_name": "HYUNDAI HB20 LIMITED",
+            "plate": "RUS8I59",
+            "dias_alugados": 8,
             "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 41.9,
-            "daily_rate": 107.14,
-            "receita_realizada": 1392.82,
-            "receita_perdida_ociosidade": 1928.52
-          },
-          {
-            "vehicle_id": 27,
-            "vehicle_name": "FIAT CRONOS DRIVE",
-            "plate": "SIT7E16",
-            "dias_alugados": 13,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 41.9,
+            "taxa_utilizacao_pct": 25.8,
             "daily_rate": 100,
-            "receita_realizada": 1300,
-            "receita_perdida_ociosidade": 1800
-          },
-          {
-            "vehicle_id": 11,
-            "vehicle_name": "MOBI 24",
-            "plate": "SYI0A86",
-            "dias_alugados": 12,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 38.7,
-            "daily_rate": 92.86,
-            "receita_realizada": 1114.32,
-            "receita_perdida_ociosidade": 1764.34
-          },
-          {
-            "vehicle_id": 33,
-            "vehicle_name": "HYUNDAI HB20S - VISION",
-            "plate": "RUA9I75",
-            "dias_alugados": 5,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 16.1,
-            "daily_rate": 114.28,
-            "receita_realizada": 571.4,
-            "receita_perdida_ociosidade": 2971.28
+            "receita_realizada": 800,
+            "receita_perdida_ociosidade": 2300
           },
           {
             "vehicle_id": 28,
             "vehicle_name": "HYUNDAI HB20 COMFORT",
             "plate": "RUX5A20",
-            "dias_alugados": 0,
-            "dias_no_mes": 31,
-            "taxa_utilizacao_pct": 0,
-            "daily_rate": 100,
-            "receita_realizada": 0,
-            "receita_perdida_ociosidade": 3100
-          },
-          {
-            "vehicle_id": 29,
-            "vehicle_name": "HYUNDAI HB20 LIMITED",
-            "plate": "RUS8I59",
             "dias_alugados": 0,
             "dias_no_mes": 31,
             "taxa_utilizacao_pct": 0,
@@ -637,6 +637,13 @@
         "ticket_medio": {
           "por_veiculo": [
             {
+              "vehicle_id": 11,
+              "vehicle_name": "MOBI 24",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 2600,
+              "receita_total_veiculo": 2600
+            },
+            {
               "vehicle_id": 8,
               "vehicle_name": "PULSE 2024",
               "num_locacoes": 1,
@@ -658,6 +665,13 @@
               "receita_total_veiculo": 840
             },
             {
+              "vehicle_id": 33,
+              "vehicle_name": "HYUNDAI HB20S - VISION",
+              "num_locacoes": 1,
+              "ticket_medio_veiculo": 800,
+              "receita_total_veiculo": 800
+            },
+            {
               "vehicle_id": 27,
               "vehicle_name": "FIAT CRONOS DRIVE",
               "num_locacoes": 1,
@@ -667,9 +681,9 @@
             {
               "vehicle_id": 26,
               "vehicle_name": "VW POLO TRACK BRANCO 25",
-              "num_locacoes": 1,
+              "num_locacoes": 2,
               "ticket_medio_veiculo": 750,
-              "receita_total_veiculo": 750
+              "receita_total_veiculo": 1500
             },
             {
               "vehicle_id": 30,
@@ -679,15 +693,15 @@
               "receita_total_veiculo": 750
             },
             {
-              "vehicle_id": 23,
-              "vehicle_name": "VW POLO TRACK CINZA 24",
-              "num_locacoes": 1,
-              "ticket_medio_veiculo": 700,
-              "receita_total_veiculo": 700
-            },
-            {
               "vehicle_id": 10,
               "vehicle_name": "PULSE 22",
+              "num_locacoes": 3,
+              "ticket_medio_veiculo": 700,
+              "receita_total_veiculo": 2100
+            },
+            {
+              "vehicle_id": 23,
+              "vehicle_name": "VW POLO TRACK CINZA 24",
               "num_locacoes": 1,
               "ticket_medio_veiculo": 700,
               "receita_total_veiculo": 700
@@ -714,22 +728,8 @@
               "receita_total_veiculo": 650
             },
             {
-              "vehicle_id": 33,
-              "vehicle_name": "HYUNDAI HB20S - VISION",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
               "vehicle_id": 31,
               "vehicle_name": "FORD KA SEDAN1.5",
-              "num_locacoes": 0,
-              "ticket_medio_veiculo": 0,
-              "receita_total_veiculo": 0
-            },
-            {
-              "vehicle_id": 11,
-              "vehicle_name": "MOBI 24",
               "num_locacoes": 0,
               "ticket_medio_veiculo": 0,
               "receita_total_veiculo": 0
@@ -749,17 +749,17 @@
               "receita_total_veiculo": 0
             }
           ],
-          "geral": 894.5454545454545
+          "geral": 1018.4615384615385
         },
         "ltv_clientes": [
           {
             "customer_id": 8,
             "customer_name": "BRUNO OLIVEIRA ROCHA",
-            "num_locacoes": 53,
-            "ltv": 38200,
-            "ticket_medio": 720.754716,
+            "num_locacoes": 54,
+            "ltv": 38950,
+            "ticket_medio": 721.296296,
             "primeira_locacao": "2025-09-22T00:00:00.000Z",
-            "ultima_locacao": "2026-10-05T00:00:00.000Z"
+            "ultima_locacao": "2026-10-12T00:00:00.000Z"
           },
           {
             "customer_id": 5,
@@ -881,11 +881,20 @@
           {
             "customer_id": 1034,
             "customer_name": "TRS CONSULTORIA EM SEGURANÇA LTDA",
-            "num_locacoes": 1,
-            "ltv": 2600,
+            "num_locacoes": 2,
+            "ltv": 5200,
             "ticket_medio": 2600,
             "primeira_locacao": "2026-08-10T00:00:00.000Z",
-            "ultima_locacao": "2026-09-10T00:00:00.000Z"
+            "ultima_locacao": "2026-10-12T00:00:00.000Z"
+          },
+          {
+            "customer_id": 1045,
+            "customer_name": "WALMIR SABINO DE OLIVEIRA JUNIOR",
+            "num_locacoes": 4,
+            "ltv": 2800,
+            "ticket_medio": 700,
+            "primeira_locacao": "2026-09-21T00:00:00.000Z",
+            "ultima_locacao": "2026-10-19T00:00:00.000Z"
           },
           {
             "customer_id": 1040,
@@ -906,15 +915,6 @@
             "ultima_locacao": "2026-02-13T00:00:00.000Z"
           },
           {
-            "customer_id": 1045,
-            "customer_name": "WALMIR SABINO DE OLIVEIRA JUNIOR",
-            "num_locacoes": 2,
-            "ltv": 1400,
-            "ticket_medio": 700,
-            "primeira_locacao": "2026-09-21T00:00:00.000Z",
-            "ultima_locacao": "2026-10-05T00:00:00.000Z"
-          },
-          {
             "customer_id": 23,
             "customer_name": "LAIC JESUS SANTOS",
             "num_locacoes": 2,
@@ -924,12 +924,12 @@
             "ultima_locacao": "2026-04-13T00:00:00.000Z"
           },
           {
-            "customer_id": 1044,
-            "customer_name": "ERIC VINICIUS LUZ ANSELMO",
+            "customer_id": 1043,
+            "customer_name": "GABRIEL LUIZ BRAGA RODRIGUES DAHLBERG",
             "num_locacoes": 1,
-            "ltv": 650,
-            "ticket_medio": 650,
-            "primeira_locacao": "2026-09-29T00:00:00.000Z",
+            "ltv": 800,
+            "ticket_medio": 800,
+            "primeira_locacao": "2026-09-30T00:00:00.000Z",
             "ultima_locacao": "2026-10-05T00:00:00.000Z"
           }
         ],
@@ -1097,15 +1097,15 @@
             }
           ],
           "valor_frota_atual": 549935.7400000001,
-          "equity_estimado": 554728.0400000002,
-          "saldo_caixa": 4792.3
+          "equity_estimado": 560278.0400000002,
+          "saldo_caixa": 10342.3
         },
-        "crescimento_mom": -65.96,
-        "crescimento_anual": 833.42,
+        "crescimento_mom": -46.77,
+        "crescimento_anual": 857.87,
         "depreciacao_mensal": 10916.03,
-        "receita_total": 9840,
+        "receita_total": 15390,
         "receita_anterior_mes": 28910,
-        "receita_ano_atual": 211886,
+        "receita_ano_atual": 217436,
         "receita_ano_anterior": 22700
       }
     },
@@ -1116,53 +1116,53 @@
           "mes_num": 11,
           "ano": 2026,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 48100,
-          "imposto_das": 2886,
-          "manutencao": 10175,
+          "projecao_receita": 52600,
+          "imposto_das": 3156,
+          "manutencao": 11300,
           "custos_planejados": 350,
-          "total_saidas": 13411,
-          "saldo": 34689
+          "total_saidas": 14806,
+          "saldo": 37794
         },
         {
           "mes_label": "Dezembro/2026",
           "mes_num": 12,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 39960,
-          "imposto_das": 2397.6,
-          "manutencao": 8140,
+          "projecao_receita": 43560,
+          "imposto_das": 2613.6,
+          "manutencao": 9040,
           "custos_planejados": 350,
-          "total_saidas": 10887.6,
-          "saldo": 29072.4
+          "total_saidas": 12003.6,
+          "saldo": 31556.4
         },
         {
           "mes_label": "Janeiro/2027",
           "mes_num": 1,
           "ano": 2027,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 39960,
-          "imposto_das": 2397.6,
-          "manutencao": 8140,
+          "projecao_receita": 43560,
+          "imposto_das": 2613.6,
+          "manutencao": 9040,
           "custos_planejados": 350,
-          "total_saidas": 10887.6,
-          "saldo": 29072.4
+          "total_saidas": 12003.6,
+          "saldo": 31556.4
         }
       ],
       "totais": {
-        "receita": 128020,
-        "imposto": 7681.2,
-        "manutencao": 26455,
+        "receita": 139720,
+        "imposto": 8383.2,
+        "manutencao": 29380,
         "custos": 1050,
-        "saidas": 35186.2,
-        "saldo": 92833.8
+        "saidas": 38813.2,
+        "saldo": 100906.8
       },
-      "receita_semanal_base": 8140,
+      "receita_semanal_base": 9040,
       "receita_mensal_fixa_base": 7400
     },
     "projecao6": {
@@ -1172,95 +1172,95 @@
           "mes_num": 11,
           "ano": 2026,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 48100,
-          "imposto_das": 2886,
-          "manutencao": 10175,
+          "projecao_receita": 52600,
+          "imposto_das": 3156,
+          "manutencao": 11300,
           "custos_planejados": 350,
-          "total_saidas": 13411,
-          "saldo": 34689
+          "total_saidas": 14806,
+          "saldo": 37794
         },
         {
           "mes_label": "Dezembro/2026",
           "mes_num": 12,
           "ano": 2026,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 39960,
-          "imposto_das": 2397.6,
-          "manutencao": 8140,
+          "projecao_receita": 43560,
+          "imposto_das": 2613.6,
+          "manutencao": 9040,
           "custos_planejados": 350,
-          "total_saidas": 10887.6,
-          "saldo": 29072.4
+          "total_saidas": 12003.6,
+          "saldo": 31556.4
         },
         {
           "mes_label": "Janeiro/2027",
           "mes_num": 1,
           "ano": 2027,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 39960,
-          "imposto_das": 2397.6,
-          "manutencao": 8140,
+          "projecao_receita": 43560,
+          "imposto_das": 2613.6,
+          "manutencao": 9040,
           "custos_planejados": 350,
-          "total_saidas": 10887.6,
-          "saldo": 29072.4
+          "total_saidas": 12003.6,
+          "saldo": 31556.4
         },
         {
           "mes_label": "Fevereiro/2027",
           "mes_num": 2,
           "ano": 2027,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 39960,
-          "imposto_das": 2397.6,
-          "manutencao": 8140,
+          "projecao_receita": 43560,
+          "imposto_das": 2613.6,
+          "manutencao": 9040,
           "custos_planejados": 0,
-          "total_saidas": 10537.6,
-          "saldo": 29422.4
+          "total_saidas": 11653.6,
+          "saldo": 31906.4
         },
         {
           "mes_label": "Março/2027",
           "mes_num": 3,
           "ano": 2027,
           "segundas_no_mes": 5,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 48100,
-          "imposto_das": 2886,
-          "manutencao": 10175,
+          "projecao_receita": 52600,
+          "imposto_das": 3156,
+          "manutencao": 11300,
           "custos_planejados": 0,
-          "total_saidas": 13061,
-          "saldo": 35039
+          "total_saidas": 14456,
+          "saldo": 38144
         },
         {
           "mes_label": "Abril/2027",
           "mes_num": 4,
           "ano": 2027,
           "segundas_no_mes": 4,
-          "receita_semanal_base": 8140,
+          "receita_semanal_base": 9040,
           "receita_mensal_fixa": 7400,
-          "projecao_receita": 39960,
-          "imposto_das": 2397.6,
-          "manutencao": 8140,
+          "projecao_receita": 43560,
+          "imposto_das": 2613.6,
+          "manutencao": 9040,
           "custos_planejados": 0,
-          "total_saidas": 10537.6,
-          "saldo": 29422.4
+          "total_saidas": 11653.6,
+          "saldo": 31906.4
         }
       ],
       "totais": {
-        "receita": 256040,
-        "imposto": 15362.4,
-        "manutencao": 52910,
+        "receita": 279440,
+        "imposto": 16766.4,
+        "manutencao": 58760,
         "custos": 1050,
-        "saidas": 69322.4,
-        "saldo": 186717.6
+        "saidas": 76576.4,
+        "saldo": 202863.6
       },
-      "receita_semanal_base": 8140,
+      "receita_semanal_base": 9040,
       "receita_mensal_fixa_base": 7400
     }
   }
