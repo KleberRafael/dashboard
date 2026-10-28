@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-10-28T17:31:41.346Z",
-  "gerado_em_label": "28/10/2026, 14:31",
+  "gerado_em": "2026-10-28T17:48:51.644Z",
+  "gerado_em_label": "28/10/2026, 14:48",
   "periodo": {
     "ano": 2026,
     "mes": 10
@@ -244,12 +244,6 @@
         }
       ]
     },
-    "accounting": {
-      "receita_total": 305954.19,
-      "despesa_total": 296176.9299999998,
-      "saldo": 9777.260000000184,
-      "lancamentos": 996
-    },
     "kpis": {
       "periodo": {
         "year": 2026,
@@ -276,17 +270,6 @@
           }
         },
         "roi_por_veiculo": [
-          {
-            "vehicle_id": 35,
-            "vehicle_name": "FIAT MOBI LIKE",
-            "plate": "SHI8A47",
-            "valor_compra": 0,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 1300,
-            "investimento_total": 0,
-            "lucro_acumulado": 1300,
-            "roi_pct": 0
-          },
           {
             "vehicle_id": 36,
             "vehicle_name": "TOYOTA COROLLA XEI",
@@ -462,6 +445,17 @@
             "investimento_total": 38095,
             "lucro_acumulado": -36265,
             "roi_pct": -95.2
+          },
+          {
+            "vehicle_id": 35,
+            "vehicle_name": "FIAT MOBI LIKE",
+            "plate": "SHI8A47",
+            "valor_compra": 100000,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 1300,
+            "investimento_total": 100000,
+            "lucro_acumulado": -98700,
+            "roi_pct": -98.7
           }
         ]
       },
@@ -1150,6 +1144,16 @@
         "frota": {
           "depreciacao": [
             {
+              "vehicle_id": 35,
+              "vehicle_name": "FIAT MOBI LIKE",
+              "ano_fabricacao": 2023,
+              "plate": "SHI8A47",
+              "valor_compra": 100000,
+              "dataCompra": "2026-10-08T00:00:00.000Z",
+              "valor_atual_estimado": 100000,
+              "depreciacao_acumulada": 0
+            },
+            {
               "vehicle_id": 23,
               "vehicle_name": "VW POLO TRACK CINZA 24",
               "ano_fabricacao": 2024,
@@ -1300,16 +1304,6 @@
               "depreciacao_acumulada": 6778.88
             },
             {
-              "vehicle_id": 35,
-              "vehicle_name": "FIAT MOBI LIKE",
-              "ano_fabricacao": 2023,
-              "plate": "SHI8A47",
-              "valor_compra": 0,
-              "dataCompra": null,
-              "valor_atual_estimado": 0,
-              "depreciacao_acumulada": 0
-            },
-            {
               "vehicle_id": 36,
               "vehicle_name": "TOYOTA COROLLA XEI",
               "ano_fabricacao": 2023,
@@ -1320,18 +1314,24 @@
               "depreciacao_acumulada": 0
             }
           ],
-          "valor_frota_atual": 549935.7400000001,
-          "equity_estimado": 558265.7700000001,
+          "valor_frota_atual": 649935.74,
+          "equity_estimado": 658265.77,
           "saldo_caixa": 8330.03
         },
         "crescimento_mom": 33.03,
         "crescimento_anual": 970.51,
-        "depreciacao_mensal": 10916.03,
+        "depreciacao_mensal": 12582.7,
         "receita_total": 38460,
         "receita_anterior_mes": 28910,
         "receita_ano_atual": 243006,
         "receita_ano_anterior": 22700
       }
+    },
+    "accounting": {
+      "receita_total": 305954.19,
+      "despesa_total": 296176.9299999998,
+      "saldo": 9777.260000000184,
+      "lancamentos": 996
     },
     "projecao3": {
       "meses": [
