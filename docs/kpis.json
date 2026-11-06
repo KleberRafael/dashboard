@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-04T17:09:48.751Z",
-  "gerado_em_label": "04/11/2026, 14:09",
+  "gerado_em": "2026-11-06T19:48:51.684Z",
+  "gerado_em_label": "06/11/2026, 16:48",
   "periodo": {
     "ano": 2026,
     "mes": 11
@@ -9,20 +9,28 @@
   "dados": {
     "finance": {
       "receita_total": 10500,
-      "despesas_gerais": 0,
+      "despesas_gerais": 2464.46,
       "despesas_veiculos": 0,
       "investimento_total": 0,
-      "lucro_liquido": 10500,
+      "lucro_liquido": 8035.54,
       "despesas_por_veiculo": [],
       "multas_por_veiculo": [],
       "manutencoes_por_veiculo": [],
-      "detalhes_gerais": []
+      "detalhes_gerais": [
+        {
+          "id": 7145,
+          "description": "acerto (lançamentos esquecidos)",
+          "amount": 2464.46,
+          "date": "2026-11-04T00:00:00.000Z",
+          "vehicle_id": null
+        }
+      ]
     },
     "accounting": {
-      "receita_total": 314594.19000000006,
-      "despesa_total": 296176.9299999998,
-      "saldo": 18417.260000000242,
-      "lancamentos": 1007
+      "receita_total": 316236.37,
+      "despesa_total": 298641.38999999984,
+      "saldo": 17594.980000000156,
+      "lancamentos": 1010
     },
     "kpis": {
       "periodo": {
@@ -34,19 +42,19 @@
       "fase1": {
         "fluxo_caixa": {
           "proj_30d": {
-            "receita": 14121.23,
+            "receita": 10364.15,
             "despesa": 14700,
-            "saldo": -578.7700000000004
+            "saldo": -4335.85
           },
           "proj_60d": {
-            "receita": 14121.23,
+            "receita": 10364.15,
             "despesa": 15050,
-            "saldo": -928.7700000000004
+            "saldo": -4685.85
           },
           "proj_90d": {
-            "receita": 14121.23,
+            "receita": 10364.15,
             "despesa": 15050,
-            "saldo": -928.7700000000004
+            "saldo": -4685.85
           }
         },
         "roi_por_veiculo": [
@@ -1063,8 +1071,8 @@
             }
           ],
           "valor_frota_atual": 637961.68,
-          "equity_estimado": 654931.7100000001,
-          "saldo_caixa": 16970.03
+          "equity_estimado": 654109.43,
+          "saldo_caixa": 16147.75
         },
         "crescimento_mom": -72.7,
         "crescimento_anual": 1005.75,
