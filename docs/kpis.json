@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-11T18:11:41.263Z",
-  "gerado_em_label": "11/11/2026, 15:11",
+  "gerado_em": "2026-11-11T18:48:51.932Z",
+  "gerado_em_label": "11/11/2026, 15:48",
   "periodo": {
     "ano": 2026,
     "mes": 11
@@ -98,6 +98,62 @@
       "despesa_total": 303211.73999999976,
       "saldo": 22838.910000000265,
       "lancamentos": 1033
+    },
+    "projecao3": {
+      "meses": [
+        {
+          "mes_label": "Dezembro/2026",
+          "mes_num": 12,
+          "ano": 2026,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 8250,
+          "receita_mensal_fixa": 10766,
+          "projecao_receita": 43766,
+          "imposto_das": 2625.96,
+          "manutencao": 8250,
+          "custos_planejados": 350,
+          "total_saidas": 11225.96,
+          "saldo": 32540.04
+        },
+        {
+          "mes_label": "Janeiro/2027",
+          "mes_num": 1,
+          "ano": 2027,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 8250,
+          "receita_mensal_fixa": 10766,
+          "projecao_receita": 43766,
+          "imposto_das": 2625.96,
+          "manutencao": 8250,
+          "custos_planejados": 350,
+          "total_saidas": 11225.96,
+          "saldo": 32540.04
+        },
+        {
+          "mes_label": "Fevereiro/2027",
+          "mes_num": 2,
+          "ano": 2027,
+          "segundas_no_mes": 4,
+          "receita_semanal_base": 8250,
+          "receita_mensal_fixa": 10766,
+          "projecao_receita": 43766,
+          "imposto_das": 2625.96,
+          "manutencao": 8250,
+          "custos_planejados": 0,
+          "total_saidas": 10875.96,
+          "saldo": 32890.04
+        }
+      ],
+      "totais": {
+        "receita": 131298,
+        "imposto": 7877.88,
+        "manutencao": 24750,
+        "custos": 700,
+        "saidas": 33327.88,
+        "saldo": 97970.12
+      },
+      "receita_semanal_base": 8250,
+      "receita_mensal_fixa_base": 10766
     },
     "kpis": {
       "periodo": {
@@ -1140,62 +1196,6 @@
         "receita_ano_atual": 261856,
         "receita_ano_anterior": 22700
       }
-    },
-    "projecao3": {
-      "meses": [
-        {
-          "mes_label": "Dezembro/2026",
-          "mes_num": 12,
-          "ano": 2026,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 8250,
-          "receita_mensal_fixa": 10766,
-          "projecao_receita": 43766,
-          "imposto_das": 2625.96,
-          "manutencao": 8250,
-          "custos_planejados": 350,
-          "total_saidas": 11225.96,
-          "saldo": 32540.04
-        },
-        {
-          "mes_label": "Janeiro/2027",
-          "mes_num": 1,
-          "ano": 2027,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 8250,
-          "receita_mensal_fixa": 10766,
-          "projecao_receita": 43766,
-          "imposto_das": 2625.96,
-          "manutencao": 8250,
-          "custos_planejados": 350,
-          "total_saidas": 11225.96,
-          "saldo": 32540.04
-        },
-        {
-          "mes_label": "Fevereiro/2027",
-          "mes_num": 2,
-          "ano": 2027,
-          "segundas_no_mes": 4,
-          "receita_semanal_base": 8250,
-          "receita_mensal_fixa": 10766,
-          "projecao_receita": 43766,
-          "imposto_das": 2625.96,
-          "manutencao": 8250,
-          "custos_planejados": 0,
-          "total_saidas": 10875.96,
-          "saldo": 32890.04
-        }
-      ],
-      "totais": {
-        "receita": 131298,
-        "imposto": 7877.88,
-        "manutencao": 24750,
-        "custos": 700,
-        "saidas": 33327.88,
-        "saldo": 97970.12
-      },
-      "receita_semanal_base": 8250,
-      "receita_mensal_fixa_base": 10766
     },
     "projecao6": {
       "meses": [
