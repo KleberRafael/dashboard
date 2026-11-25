@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-25T13:48:51.661Z",
-  "gerado_em_label": "25/11/2026, 10:48",
+  "gerado_em": "2026-11-25T14:33:24.507Z",
+  "gerado_em_label": "25/11/2026, 11:33",
   "periodo": {
     "ano": 2026,
     "mes": 11
@@ -9,11 +9,16 @@
   "dados": {
     "finance": {
       "receita_total": 40350,
-      "despesas_gerais": 26580.84,
-      "despesas_veiculos": 3527.27,
+      "despesas_gerais": 26862.29,
+      "despesas_veiculos": 4227.27,
       "investimento_total": 1230,
-      "lucro_liquido": 10241.89,
+      "lucro_liquido": 9260.439999999999,
       "despesas_por_veiculo": [
+        {
+          "vehicle_id": 24,
+          "total": 700,
+          "classificacao": "Despesa"
+        },
         {
           "vehicle_id": 26,
           "total": 1230,
@@ -42,6 +47,10 @@
       ],
       "multas_por_veiculo": [],
       "manutencoes_por_veiculo": [
+        {
+          "vehicle_id": 24,
+          "total": 700
+        },
         {
           "vehicle_id": 26,
           "total": 1230
@@ -118,6 +127,13 @@
           "description": "CARTÃO CRÉDITO (SEGURO + COMPRAS)",
           "amount": 5880.03,
           "date": "2026-11-17T00:00:00.000Z",
+          "vehicle_id": null
+        },
+        {
+          "id": 7213,
+          "description": "ADESIVOS LOKAR",
+          "amount": 281.45,
+          "date": "2026-11-14T00:00:00.000Z",
           "vehicle_id": null
         },
         {
@@ -214,10 +230,10 @@
       ]
     },
     "accounting": {
-      "receita_total": 346669.65,
-      "despesa_total": 327515.0399999999,
-      "saldo": 19154.610000000102,
-      "lancamentos": 1074
+      "receita_total": 345719.65,
+      "despesa_total": 328496.48999999993,
+      "saldo": 17223.16000000009,
+      "lancamentos": 1076
     },
     "kpis": {
       "periodo": {
@@ -268,6 +284,17 @@
             "roi_pct": 0
           },
           {
+            "vehicle_id": 10,
+            "vehicle_name": "PULSE 22",
+            "plate": "RTZ1G00",
+            "valor_compra": 41490,
+            "total_despesas_acumuladas": 0,
+            "total_receita_acumulada": 24950.01,
+            "investimento_total": 41490,
+            "lucro_acumulado": -16539.99,
+            "roi_pct": -39.87
+          },
+          {
             "vehicle_id": 6,
             "vehicle_name": "VOYAGE",
             "plate": "RNP5I35",
@@ -277,17 +304,6 @@
             "investimento_total": 34150,
             "lucro_acumulado": -13640,
             "roi_pct": -39.94
-          },
-          {
-            "vehicle_id": 10,
-            "vehicle_name": "PULSE 22",
-            "plate": "RTZ1G00",
-            "valor_compra": 41490,
-            "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 24900.01,
-            "investimento_total": 41490,
-            "lucro_acumulado": -16589.99,
-            "roi_pct": -39.99
           },
           {
             "vehicle_id": 27,
@@ -306,10 +322,10 @@
             "plate": "FMV8I93",
             "valor_compra": 40882.5,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 23684.08,
+            "total_receita_acumulada": 23034.08,
             "investimento_total": 40882.5,
-            "lucro_acumulado": -17198.42,
-            "roi_pct": -42.07
+            "lucro_acumulado": -17848.42,
+            "roi_pct": -43.66
           },
           {
             "vehicle_id": 8,
@@ -328,10 +344,10 @@
             "plate": "SUD7A35",
             "valor_compra": 70278,
             "total_despesas_acumuladas": 0,
-            "total_receita_acumulada": 32052.92,
+            "total_receita_acumulada": 31702.92,
             "investimento_total": 70278,
-            "lucro_acumulado": -38225.08,
-            "roi_pct": -54.39
+            "lucro_acumulado": -38575.08,
+            "roi_pct": -54.89
           },
           {
             "vehicle_id": 30,
@@ -786,7 +802,7 @@
           {
             "vehicle_id": 24,
             "vehicle_name": "HYUNDAI HB20 VISION",
-            "num_manutencoes": 0,
+            "num_manutencoes": 1,
             "media_dias_manutencao": 0,
             "total_dias_parado": 0,
             "receita_perdida_manutencao": 0
@@ -1329,8 +1345,8 @@
             }
           ],
           "valor_frota_atual": 658013.3500000001,
-          "equity_estimado": 675720.7300000001,
-          "saldo_caixa": 17707.38
+          "equity_estimado": 673789.2800000001,
+          "saldo_caixa": 15775.93
         },
         "crescimento_mom": 4.91,
         "crescimento_anual": 1155.9,
